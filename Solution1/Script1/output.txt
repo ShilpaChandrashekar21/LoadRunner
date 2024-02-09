@@ -1,0 +1,155 @@
+Virtual User Script started at: 09-02-2024 18:00:35
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\SDET Training\LoadRunnerScripts\Solution1\Script1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 370382 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_url("katalon-demo-cura.herokuapp.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://katalon-demo-cura.herokuapp.com//css/theme.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://katalon-demo-cura.herokuapp.com//js/theme.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): web_url("katalon-demo-cura.herokuapp.com") highest severity level was "warning", 81114 body bytes, 9114 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(23): web_url("header.jpg") started  	[MsgId: MMSG-26355]
+Action.c(23): web_url("header.jpg") was successful, 379361 body bytes, 760 header bytes  	[MsgId: MMSG-26386]
+Action.c(35): web_link("Login") started  	[MsgId: MMSG-26355]
+Action.c(35): Linking to "https://katalon-demo-cura.herokuapp.com/profile.php#login", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://katalon-demo-cura.herokuapp.com//css/theme.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "https://katalon-demo-cura.herokuapp.com//js/theme.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): web_link("Login") was successful, 7261 body bytes, 799 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(40): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDESLgkHqZJskw0sFxIFDZFhlU4SBQ2RYZVOEgUN541ADhIFDc5BTHohwfHPmPIHasw=") started  	[MsgId: MMSG-26355]
+Action.c(40): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDESLgkHqZJskw0sFxIFDZFhlU4SBQ2RYZVOEgUN541ADhIFDc5BTHohwfHPmPIHasw=?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(40): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDESLgkHqZJskw0sFxIFDZFhlU4SBQ2RYZVOEgUN541ADhIFDc5BTHohwfHPmPIHasw=") highest severity level was "warning", 94 body bytes, 370 header bytes  	[MsgId: MMSG-26388]
+Action.c(52): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(52): Warning: The string '"fp":"1.c900ba9a2d8318263fd43782ee6fd5fb50bad78bf0eb2c972b5922c458af45ed"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '6994a23b-f1df-4f8d-af14-8667a833d329' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'd5f669c5-349d-41bd-911d-cd993835d5ea' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.cd1978742a4afdbaaa15bf712d5c90bef4144caa99024df98f6a9ad58043ae85"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'db63d2d6-fc34-440f-a7fc-b93f7fe2f2b5' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.8069f8805123f74944304604381770bb694317c9e1044e096f540222dc56c0f6"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'e438e68b-da1b-4137-ac7a-608a2cd16463' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.cadbf9a5f27721576d77d35576f37ca01ac34d86bce73958bf71cde62af71b48"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'e13a0bea-7b73-491f-9d4f-c347f04cdc1a' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.4a6508925b2ffec931c1e3931ddeb15ca41d820a8264cd5a962b526e9932bcdf"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'd20fb56a-0843-4a21-b6e1-9bd7503f6afb' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.31fc707db886cd7b31724279d1ce873be7f1ef84f9c8b0cb0664743d47e41217"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '5dee87e9-790f-4432-b02b-278e608202a8' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.f4f1eb04881095d1cc8f2e1799a8144c10476dc1088a03ecdb4418644040a554"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '1713816e-f247-4299-8e3f-d96ecde2c8d3' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '657f6592-5c8d-4434-b86b-586596dbfba9' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.90f54a8ca8c3135f647fedbb5f38ecadbbae4d45dafc3b73cde0c96d924a1773"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'be37e064-bebf-4797-9e0a-4f41932bf9e8' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.3a118962ef814c91f6476bb9f0de58afa63103af6ac1b8729be9b39a86789e96"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'f699c2f6-6667-4ce1-9a11-71f24739e228' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '342e0d47-918f-428e-92fe-ee1850c21727' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.e4bdca96fb46d22bc12f5bc5bdb5cdb518555fd1762653f8afc96d06b34ec74b"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '4e34ad24-2eef-4fc4-9757-60b5b77d8e54' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '3d0904e9-6778-412d-a066-14d945ad07b9' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.363351f0d0ca05b48f43d4adac95ad01d955bb2988c015733e70e09625d47065"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '915bb642-f207-47a9-b7e6-57f001d9df40' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '4bcfe00e-5655-42be-9d0d-318a4ca74a2d' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.c45cd56a0a8da0883c8f9757b31891d6c628f38cb80724015ffdf33b419a73f3"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '09ce1ccd-3d81-4efe-ae9a-6652b113d987' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'e9b839d0-c67d-40c2-ad95-287b7a5a243e' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.1db172c73ae73d79dec3af374adec6dae1047112d5ec949045ad5bdf2b642e79"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '29019891-f1d7-494e-a3d8-4408ca994a4d' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'a09dab3f-bab2-43ed-ac53-7572640ed02d' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.30f5f886b824ca1efde5174370fc03cab3c02e9c309bc381857430f5843a510b"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'ab4fb7bb-912f-4f6e-a73b-9913c655a8a4' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"fp":"1.48fecfa3c6f59eb6c34fdd5e8f19e0678699e2f27dc8ebfa7025c246d4575c68"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string 'f019ec71-787c-41a8-8d4e-27780798ad27' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"avx":true,"physmemory":12,"sse":true,"sse2":true,"sse3":true,"sse41":true,"sse42":true,"ssse3":true' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"arch":"x86_64","platform":"Windows","version":"10.0.19045.3324"' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '52add675-7aac-4496-8a2e-7d3e7f7078e0' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '5e65da8e-ab0d-467e-bc98-8bbed949c894' with parameter delimiters is not a parameter.
+Action.c(52): Warning: The string '"autoupdatecheckenabled":true,"ismachine":true,"laststarted":0,"name":"ChromiumUpdater","updatepolicy":-1,"version":"123.0.6268.0"' with parameter delimiters is not a parameter.
+Action.c(52): web_custom_request("json") was successful, 1979 body bytes, 1149 header bytes  	[MsgId: MMSG-26386]
+Action.c(85): web_custom_request("json_2") started  	[MsgId: MMSG-26355]
+Action.c(85): Warning: The string '"download_time_ms":8051,"downloaded":3560,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"2024.2.7.0","previousversion":"2024.2.5.0","total":3560,"url":"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/niikhdgajlphfehepabhhblakbdgeefj/1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06/1.31fc707db886cd7b31724279d1ce873be7f1ef84f9c8b0cb0664743d47e41217/7fdda59eb7050464bd021a8735fd22ecc73548629011dcc6d559e3ba39bef7bb.puff"' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '"diffresult":1,"eventresult":1,"eventtype":3,"nextfp":"1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06","nextversion":"2024.2.7.0","previousfp":"1.31fc707db886cd7b31724279d1ce873be7f1ef84f9c8b0cb0664743d47e41217","previousversion":"2024.2.5.0"' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '"fp":"1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06"' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '"avx":true,"physmemory":12,"sse":true,"sse2":true,"sse3":true,"sse41":true,"sse42":true,"ssse3":true' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '"arch":"x86_64","platform":"Windows","version":"10.0.19045.3324"' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '56faa19a-4700-4b0d-ad5a-5d29f8aedcd8' with parameter delimiters is not a parameter.
+Action.c(85): Warning: The string '5e65da8e-ab0d-467e-bc98-8bbed949c894' with parameter delimiters is not a parameter.
+Action.c(85): web_custom_request("json_2") was successful, 172 body bytes, 704 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): web_submit_data("authenticate.php") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "user_name" =  "John Doe"
+Action.c(100): Notify: Parameter Substitution: parameter "pass" =  "Password"
+Action.c(100): Redirecting "https://katalon-demo-cura.herokuapp.com/authenticate.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(100): To location "https://katalon-demo-cura.herokuapp.com/profile.php"  	[MsgId: MMSG-26693]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://katalon-demo-cura.herokuapp.com//css/theme.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "https://katalon-demo-cura.herokuapp.com//js/theme.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): web_submit_data("authenticate.php") was successful, 7394 body bytes, 1661 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(114): web_link("Logout") started  	[MsgId: MMSG-26355]
+Action.c(114): Continuing after Error -27995: Requested link ("Text=Logout") not found  	[MsgId: MERR-27995]
+Action.c(114): web_link("Logout") highest severity level was "continue on error", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(114): Continuing after error in Vuser script.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

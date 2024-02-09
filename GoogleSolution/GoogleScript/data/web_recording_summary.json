@@ -1,0 +1,373 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/webp"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-gzip"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 12,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-05-2024",
+    "RecordingDuration": 21766,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707126602,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 86572,
+    "TotalBytesSent": 14932,
+    "TotalRequests": 21,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.227",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 438,
+              "URL": "https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 31,
+              "EventId": 413,
+              "HttpStatus": 200,
+              "Size": 21464,
+              "URL": "https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.77.174",
+          "IncludeInScript": true,
+          "Name": "encrypted-tbn3.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 109,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 3092,
+              "URL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRk5IhS0RMTPEDF6H_62UMJq95fWZXzpN7vnBslZbN9Lg0zATbpQFU_I1lPpySgPnlC0FxnK5VrU-lQoecoXuuDhXTVODHSa_kdnsfQBAImnlcN__rsJwEjA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 109,
+              "EventId": 584,
+              "HttpStatus": 200,
+              "Size": 4742,
+              "URL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR09377KFpalTyccYn_6RA4hpgjlZRjJBjN5B5iuswNt3nk98QsSf5xzy9JNMbx21dcncHhJV0Wfc7p-7RhwriFQxDC5JzobVT18y8n4KBKgXPxLzzaEKRbeHc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 110,
+              "EventId": 565,
+              "HttpStatus": 200,
+              "Size": 3736,
+              "URL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQZV9sULUPfojWfcOlcJxZA6bqOkozqP6u5EOwf0uf4ABdbXZLcjSX9a84riDEYOz8kPuYH8RkjmTOv5b5Dk8BIRH9TzHEzGSzLj7w4YSo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 3994,
+              "URL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQBIH_XBNegOC2vTyElsEa3pi0KZT_revIgMqvWm7VK_q988saoFaeDWb-DP14wzkE40abhT6R-5V2dLCNM_-D4fzIeyecpvDuy4V-R0PiQCdRH2IkR4BBB"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 550,
+              "HttpStatus": 200,
+              "Size": 3494,
+              "URL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ3d_DhCd194vFlv4NJu9QsE6gJVhBeEX5nqMplNlYbBn--WE4lZIXASH-hwOkn2DnPz0ZhETWCG3XyTcRER1-1-IyDrrst4woyHuKLvfj1HsFxAp9X6bt9"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.142",
+          "IncludeInScript": true,
+          "Name": "encrypted-tbn2.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 4674,
+              "URL": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRy-dlw_ISW_ees-zMDtVJ0NnyYrJIo_lAD21fLPdER6oFcsHWthzv2c5zmSH1d1wk1bLiur9a3WnBxKxtShvRQmAp8nwIuZEbSEsamVsTLcbrIGWrxppkl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 533,
+              "HttpStatus": 200,
+              "Size": 3844,
+              "URL": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTbhWNoyg0HbpajqyLlmysji3hZMSL9MGKugznfrf_2eCkzdEZGklM5a7vgRq7MdDr-xzHo8Z_oNztFuY6tVDhv9OwSOg7aVO-gAcj6dUI"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 32,
+              "EventId": 527,
+              "HttpStatus": 200,
+              "Size": 4594,
+              "URL": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSvhHfrPjreMiW34JGLV6FDBlye8wl06_QD6b042xdyf8UwYiUSgGU4zDv_nJPWg9kB3kJAed7tCYr-7ncvz2pByaU_knstrGUdgxFPOTosLz3grL0I3Mph"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.238",
+          "IncludeInScript": true,
+          "Name": "encrypted-tbn1.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 93,
+              "EventId": 570,
+              "HttpStatus": 200,
+              "Size": 2026,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPQRgQEv2GzTAlIutWDl_-fEkHIhgx2QcWJu6MR4DuTn-e3jDIQ30qSvSx_UdjM4ZHOsqyfp4RmuFhGCwced37GyJ6qoucTUNVeutl-X4KGP3tDjWwdGVo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 94,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 2584,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTwl4W2FR8mlvpHqzoxJ_Lpr4v1-AlDt8gbDGgfFx5CZMzv9okAzTtM1G86sYBlLirwzIm1ORGYSjNQWHOvRO6lik0hw9_FeQpUuMbi--BbbFFDKf3SadKK"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 109,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 5270,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRaw_l3di1F783ea44Lq-uYNASYo5w5rHAzT1LQNtFTwNzTnweOa9LLqSw0rj76KRKplzUt9hNLclXNDOd1cpcLHLZqTlKW4z4LVQDlOX8"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 32,
+              "EventId": 510,
+              "HttpStatus": 200,
+              "Size": 3830,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRI4CGcgRacJ_hMc0LAlA146RPwmbFh_P4-dJaImmuRTEOEXIUcKJ8ol5Tpr_cqRBzRbnc8z-o2KqyywUhVOAcWlQcs0L9SRFs0-FZzGp600r8EliIIx7ql0A"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 507,
+              "HttpStatus": 200,
+              "Size": 5086,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSlwA76_8oywJMzH7ceJblvZRqwgGw6nx-HUJRDexKcsEgSmw2GRe57S-yiCFSMTHyYOvr1KEiiV7Nre58A0lUZ2uK2XojaDiDpd_arFK0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 494,
+              "HttpStatus": 200,
+              "Size": 4112,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT5c7Xswi2aPi9-a36nGwNCuEAuOPriQD03kY0CpXNgAQzWTiIZVxqdMCSTm_cqFyHxGnGWwpidzfoEFe_SMcbBroXldfqnsVx7ueH9evnl4fC2MAZU2Sw"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 1404,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS3oWfbPM9toNWg9YmqiMgaCut2nq0kRkSEIX4RhIrZYSYuPlBumlM0VECdsEpcw_ug2mgsXAWuC--B_lLLJxoNj4_PcPljd3z5GhEml0n_a2xC-Wl4pHF2zA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 485,
+              "HttpStatus": 200,
+              "Size": 3680,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQEzQGG-8hg1RIe1HI8DoK2rt-MlFjd99kEhaKFmYEl61yi9qP568IFXXP5CNFAXITlbo1tAidq494e2UAwNpVeVnPakoXTG2XAE2RiMN-l"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 3566,
+              "URL": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7xg6V0VpS7yqCscrggFJunl-7YW9VNR2lHHYY6WAwxUcaOYqiw8mTNeW67agVeVuPXcpqY5943ZmqGR5x1v3SqiNXBJlNwQDZImxTnQXsA53X2fJIZxU4"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.99",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-gzip",
+              "DownloadTime": 234,
+              "EventId": 327,
+              "HttpStatus": 200,
+              "Size": 942,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.193.94",
+          "IncludeInScript": true,
+          "Name": "id.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 329,
+              "EventId": 444,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://id.google.com/verify/ANsg4T6iwuhv8e8mQgR2ySnzTGpUPHdGsPD5MpuMWDSjZOoaclCZr0qwhtM3WEh3_Z5_PITZiAFO4k7M71SiszTCwJL_frrZifXPUmv-D9SEWDFKBq9G"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

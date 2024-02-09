@@ -1,0 +1,2858 @@
+------------------------------------------------------------------------------------------
+| LoadRunner Recording Log File                                    |
+| Date Generated : Thu Feb  8 10:52:55 2024                                              |
+------------------------------------------------------------------------------------------
+
+[Op#:     1]------------------------------------------------------------------------------
+Record Section      : Action
+
+[Op#:     2]------------------------------------------------------------------------------
+Start Record        : 3
+
+[Op#:     3]------------------------------------------------------------------------------
+Api Event (479)     : Id=WPLUS Proc=2898:2938  Start=4469609  End=4469609  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:     4]------------------------------------------------------------------------------
+Api Event (480)     : Id=WPLUS Proc=2898:27f4  Start=4469765  End=4469765  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00\x94I.['\xa4X]" }
+Argument#  5  IN  : [scope_id] = 4
+Return Value      : (void)
+
+[Op#:     5]------------------------------------------------------------------------------
+Api Event (481)     : Id=WPLUS Proc=2898:27f4  Start=4469765  End=4469765  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00\x94I.['\xa4X]" }
+Argument#  5  IN  : [scope_id] = 4
+Return Value      : (void)
+
+[Op#:     6]------------------------------------------------------------------------------
+Api Event (482)     : Id=WPLUS Proc=2898:23b8  Start=4469953  End=4469953  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:     7]------------------------------------------------------------------------------
+Api Event (483)     : Id=WPLUS Proc=2898:23b8  Start=4469984  End=4469984  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [ipaddress] = 142.250.76.35 (234cfa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:     8]------------------------------------------------------------------------------
+Api Event (484)     : Id=WPLUS Proc=2898:23b8  Start=4479828  End=4479828  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:     9]------------------------------------------------------------------------------
+Api Event (485)     : Id=WPLUS Proc=2898:23b8  Start=4480093  End=4480093  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    10]------------------------------------------------------------------------------
+Api Event (486)     : Id=WPLUS Proc=2898:23b8  Start=4480125  End=4480125  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    11]------------------------------------------------------------------------------
+Api Event (487)     : Id=WPLUS Proc=2898:23b8  Start=4480156  End=4480156  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [ipaddress] = 142.250.76.35 (234cfa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    12]------------------------------------------------------------------------------
+Api Event (488)     : Id=WPLUS Proc=2898:2938  Start=4480156  End=4480156  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 1
+Return Value      : (void)
+
+[Op#:    13]------------------------------------------------------------------------------
+Api Event (489)     : Id=WPLUS Proc=2898:23b8  Start=4480156  End=4480156  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    14]------------------------------------------------------------------------------
+Api Event (490)     : Id=WPLUS Proc=2898:2938  Start=4481171  End=4481171  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 2
+Return Value      : (void)
+
+[Op#:    15]------------------------------------------------------------------------------
+Api Event (491)     : Id=WPLUS Proc=2898:23b8  Start=4481421  End=4481421  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    16]------------------------------------------------------------------------------
+Api Event (492)     : Id=WPLUS Proc=2898:13dc  Start=4481437  End=4481437  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "7f67eabccb786031e9cbb6ec31cb9c079b309c6ed835321b81ce4a9b02ac1234"
+Return Value      : (void)
+
+[Op#:    17]------------------------------------------------------------------------------
+Api Event (493)     : Id=WPLUS Proc=2898:13dc  Start=4481437  End=4481437  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "clientservices.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    18]------------------------------------------------------------------------------
+Api Event (494)     : Id=WPLUS Proc=2898:23b8  Start=4481546  End=4481546  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    19]------------------------------------------------------------------------------
+Api Event (495)     : Id=WPLUS Proc=2898:23b8  Start=4481609  End=4481609  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [ipaddress] = 172.253.118.84 (5476fdac)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    20]------------------------------------------------------------------------------
+Api Event (496)     : Id=HTTP Proc=2898:800cb0c9  Start=4481828  End=4481828  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->206
+Argument#  3  OUT : [buflen] = ->206
+Return Value      : (void)
+
+[Op#:    21]------------------------------------------------------------------------------
+Api Event (497)     : Id=HTTP Proc=2898:80003001  Start=4481609  End=4481828  Duration=219 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.76.35 (234cfa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:493]{ "GET /chrome-variations/seed?osname=win&channel=stable&milestone=121 HTTP/1.1\r\n"
+							"Host: clientservices.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"If-None-Match: SMChYyMDI0MDIwNy0wODAxMjcuMTQ0MDAwEggIABADGHkgABoQCggxNzA3MzU3NhIECAIQAQ==#UrGoXBikby0=\r\n"
+							"A-IM: x-bm,gzip\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:206]{ "HTTP/1.1 304 Not Modified\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-Xss-Protection: 0\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:26 GMT\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->493
+Argument#  7  OUT : [hdr_buflen] = ->206
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    22]------------------------------------------------------------------------------
+Api Event (498)     : Id=WPLUS Proc=2898:2190  Start=4482140  End=4482140  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "b3d47e81480629d21a35c5246be5d61a4ff30e7af886d654b9925f69c8e2fd07"
+Return Value      : (void)
+
+[Op#:    23]------------------------------------------------------------------------------
+Api Event (499)     : Id=WPLUS Proc=2898:2190  Start=4482140  End=4482140  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "katalon-demo-cura.herokuapp.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    24]------------------------------------------------------------------------------
+Api Event (500)     : Id=WPLUS Proc=2898:14c4  Start=4482218  End=4482218  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "7559402d316c43fa5be62ea40e4da345ece5513520e04a728f09f308e2718cc7"
+Return Value      : (void)
+
+[Op#:    25]------------------------------------------------------------------------------
+Api Event (501)     : Id=WPLUS Proc=2898:14c4  Start=4482218  End=4482218  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "accounts.google.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    26]------------------------------------------------------------------------------
+Api Event (502)     : Id=HTTP Proc=2898:800cc0c9  Start=4483078  End=4483093  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->859
+Argument#  3  OUT : [buflen] = ->859
+Return Value      : (void)
+
+[Op#:    27]------------------------------------------------------------------------------
+Api Event (503)     : Id=HTTP Proc=2898:80004001  Start=4482828  End=4483093  Duration=265 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:675]{ "GET / HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:859]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369687&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=wWjGddPNivXbAfn%2FMDsbfYnweL27VKRjScBhmnh2iC4%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369687&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=wWjGddPNivXbAfn%2FMDsbfYnweL27VKRjScBhmnh2iC4%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:27 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Set-Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek; path=/\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->675
+Argument#  7  OUT : [hdr_buflen] = ->859
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_001_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    28]------------------------------------------------------------------------------
+Api Event (504)     : Id=HTTP Proc=2898:800cc0c9  Start=4483093  End=4483093  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->4247
+Argument#  3  OUT : [buflen] = ->4247
+Return Value      : (void)
+
+[Op#:    29]------------------------------------------------------------------------------
+Api Event (505)     : Id=WPLUS Proc=2898:23b8  Start=4483140  End=4483140  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    30]------------------------------------------------------------------------------
+Api Event (506)     : Id=WPLUS Proc=2898:23b8  Start=4483375  End=4483375  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    31]------------------------------------------------------------------------------
+Api Event (507)     : Id=WPLUS Proc=2898:23b8  Start=4483390  End=4483390  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    32]------------------------------------------------------------------------------
+Api Event (508)     : Id=HTTP Proc=2898:800cc0ca  Start=4483390  End=4483390  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->3969
+Argument#  3  OUT : [buflen] = ->3969
+Return Value      : (void)
+
+[Op#:    33]------------------------------------------------------------------------------
+Api Event (509)     : Id=HTTP Proc=2898:80004002  Start=4483125  End=4483390  Duration=265 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:628]{ "GET //css/theme.css HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:758]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369687&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=wWjGddPNivXbAfn%2FMDsbfYnweL27VKRjScBhmnh2iC4%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369687&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=wWjGddPNivXbAfn%2FMDsbfYnweL27VKRjScBhmnh2iC4%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:27 GMT\r\n"
+							"Server: Apache\r\n"
+							"Last-Modified: Mon, 05 Dec 2022 20:31:17 GMT\r\n"
+							"Etag: ""c8b-5ef1a91bfaf40""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 3211\r\n"
+							"Content-Type: text/css\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->628
+Argument#  7  OUT : [hdr_buflen] = ->758
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_002_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    34]------------------------------------------------------------------------------
+Api Event (510)     : Id=WPLUS Proc=2898:23b8  Start=4483390  End=4483390  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    35]------------------------------------------------------------------------------
+Api Event (511)     : Id=WPLUS Proc=2898:23b8  Start=4483390  End=4483406  Duration=16 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    36]------------------------------------------------------------------------------
+Api Event (512)     : Id=WPLUS Proc=2898:23b8  Start=4483406  End=4483406  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    37]------------------------------------------------------------------------------
+Api Event (513)     : Id=WPLUS Proc=2898:23b8  Start=4483406  End=4483406  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    38]------------------------------------------------------------------------------
+Api Event (514)     : Id=WPLUS Proc=2898:23b8  Start=4483406  End=4483406  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    39]------------------------------------------------------------------------------
+Api Event (515)     : Id=WPLUS Proc=2898:23b8  Start=4483421  End=4483421  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    40]------------------------------------------------------------------------------
+Api Event (516)     : Id=WPLUS Proc=2898:23b8  Start=4483421  End=4483421  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    41]------------------------------------------------------------------------------
+Api Event (517)     : Id=WPLUS Proc=2898:23b8  Start=4483421  End=4483421  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    42]------------------------------------------------------------------------------
+Api Event (518)     : Id=WPLUS Proc=2898:23b8  Start=4483437  End=4483437  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    43]------------------------------------------------------------------------------
+Api Event (519)     : Id=WPLUS Proc=2898:23b8  Start=4483437  End=4483437  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    44]------------------------------------------------------------------------------
+Api Event (520)     : Id=WPLUS Proc=2898:23b8  Start=4483437  End=4483437  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [ipaddress] = 104.17.24.14 (0e181168)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    45]------------------------------------------------------------------------------
+Api Event (521)     : Id=WPLUS Proc=2898:23b8  Start=4483453  End=4483453  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:    46]------------------------------------------------------------------------------
+Api Event (522)     : Id=WPLUS Proc=2898:23b8  Start=4483468  End=4483468  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    47]------------------------------------------------------------------------------
+Api Event (523)     : Id=HTTP Proc=2898:800cc0cb  Start=4483718  End=4483718  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->2361
+Argument#  3  OUT : [buflen] = ->2361
+Return Value      : (void)
+
+[Op#:    48]------------------------------------------------------------------------------
+Api Event (524)     : Id=HTTP Proc=2898:80004003  Start=4483484  End=4483734  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:612]{ "GET //js/theme.js HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:772]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369688&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=EvTsSUrMEA3ketHLZ9qV42Lnpe1jGzwSpV8aEhm%2FX8s%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369688&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=EvTsSUrMEA3ketHLZ9qV42Lnpe1jGzwSpV8aEhm%2FX8s%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:28 GMT\r\n"
+							"Server: Apache\r\n"
+							"Last-Modified: Mon, 05 Dec 2022 20:31:17 GMT\r\n"
+							"Etag: ""635-5ef1a91bfaf40""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 1589\r\n"
+							"Content-Type: application/javascript\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->612
+Argument#  7  OUT : [hdr_buflen] = ->772
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_003_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    49]------------------------------------------------------------------------------
+Api Event (525)     : Id=WPLUS Proc=2898:2588  Start=4483921  End=4483921  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "2aa6c85063628884f47f50a6e6094916508366762d544ca0d602e4d9ead2261f"
+Return Value      : (void)
+
+[Op#:    50]------------------------------------------------------------------------------
+Api Event (526)     : Id=WPLUS Proc=2898:2588  Start=4483921  End=4483921  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "katalon-demo-cura.herokuapp.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    51]------------------------------------------------------------------------------
+Api Event (527)     : Id=WPLUS Proc=2898:1a28  Start=4483953  End=4483953  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "da0cb955eeff268ed266bf82c429ebf8fb4c4031eb2f2ace66b6d3631f4832d6"
+Return Value      : (void)
+
+[Op#:    52]------------------------------------------------------------------------------
+Api Event (528)     : Id=WPLUS Proc=2898:1a28  Start=4483953  End=4483953  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "cdnjs.cloudflare.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    53]------------------------------------------------------------------------------
+Api Event (529)     : Id=WPLUS Proc=2898:2858  Start=4483953  End=4483953  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "cf5880541b236a93c107902f14181ee86e6bbd0e97d122e80835a52f517c704a"
+Return Value      : (void)
+
+[Op#:    54]------------------------------------------------------------------------------
+Api Event (530)     : Id=WPLUS Proc=2898:2858  Start=4483968  End=4483968  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "cdnjs.cloudflare.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    55]------------------------------------------------------------------------------
+Api Event (531)     : Id=WPLUS Proc=2898:1c6c  Start=4484046  End=4484046  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "4a33011c6312086139a5792575d5958840e4522bcc5e4cd77e792f29a9340004"
+Return Value      : (void)
+
+[Op#:    56]------------------------------------------------------------------------------
+Api Event (532)     : Id=WPLUS Proc=2898:1c6c  Start=4484046  End=4484046  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = ""
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    57]------------------------------------------------------------------------------
+Api Event (533)     : Id=WPLUS Proc=2898:0bd8  Start=4484078  End=4484078  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "d04d2834b3eb4d668dc87081e85cb0944434302444248c04e3948a59f1d393c2"
+Return Value      : (void)
+
+[Op#:    58]------------------------------------------------------------------------------
+Api Event (534)     : Id=WPLUS Proc=2898:0bd8  Start=4484078  End=4484078  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "cdnjs.cloudflare.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    59]------------------------------------------------------------------------------
+Api Event (535)     : Id=WPLUS Proc=2898:1b8c  Start=4484140  End=4484140  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "aaf7571de083a1fe57add6651842300d43d26e241ba422c5444c40c24cb941b9"
+Return Value      : (void)
+
+[Op#:    60]------------------------------------------------------------------------------
+Api Event (536)     : Id=WPLUS Proc=2898:1b8c  Start=4484140  End=4484140  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = ""
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    61]------------------------------------------------------------------------------
+Api Event (537)     : Id=WPLUS Proc=2898:08a4  Start=4484156  End=4484156  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "3e3bd39f1dad381c6dba4f9ccbf62693684395c4363e3a2ce6e2b0416ca10d2b"
+Return Value      : (void)
+
+[Op#:    62]------------------------------------------------------------------------------
+Api Event (538)     : Id=WPLUS Proc=2898:08a4  Start=4484171  End=4484171  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "cdnjs.cloudflare.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    63]------------------------------------------------------------------------------
+Api Event (539)     : Id=HTTP Proc=2898:800cc0cc  Start=4484531  End=4484531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->764
+Argument#  3  OUT : [buflen] = ->764
+Return Value      : (void)
+
+[Op#:    64]------------------------------------------------------------------------------
+Api Event (540)     : Id=HTTP Proc=2898:80004004  Start=4484281  End=4484531  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:689]{ "GET //img/header.jpg HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com//css/theme.css\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:764]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369688&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=EvTsSUrMEA3ketHLZ9qV42Lnpe1jGzwSpV8aEhm%2FX8s%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369688&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=EvTsSUrMEA3ketHLZ9qV42Lnpe1jGzwSpV8aEhm%2FX8s%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:28 GMT\r\n"
+							"Server: Apache\r\n"
+							"Last-Modified: Mon, 05 Dec 2022 20:31:17 GMT\r\n"
+							"Etag: ""5c9e1-5ef1a91bfaf40""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 379361\r\n"
+							"Content-Type: image/jpeg\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->689
+Argument#  7  OUT : [hdr_buflen] = ->764
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_004_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    65]------------------------------------------------------------------------------
+Api Event (541)     : Id=HTTP Proc=2898:800cc0cc  Start=4484531  End=4484531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->7002
+Argument#  3  OUT : [buflen] = ->7002
+Return Value      : (void)
+
+[Op#:    66]------------------------------------------------------------------------------
+Api Event (542)     : Id=HTTP Proc=2898:800cc0cc  Start=4484781  End=4484781  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->7240
+Argument#  3  OUT : [buflen] = ->7240
+Return Value      : (void)
+
+[Op#:    67]------------------------------------------------------------------------------
+Api Event (543)     : Id=HTTP Proc=2898:800cc0cc  Start=4484781  End=4484781  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->2896
+Argument#  3  OUT : [buflen] = ->2896
+Return Value      : (void)
+
+[Op#:    68]------------------------------------------------------------------------------
+Api Event (544)     : Id=HTTP Proc=2898:800cc0cc  Start=4484781  End=4484781  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->8349
+Argument#  3  OUT : [buflen] = ->8349
+Return Value      : (void)
+
+[Op#:    69]------------------------------------------------------------------------------
+Api Event (545)     : Id=HTTP Proc=2898:800cc0cc  Start=4485015  End=4485015  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    70]------------------------------------------------------------------------------
+Api Event (546)     : Id=HTTP Proc=2898:800cc0cc  Start=4485015  End=4485015  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    71]------------------------------------------------------------------------------
+Api Event (547)     : Id=HTTP Proc=2898:800cc0cc  Start=4485015  End=4485031  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->307
+Argument#  3  OUT : [buflen] = ->307
+Return Value      : (void)
+
+[Op#:    72]------------------------------------------------------------------------------
+Api Event (548)     : Id=HTTP Proc=2898:800cc0cc  Start=4485031  End=4485031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->2896
+Argument#  3  OUT : [buflen] = ->2896
+Return Value      : (void)
+
+[Op#:    73]------------------------------------------------------------------------------
+Api Event (549)     : Id=HTTP Proc=2898:800cc0cc  Start=4485031  End=4485031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->2896
+Argument#  3  OUT : [buflen] = ->2896
+Return Value      : (void)
+
+[Op#:    74]------------------------------------------------------------------------------
+Api Event (550)     : Id=HTTP Proc=2898:800cc0cc  Start=4485031  End=4485031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    75]------------------------------------------------------------------------------
+Api Event (551)     : Id=HTTP Proc=2898:800cc0cc  Start=4485031  End=4485031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    76]------------------------------------------------------------------------------
+Api Event (552)     : Id=HTTP Proc=2898:800cc0cc  Start=4485031  End=4485031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->8656
+Argument#  3  OUT : [buflen] = ->8656
+Return Value      : (void)
+
+[Op#:    77]------------------------------------------------------------------------------
+Api Event (553)     : Id=HTTP Proc=2898:800cc0cc  Start=4485046  End=4485046  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->8349
+Argument#  3  OUT : [buflen] = ->8349
+Return Value      : (void)
+
+[Op#:    78]------------------------------------------------------------------------------
+Api Event (554)     : Id=HTTP Proc=2898:800cc0cc  Start=4485265  End=4485265  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    79]------------------------------------------------------------------------------
+Api Event (555)     : Id=HTTP Proc=2898:800cc0cc  Start=4485265  End=4485265  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    80]------------------------------------------------------------------------------
+Api Event (556)     : Id=HTTP Proc=2898:800cc0cc  Start=4485265  End=4485265  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->307
+Argument#  3  OUT : [buflen] = ->307
+Return Value      : (void)
+
+[Op#:    81]------------------------------------------------------------------------------
+Api Event (557)     : Id=HTTP Proc=2898:800cc0cc  Start=4485265  End=4485265  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->14480
+Argument#  3  OUT : [buflen] = ->14480
+Return Value      : (void)
+
+[Op#:    82]------------------------------------------------------------------------------
+Api Event (558)     : Id=HTTP Proc=2898:800cc0cc  Start=4485265  End=4485265  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    83]------------------------------------------------------------------------------
+Api Event (559)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485281  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->314
+Argument#  3  OUT : [buflen] = ->314
+Return Value      : (void)
+
+[Op#:    84]------------------------------------------------------------------------------
+Api Event (560)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485281  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    85]------------------------------------------------------------------------------
+Api Event (561)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485281  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    86]------------------------------------------------------------------------------
+Api Event (562)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485281  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    87]------------------------------------------------------------------------------
+Api Event (563)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485281  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    88]------------------------------------------------------------------------------
+Api Event (564)     : Id=HTTP Proc=2898:800cc0cc  Start=4485281  End=4485296  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    89]------------------------------------------------------------------------------
+Api Event (565)     : Id=HTTP Proc=2898:800cc0cc  Start=4485296  End=4485296  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    90]------------------------------------------------------------------------------
+Api Event (566)     : Id=HTTP Proc=2898:800cc0cc  Start=4485500  End=4485500  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    91]------------------------------------------------------------------------------
+Api Event (567)     : Id=HTTP Proc=2898:800cc0cc  Start=4485515  End=4485515  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    92]------------------------------------------------------------------------------
+Api Event (568)     : Id=HTTP Proc=2898:800cc0cc  Start=4485515  End=4485515  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    93]------------------------------------------------------------------------------
+Api Event (569)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    94]------------------------------------------------------------------------------
+Api Event (570)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    95]------------------------------------------------------------------------------
+Api Event (571)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    96]------------------------------------------------------------------------------
+Api Event (572)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    97]------------------------------------------------------------------------------
+Api Event (573)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:    98]------------------------------------------------------------------------------
+Api Event (574)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:    99]------------------------------------------------------------------------------
+Api Event (575)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   100]------------------------------------------------------------------------------
+Api Event (576)     : Id=HTTP Proc=2898:800cc0cc  Start=4485531  End=4485531  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   101]------------------------------------------------------------------------------
+Api Event (577)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   102]------------------------------------------------------------------------------
+Api Event (578)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   103]------------------------------------------------------------------------------
+Api Event (579)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   104]------------------------------------------------------------------------------
+Api Event (580)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   105]------------------------------------------------------------------------------
+Api Event (581)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   106]------------------------------------------------------------------------------
+Api Event (582)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   107]------------------------------------------------------------------------------
+Api Event (583)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   108]------------------------------------------------------------------------------
+Api Event (584)     : Id=HTTP Proc=2898:800cc0cc  Start=4485546  End=4485546  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   109]------------------------------------------------------------------------------
+Api Event (585)     : Id=HTTP Proc=2898:800cc0cc  Start=4485562  End=4485562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   110]------------------------------------------------------------------------------
+Api Event (586)     : Id=HTTP Proc=2898:800cc0cc  Start=4485562  End=4485562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->16384
+Argument#  3  OUT : [buflen] = ->16384
+Return Value      : (void)
+
+[Op#:   111]------------------------------------------------------------------------------
+Api Event (587)     : Id=HTTP Proc=2898:800cc0cc  Start=4485562  End=4485562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1024
+Argument#  3  OUT : [buflen] = ->1024
+Return Value      : (void)
+
+[Op#:   112]------------------------------------------------------------------------------
+Api Event (588)     : Id=HTTP Proc=2898:800cc0cc  Start=4485562  End=4485562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->3349
+Argument#  3  OUT : [buflen] = ->3349
+Return Value      : (void)
+
+[Op#:   113]------------------------------------------------------------------------------
+Api Event (589)     : Id=WPLUS Proc=2898:2938  Start=4485796  End=4485796  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 13
+Return Value      : (void)
+
+[Op#:   114]------------------------------------------------------------------------------
+Api Event (590)     : Id=HTTP Proc=2898:800cc0cd  Start=4486046  End=4486062  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->886
+Argument#  3  OUT : [buflen] = ->886
+Return Value      : (void)
+
+[Op#:   115]------------------------------------------------------------------------------
+Api Event (591)     : Id=HTTP Proc=2898:80004005  Start=4485812  End=4486062  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:671]{ "GET /favicon.ico HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:690]{ "HTTP/1.1 404 Not Found\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369690&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=19HKmDJVT8A0wauAxfW%2BINly4cRhk8KENDEgtgT93e0%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369690&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=19HKmDJVT8A0wauAxfW%2BINly4cRhk8KENDEgtgT93e0%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:30 GMT\r\n"
+							"Server: Apache\r\n"
+							"Content-Length: 196\r\n"
+							"Content-Type: text/html; charset=iso-8859-1\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->671
+Argument#  7  OUT : [hdr_buflen] = ->690
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_005_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   116]------------------------------------------------------------------------------
+Api Event (592)     : Id=WPLUS Proc=2898:2e04  Start=4488625  End=4488625  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.74 (4ac3fa8e)
+Return Value      : (void)
+
+[Op#:   117]------------------------------------------------------------------------------
+Api Event (593)     : Id=WPLUS Proc=2898:2e04  Start=4488625  End=4488625  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.106 (6ac3fa8e)
+Return Value      : (void)
+
+[Op#:   118]------------------------------------------------------------------------------
+Api Event (594)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Return Value      : (void)
+
+[Op#:   119]------------------------------------------------------------------------------
+Api Event (595)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.170 (aac3fa8e)
+Return Value      : (void)
+
+[Op#:   120]------------------------------------------------------------------------------
+Api Event (596)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.202 (cac3fa8e)
+Return Value      : (void)
+
+[Op#:   121]------------------------------------------------------------------------------
+Api Event (597)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.234 (eac3fa8e)
+Return Value      : (void)
+
+[Op#:   122]------------------------------------------------------------------------------
+Api Event (598)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Return Value      : (void)
+
+[Op#:   123]------------------------------------------------------------------------------
+Api Event (599)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.42 (2ac4fa8e)
+Return Value      : (void)
+
+[Op#:   124]------------------------------------------------------------------------------
+Api Event (600)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.74 (4ac4fa8e)
+Return Value      : (void)
+
+[Op#:   125]------------------------------------------------------------------------------
+Api Event (601)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.170 (aac4fa8e)
+Return Value      : (void)
+
+[Op#:   126]------------------------------------------------------------------------------
+Api Event (602)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 172.217.163.170 (aaa3d9ac)
+Return Value      : (void)
+
+[Op#:   127]------------------------------------------------------------------------------
+Api Event (603)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.67.42 (2a43fa8e)
+Return Value      : (void)
+
+[Op#:   128]------------------------------------------------------------------------------
+Api Event (604)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.67.74 (4a43fa8e)
+Return Value      : (void)
+
+[Op#:   129]------------------------------------------------------------------------------
+Api Event (605)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.77.138 (8a4dfa8e)
+Return Value      : (void)
+
+[Op#:   130]------------------------------------------------------------------------------
+Api Event (606)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.182.10 (0ab6fa8e)
+Return Value      : (void)
+
+[Op#:   131]------------------------------------------------------------------------------
+Api Event (607)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.182.42 (2ab6fa8e)
+Return Value      : (void)
+
+[Op#:   132]------------------------------------------------------------------------------
+Api Event (608)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.74 (4ac3fa8e)
+Return Value      : (void)
+
+[Op#:   133]------------------------------------------------------------------------------
+Api Event (609)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.106 (6ac3fa8e)
+Return Value      : (void)
+
+[Op#:   134]------------------------------------------------------------------------------
+Api Event (610)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Return Value      : (void)
+
+[Op#:   135]------------------------------------------------------------------------------
+Api Event (611)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.170 (aac3fa8e)
+Return Value      : (void)
+
+[Op#:   136]------------------------------------------------------------------------------
+Api Event (612)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.202 (cac3fa8e)
+Return Value      : (void)
+
+[Op#:   137]------------------------------------------------------------------------------
+Api Event (613)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.234 (eac3fa8e)
+Return Value      : (void)
+
+[Op#:   138]------------------------------------------------------------------------------
+Api Event (614)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Return Value      : (void)
+
+[Op#:   139]------------------------------------------------------------------------------
+Api Event (615)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.42 (2ac4fa8e)
+Return Value      : (void)
+
+[Op#:   140]------------------------------------------------------------------------------
+Api Event (616)     : Id=WPLUS Proc=2898:2e04  Start=4488640  End=4488640  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.74 (4ac4fa8e)
+Return Value      : (void)
+
+[Op#:   141]------------------------------------------------------------------------------
+Api Event (617)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.170 (aac4fa8e)
+Return Value      : (void)
+
+[Op#:   142]------------------------------------------------------------------------------
+Api Event (618)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 172.217.163.170 (aaa3d9ac)
+Return Value      : (void)
+
+[Op#:   143]------------------------------------------------------------------------------
+Api Event (619)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.67.42 (2a43fa8e)
+Return Value      : (void)
+
+[Op#:   144]------------------------------------------------------------------------------
+Api Event (620)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.67.74 (4a43fa8e)
+Return Value      : (void)
+
+[Op#:   145]------------------------------------------------------------------------------
+Api Event (621)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.77.138 (8a4dfa8e)
+Return Value      : (void)
+
+[Op#:   146]------------------------------------------------------------------------------
+Api Event (622)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.182.10 (0ab6fa8e)
+Return Value      : (void)
+
+[Op#:   147]------------------------------------------------------------------------------
+Api Event (623)     : Id=WPLUS Proc=2898:2e04  Start=4488656  End=4488656  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "www.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.182.42 (2ab6fa8e)
+Return Value      : (void)
+
+[Op#:   148]------------------------------------------------------------------------------
+Api Event (624)     : Id=WPLUS Proc=2898:23b8  Start=4489109  End=4489109  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   149]------------------------------------------------------------------------------
+Api Event (625)     : Id=WPLUS Proc=2898:23b8  Start=4489140  End=4489140  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 14
+Argument#  2  IN  : [ipaddress] = 142.250.195.74 (4ac3fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   150]------------------------------------------------------------------------------
+Api Event (626)     : Id=WPLUS Proc=2898:23b8  Start=4489359  End=4489359  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   151]------------------------------------------------------------------------------
+Api Event (627)     : Id=WPLUS Proc=2898:23b8  Start=4489390  End=4489390  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 15
+Argument#  2  IN  : [ipaddress] = 142.250.193.142 (8ec1fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   152]------------------------------------------------------------------------------
+Api Event (628)     : Id=WPLUS Proc=2898:1fe0  Start=4489468  End=4489468  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 14
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "a15fe50ea2dd8f5cf7910dc797a97b214ba9bdb4255bf87c928a200d81c4f62a"
+Return Value      : (void)
+
+[Op#:   153]------------------------------------------------------------------------------
+Api Event (629)     : Id=WPLUS Proc=2898:1fe0  Start=4489468  End=4489468  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 14
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "www.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:   154]------------------------------------------------------------------------------
+Api Event (630)     : Id=WPLUS Proc=2898:2ed0  Start=4490328  End=4490328  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.106 (6ac1fa8e)
+Return Value      : (void)
+
+[Op#:   155]------------------------------------------------------------------------------
+Api Event (631)     : Id=WPLUS Proc=2898:2ed0  Start=4490328  End=4490328  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.138 (8ac1fa8e)
+Return Value      : (void)
+
+[Op#:   156]------------------------------------------------------------------------------
+Api Event (632)     : Id=WPLUS Proc=2898:2ed0  Start=4490328  End=4490328  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.170 (aac1fa8e)
+Return Value      : (void)
+
+[Op#:   157]------------------------------------------------------------------------------
+Api Event (633)     : Id=WPLUS Proc=2898:2ed0  Start=4490328  End=4490328  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.205.234 (eacdfa8e)
+Return Value      : (void)
+
+[Op#:   158]------------------------------------------------------------------------------
+Api Event (634)     : Id=WPLUS Proc=2898:2ed0  Start=4490328  End=4490328  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 172.217.31.202 (ca1fd9ac)
+Return Value      : (void)
+
+[Op#:   159]------------------------------------------------------------------------------
+Api Event (635)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.71.10 (0a47fa8e)
+Return Value      : (void)
+
+[Op#:   160]------------------------------------------------------------------------------
+Api Event (636)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.76.42 (2a4cfa8e)
+Return Value      : (void)
+
+[Op#:   161]------------------------------------------------------------------------------
+Api Event (637)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.42 (2ac3fa8e)
+Return Value      : (void)
+
+[Op#:   162]------------------------------------------------------------------------------
+Api Event (638)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.74 (4ac3fa8e)
+Return Value      : (void)
+
+[Op#:   163]------------------------------------------------------------------------------
+Api Event (639)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.106 (6ac3fa8e)
+Return Value      : (void)
+
+[Op#:   164]------------------------------------------------------------------------------
+Api Event (640)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Return Value      : (void)
+
+[Op#:   165]------------------------------------------------------------------------------
+Api Event (641)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.170 (aac3fa8e)
+Return Value      : (void)
+
+[Op#:   166]------------------------------------------------------------------------------
+Api Event (642)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.234 (eac3fa8e)
+Return Value      : (void)
+
+[Op#:   167]------------------------------------------------------------------------------
+Api Event (643)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Return Value      : (void)
+
+[Op#:   168]------------------------------------------------------------------------------
+Api Event (644)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.42 (2ac4fa8e)
+Return Value      : (void)
+
+[Op#:   169]------------------------------------------------------------------------------
+Api Event (645)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.74 (4ac4fa8e)
+Return Value      : (void)
+
+[Op#:   170]------------------------------------------------------------------------------
+Api Event (646)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.106 (6ac1fa8e)
+Return Value      : (void)
+
+[Op#:   171]------------------------------------------------------------------------------
+Api Event (647)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.138 (8ac1fa8e)
+Return Value      : (void)
+
+[Op#:   172]------------------------------------------------------------------------------
+Api Event (648)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.193.170 (aac1fa8e)
+Return Value      : (void)
+
+[Op#:   173]------------------------------------------------------------------------------
+Api Event (649)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.205.234 (eacdfa8e)
+Return Value      : (void)
+
+[Op#:   174]------------------------------------------------------------------------------
+Api Event (650)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 172.217.31.202 (ca1fd9ac)
+Return Value      : (void)
+
+[Op#:   175]------------------------------------------------------------------------------
+Api Event (651)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.71.10 (0a47fa8e)
+Return Value      : (void)
+
+[Op#:   176]------------------------------------------------------------------------------
+Api Event (652)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.76.42 (2a4cfa8e)
+Return Value      : (void)
+
+[Op#:   177]------------------------------------------------------------------------------
+Api Event (653)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.42 (2ac3fa8e)
+Return Value      : (void)
+
+[Op#:   178]------------------------------------------------------------------------------
+Api Event (654)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.74 (4ac3fa8e)
+Return Value      : (void)
+
+[Op#:   179]------------------------------------------------------------------------------
+Api Event (655)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.106 (6ac3fa8e)
+Return Value      : (void)
+
+[Op#:   180]------------------------------------------------------------------------------
+Api Event (656)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Return Value      : (void)
+
+[Op#:   181]------------------------------------------------------------------------------
+Api Event (657)     : Id=WPLUS Proc=2898:2ed0  Start=4490343  End=4490359  Duration=16 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.170 (aac3fa8e)
+Return Value      : (void)
+
+[Op#:   182]------------------------------------------------------------------------------
+Api Event (658)     : Id=WPLUS Proc=2898:2ed0  Start=4490359  End=4490359  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.195.234 (eac3fa8e)
+Return Value      : (void)
+
+[Op#:   183]------------------------------------------------------------------------------
+Api Event (659)     : Id=WPLUS Proc=2898:2ed0  Start=4490359  End=4490359  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Return Value      : (void)
+
+[Op#:   184]------------------------------------------------------------------------------
+Api Event (660)     : Id=WPLUS Proc=2898:2ed0  Start=4490359  End=4490359  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.42 (2ac4fa8e)
+Return Value      : (void)
+
+[Op#:   185]------------------------------------------------------------------------------
+Api Event (661)     : Id=WPLUS Proc=2898:2ed0  Start=4490359  End=4490359  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "optimizationguide-pa.googleapis.com"
+Argument#  2  IN  : [ipaddress] = 142.250.196.74 (4ac4fa8e)
+Return Value      : (void)
+
+[Op#:   186]------------------------------------------------------------------------------
+Api Event (662)     : Id=WPLUS Proc=2898:23b8  Start=4490421  End=4490421  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   187]------------------------------------------------------------------------------
+Api Event (663)     : Id=WPLUS Proc=2898:23b8  Start=4490453  End=4490453  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 16
+Argument#  2  IN  : [ipaddress] = 142.250.193.106 (6ac1fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   188]------------------------------------------------------------------------------
+Api Event (664)     : Id=WPLUS Proc=2898:2b1c  Start=4491546  End=4491562  Duration=16 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 16
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "07bf7ff5bd87903af7e986ba4239af2cd26a20e451a50737909071755f68e5a4"
+Return Value      : (void)
+
+[Op#:   189]------------------------------------------------------------------------------
+Api Event (665)     : Id=WPLUS Proc=2898:2b1c  Start=4491562  End=4491562  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 16
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "optimizationguide-pa.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:   190]------------------------------------------------------------------------------
+Api Event (666)     : Id=WPLUS Proc=2898:2938  Start=4491937  End=4491937  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 15
+Return Value      : (void)
+
+[Op#:   191]------------------------------------------------------------------------------
+Api Event (667)     : Id=WPLUS Proc=2898:2ed0  Start=4492718  End=4492718  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "mtalk.google.com"
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Return Value      : (void)
+
+[Op#:   192]------------------------------------------------------------------------------
+Api Event (668)     : Id=WPLUS Proc=2898:1b4c  Start=4492718  End=4492718  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "mtalk.google.com"
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Return Value      : (void)
+
+[Op#:   193]------------------------------------------------------------------------------
+Api Event (669)     : Id=WPLUS Proc=2898:2ed0  Start=4492718  End=4492718  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "mtalk.google.com"
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Return Value      : (void)
+
+[Op#:   194]------------------------------------------------------------------------------
+Api Event (670)     : Id=WPLUS Proc=2898:1b4c  Start=4492718  End=4492718  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "mtalk.google.com"
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Return Value      : (void)
+
+[Op#:   195]------------------------------------------------------------------------------
+Api Event (671)     : Id=WPLUS Proc=2898:23b8  Start=4492781  End=4492781  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   196]------------------------------------------------------------------------------
+Api Event (672)     : Id=WPLUS Proc=2898:23b8  Start=4492843  End=4492843  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 17
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Argument#  3  IN  : [portnum] = 5228
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   197]------------------------------------------------------------------------------
+Api Event (673)     : Id=WPLUS Proc=2898:2938  Start=4495296  End=4495296  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 17
+Return Value      : (void)
+
+[Op#:   198]------------------------------------------------------------------------------
+Api Event (674)     : Id=WPLUS Proc=2898:2938  Start=4498390  End=4498390  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 7
+Return Value      : (void)
+
+[Op#:   199]------------------------------------------------------------------------------
+Api Event (675)     : Id=WPLUS Proc=2898:2938  Start=4498406  End=4498406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 8
+Return Value      : (void)
+
+[Op#:   200]------------------------------------------------------------------------------
+Api Event (676)     : Id=WPLUS Proc=2898:2938  Start=4498421  End=4498421  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 9
+Return Value      : (void)
+
+[Op#:   201]------------------------------------------------------------------------------
+Api Event (677)     : Id=WPLUS Proc=2898:2938  Start=4498421  End=4498421  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 10
+Return Value      : (void)
+
+[Op#:   202]------------------------------------------------------------------------------
+Api Event (678)     : Id=WPLUS Proc=2898:2938  Start=4498437  End=4498437  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 11
+Return Value      : (void)
+
+[Op#:   203]------------------------------------------------------------------------------
+Api Event (679)     : Id=WPLUS Proc=2898:2938  Start=4498437  End=4498437  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 12
+Return Value      : (void)
+
+[Op#:   204]------------------------------------------------------------------------------
+Comment             :  click on make appointment 
+
+[Op#:   205]------------------------------------------------------------------------------
+Api Event (680)     : Id=HTTP Proc=2898:800cc0ce  Start=4508031  End=4508031  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [buflen] = ->791
+Argument#  3  OUT : [buflen] = ->791
+Return Value      : (void)
+
+[Op#:   206]------------------------------------------------------------------------------
+Api Event (681)     : Id=HTTP Proc=2898:80004006  Start=4507453  End=4508031  Duration=578 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:796]{ "GET /profile.php HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:791]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369712&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=5qFbO82Hxm3AS4g8qoU3V4nRqPkssvJ4QCnLwh2XBtY%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369712&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=5qFbO82Hxm3AS4g8qoU3V4nRqPkssvJ4QCnLwh2XBtY%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:52 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->796
+Argument#  7  OUT : [hdr_buflen] = ->791
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_006.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   207]------------------------------------------------------------------------------
+Api Event (682)     : Id=HTTP Proc=2898:800cc0ce  Start=4508515  End=4508515  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [buflen] = ->7274
+Argument#  3  OUT : [buflen] = ->7274
+Return Value      : (void)
+
+[Op#:   208]------------------------------------------------------------------------------
+Api Event (683)     : Id=WPLUS Proc=2898:23b8  Start=4508515  End=4508515  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   209]------------------------------------------------------------------------------
+Api Event (684)     : Id=WPLUS Proc=2898:23b8  Start=4508546  End=4508546  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 18
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   210]------------------------------------------------------------------------------
+Api Event (685)     : Id=WPLUS Proc=2898:23b8  Start=4509859  End=4509859  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   211]------------------------------------------------------------------------------
+Api Event (686)     : Id=WPLUS Proc=2898:23b8  Start=4509890  End=4509890  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 19
+Argument#  2  IN  : [ipaddress] = 142.250.183.234 (eab7fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   212]------------------------------------------------------------------------------
+Api Event (687)     : Id=WPLUS Proc=2898:266c  Start=4509968  End=4509968  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 19
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "6e2be111b1970d119de6147ac5b0a6fa7d7f81072202d221dc79368552436eb7"
+Return Value      : (void)
+
+[Op#:   213]------------------------------------------------------------------------------
+Api Event (688)     : Id=WPLUS Proc=2898:266c  Start=4509968  End=4509968  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 19
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "content-autofill.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:   214]------------------------------------------------------------------------------
+Api Event (689)     : Id=HTTP Proc=2898:800db0c9  Start=4510093  End=4510093  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 19
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->510
+Argument#  3  OUT : [buflen] = ->510
+Return Value      : (void)
+
+[Op#:   215]------------------------------------------------------------------------------
+Api Event (690)     : Id=HTTP Proc=2898:80013001  Start=4509968  End=4510093  Duration=125 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 19
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.183.234 (eab7fa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:563]{ "GET /v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDESLgkHqZJskw0sFxIFDZFhlU4SBQ2RYZVOEgUN541ADhIFDc5BTHohwfHPmPIHasw=?alt=proto HTTP/1.1\r\n"
+							"Host: content-autofill.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Goog-Encode-Response-If-Executable: base64\r\n"
+							"X-Goog-Api-Key: AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:447]{ "HTTP/1.1 200 OK\r\n"
+							"Cache-Control: private,max-age=604800\r\n"
+							"Content-Type: text/plain\r\n"
+							"X-Goog-Safety-Encoding: base64\r\n"
+							"X-Goog-Safety-Content-Type: application/x-protobuf\r\n"
+							"Vary: Origin\r\n"
+							"Vary: X-Origin\r\n"
+							"Vary: Referer\r\n"
+							"Content-Encoding: gzip\r\n"
+							"Date: Thu, 08 Feb 2024 05:21:54 GMT\r\n"
+							"Server: ESF\r\n"
+							"Content-Length: 63\r\n"
+							"X-XSS-Protection: 0\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->563
+Argument#  7  OUT : [hdr_buflen] = ->447
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:86]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_019_001_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->86
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   216]------------------------------------------------------------------------------
+Api Event (691)     : Id=WPLUS Proc=2898:2938  Start=4510312  End=4510312  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 18
+Return Value      : (void)
+
+[Op#:   217]------------------------------------------------------------------------------
+Api Event (692)     : Id=WPLUS Proc=2898:23b8  Start=4520093  End=4520109  Duration=16 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   218]------------------------------------------------------------------------------
+Api Event (693)     : Id=WPLUS Proc=2898:23b8  Start=4520156  End=4520156  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 20
+Argument#  2  IN  : [ipaddress] = 64.233.170.188 (bcaae940)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   219]------------------------------------------------------------------------------
+Api Event (694)     : Id=WPLUS Proc=2898:0518  Start=4521250  End=4521250  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 20
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "65195d6bae3af4c6e8e6bc538b963fa2261423a7017821b93b1964f8f9c6d83d"
+Return Value      : (void)
+
+[Op#:   220]------------------------------------------------------------------------------
+Api Event (695)     : Id=WPLUS Proc=2898:0518  Start=4521250  End=4521250  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 20
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "mtalk.google.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:   221]------------------------------------------------------------------------------
+Comment             :  login details 
+
+[Op#:   222]------------------------------------------------------------------------------
+Api Event (696)     : Id=WPLUS Proc=2898:23b8  Start=4529062  End=4529062  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   223]------------------------------------------------------------------------------
+Api Event (697)     : Id=WPLUS Proc=2898:23b8  Start=4529078  End=4529078  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   224]------------------------------------------------------------------------------
+Api Event (698)     : Id=WPLUS Proc=2898:0c28  Start=4530156  End=4530156  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "10bc05a707da1e457bdb3b701dfd93f5b60784f3fdcbd406eefc3441eb19ec83"
+Return Value      : (void)
+
+[Op#:   225]------------------------------------------------------------------------------
+Api Event (699)     : Id=WPLUS Proc=2898:0c28  Start=4530156  End=4530156  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "update.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:   226]------------------------------------------------------------------------------
+Api Event (700)     : Id=HTTP Proc=2898:800dd0c9  Start=4531828  End=4531828  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1145
+Argument#  3  OUT : [buflen] = ->1145
+Return Value      : (void)
+
+[Op#:   227]------------------------------------------------------------------------------
+Api Event (701)     : Id=HTTP Proc=2898:80015001  Start=4531093  End=4531828  Duration=735 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:1333]{ "POST /service/update2/json?cup2key=13:o9_cn7iIeQx8yovYdWa8-XOJ5pREIHifRMP3-K8WaD4&cup2hreq=b49df918265c0930da49a97ccd66e411f30055f6b32f3ed46885f6a91269f8f5 HTTP/1.1\r\n"
+							"Host: update.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 8554\r\n"
+							"X-Goog-Update-AppId: neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,kiabhabjdbkjdpjbpigfodbdjmbglcoo,niikhdgajlphfehepabhhblakbdgeefj,khaoiebndkojlmppeemjhbpbandiljpe,giekcmmlnklenlaomppkphknjmnnpneh,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,laoigpblnllgcgjnjnllmfolckpjlhki,efniojlnjndmcbiieegkicadnoecjjef,ehgidpndbllacpjalkiimkbadgjfnnmc,jflookgnkcckhobaglndicnbbgbonegd,jamhcnnkihinmdlkakkaopbjbbcngflc,ggkkehgbnfjpeggfpleeakpidbkibbmn,ojhpjlocmbogdgmfpkhlaaeamibhnphh,jflhchccmppkfebkiaminageehmchikm,eeigpngbgcognadeebkilcpcaedhellh,ihnlcenocehgdaegdmhbidjhnhdchfmm,gonpemdgkjcecdgbnaabipppbmgfggbe\r\n"
+							"X-Goog-Update-Interactivity: bg\r\n"
+							"X-Goog-Update-Updater: chrome-121.0.6167.141\r\n"
+							"Content-Type: application/json\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:1145]{ "HTTP/1.1 200 OK\r\n"
+							"Content-Security-Policy: script-src 'report-sample' 'nonce-xqsD8rfvHjTGWDqhZVF0mA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1\r\n"
+							"Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Expires: Mon, 01 Jan 1990 00:00:00 GMT\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:16 GMT\r\n"
+							"X-Cup-Server-Proof: 304402207cdca6813c46ac1104cb2c7bee9e152615189da664785185229e32230c297335022072818bb14ac419059f4e382ed0c036d5368155fe52dc77dfce0db386d652317d:b49df918265c0930da49a97ccd66e411f30055f6b32f3ed46885f6a91269f8f5\r\n"
+							"ETag: W/""304402207cdca6813c46ac1104cb2c7bee9e152615189da664785185229e32230c297335022072818bb14ac419059f4e382ed0c036d5368155fe52dc77dfce0db386d652317d:b49df918265c0930da49a97ccd66e411f30055f6b32f3ed46885f6a91269f8f5""\r\n"
+							"Content-Type: application/json; charset=utf-8\r\n"
+							"X-Daynum: 6246\r\n"
+							"X-Daystart: 76936\r\n"
+							"Content-Encoding: gzip\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-XSS-Protection: 1; mode=block\r\n"
+							"Server: GSE\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->1333
+Argument#  7  OUT : [hdr_buflen] = ->1145
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\rqst_021_001.dat" }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_021_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->82
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   228]------------------------------------------------------------------------------
+Api Event (702)     : Id=HTTP Proc=2898:800dd0c9  Start=4531828  End=4531828  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1328
+Argument#  3  OUT : [buflen] = ->1328
+Return Value      : (void)
+
+[Op#:   229]------------------------------------------------------------------------------
+Api Event (703)     : Id=HTTP Proc=2898:800dd0c9  Start=4531843  End=4531843  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->329
+Argument#  3  OUT : [buflen] = ->329
+Return Value      : (void)
+
+[Op#:   230]------------------------------------------------------------------------------
+Api Event (704)     : Id=HTTP Proc=2898:800dd0c9  Start=4531843  End=4531843  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:   231]------------------------------------------------------------------------------
+Api Event (705)     : Id=HTTP Proc=2898:800dd0ca  Start=4540468  End=4540468  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->701
+Argument#  3  OUT : [buflen] = ->701
+Return Value      : (void)
+
+[Op#:   232]------------------------------------------------------------------------------
+Api Event (706)     : Id=HTTP Proc=2898:80015002  Start=4540250  End=4540468  Duration=218 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:377]{ "POST /service/update2/json HTTP/1.1\r\n"
+							"Host: update.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 1552\r\n"
+							"Content-Type: application/json\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:701]{ "HTTP/1.1 200 OK\r\n"
+							"Content-Security-Policy: script-src 'report-sample' 'nonce-gceUxLEQkSEc75gbTA2OOA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1\r\n"
+							"Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Expires: Mon, 01 Jan 1990 00:00:00 GMT\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:24 GMT\r\n"
+							"Content-Type: application/json; charset=utf-8\r\n"
+							"X-Daynum: 6246\r\n"
+							"X-Daystart: 76944\r\n"
+							"Content-Encoding: gzip\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-XSS-Protection: 1; mode=block\r\n"
+							"Server: GSE\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->377
+Argument#  7  OUT : [hdr_buflen] = ->701
+Argument#  8  IN  : [body_buffer] = ->Array[0:1552]{ "{""request"":{""@os"":""win"",""@updater"":""chrome"",""acceptformat"":""crx3,puff"",""app"":[{""appid"":""niikhdgajlphfehepabhhblakbdgeefj"",""brand"":""GGLS"",""cohort"":""1:1uh3:"",""cohortname"":""Auto Main Cohort."",""enabled"":true,""event"":[{""download_time_ms"":8051,""downloaded"":3560,""downloader"":""bits"",""eventresult"":1,""eventtype"":14,""nextversion"":""2024.2.7.0"",""previousversion"":""2024.2.5.0"",""total"":3560,""url"":""http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/niikhdgajlphfehepabhhblakbdgeefj/1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06/1.31fc707db886cd7b31724279d1ce873be7f1ef84f9c8b0cb0664743d47e41217/7fdda59eb7050464bd021a8735fd22ecc73548629011dcc6d559e3ba39bef7bb.puff""},{""diffresult"":1,""eventresult"":1,""eventtype"":3,""nextfp"":""1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06"",""nextversion"":""2024.2.7.0"",""previousfp"":""1.31fc707db886cd7b31724279d1ce873be7f1ef84f9c8b0cb0664743d47e41217"",""previousversion"":""2024.2.5.0""}],""installdate"":6134,""lang"":""en-GB"",""packages"":{""package"":[{""fp"":""1.396f0c6d34d7135fea2ed14b699555b8f2dfb667e899ce8c79850d18760e8f06""}]},""version"":""2024.2.7.0""}],""arch"":""x64"",""dedup"":""cr"",""domainjoined"":false,""hw"":{""avx"":true,""physmemory"":12,""sse"":true,""sse2"":true,""sse3"":true,""sse41"":true,""sse42"":true,""ssse3"":true},""ismachine"":true,""nacl_arch"":""x86-64"",""os"":{""arch"":""x86_64"",""platform"":""Windows"",""version"":""10.0.19045.3324""},""prodversion"":""121.0.6167.141"",""protocol"":""3.1"",""requestid"":""{56faa19a-4700-4b0d-ad5a-5d29f8aedcd8}"",""sessionid"":""{5e65da8e-ab0d-467e-bc98-8bbed949c894}"",""updaterversion"":""121.0.6167.141""}}" }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->1552
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_021_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   233]------------------------------------------------------------------------------
+Api Event (707)     : Id=HTTP Proc=2898:800dd0ca  Start=4540484  End=4540484  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->202
+Argument#  3  OUT : [buflen] = ->202
+Return Value      : (void)
+
+[Op#:   234]------------------------------------------------------------------------------
+Api Event (708)     : Id=HTTP Proc=2898:800dd0ca  Start=4540484  End=4540484  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 21
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:   235]------------------------------------------------------------------------------
+Api Event (709)     : Id=HTTP Proc=2898:800cc0cf  Start=4542312  End=4542312  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [buflen] = ->857
+Argument#  3  OUT : [buflen] = ->857
+Return Value      : (void)
+
+[Op#:   236]------------------------------------------------------------------------------
+Api Event (710)     : Id=HTTP Proc=2898:80004007  Start=4542062  End=4542312  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:957]{ "POST /authenticate.php HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 45\r\n"
+							"Cache-Control: max-age=0\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"Origin: https://katalon-demo-cura.herokuapp.com\r\n"
+							"Content-Type: application/x-www-form-urlencoded\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/profile.php\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:857]{ "HTTP/1.1 302 Found\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369746&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=fRA%2B2bVt21rqEydLRhTr2oLSI9%2Bgl5IcJQ941tnpNSM%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369746&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=fRA%2B2bVt21rqEydLRhTr2oLSI9%2Bgl5IcJQ941tnpNSM%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:26 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Location: https://katalon-demo-cura.herokuapp.com/#appointment\r\n"
+							"Content-Length: 0\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->957
+Argument#  7  OUT : [hdr_buflen] = ->857
+Argument#  8  IN  : [body_buffer] = ->Array[0:45]{ "username=John+Doe&password=ThisIsNotAPassword" }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->45
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_007.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   237]------------------------------------------------------------------------------
+Api Event (711)     : Id=HTTP Proc=2898:800cc0d0  Start=4542562  End=4542562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 8
+Argument#  3  IN  : [buflen] = ->1982
+Argument#  3  OUT : [buflen] = ->1982
+Return Value      : (void)
+
+[Op#:   238]------------------------------------------------------------------------------
+Api Event (712)     : Id=HTTP Proc=2898:80004008  Start=4542312  End=4542578  Duration=266 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 8
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:822]{ "GET / HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Cache-Control: max-age=0\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/profile.php\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:803]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369747&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=IHInl0rlV%2BkfA6bp%2FxCMJRTp1Nws1GpdSv5NH8%2BINyU%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369747&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=IHInl0rlV%2BkfA6bp%2FxCMJRTp1Nws1GpdSv5NH8%2BINyU%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:27 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->822
+Argument#  7  OUT : [hdr_buflen] = ->803
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_008.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   239]------------------------------------------------------------------------------
+Api Event (713)     : Id=HTTP Proc=2898:800cc0d0  Start=4542578  End=4542578  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 8
+Argument#  3  IN  : [buflen] = ->7120
+Argument#  3  OUT : [buflen] = ->7120
+Return Value      : (void)
+
+[Op#:   240]------------------------------------------------------------------------------
+Api Event (714)     : Id=WPLUS Proc=2898:23b8  Start=4542593  End=4542593  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   241]------------------------------------------------------------------------------
+Api Event (715)     : Id=WPLUS Proc=2898:23b8  Start=4542609  End=4542625  Duration=16 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 22
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   242]------------------------------------------------------------------------------
+Api Event (716)     : Id=WPLUS Proc=2898:23b8  Start=4543687  End=4543687  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   243]------------------------------------------------------------------------------
+Api Event (717)     : Id=WPLUS Proc=2898:23b8  Start=4543718  End=4543718  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 23
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   244]------------------------------------------------------------------------------
+Api Event (718)     : Id=WPLUS Proc=2898:2938  Start=4543937  End=4543937  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 6
+Return Value      : (void)
+
+[Op#:   245]------------------------------------------------------------------------------
+Api Event (719)     : Id=WPLUS Proc=2898:2938  Start=4544468  End=4544468  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 22
+Return Value      : (void)
+
+[Op#:   246]------------------------------------------------------------------------------
+Api Event (720)     : Id=WPLUS Proc=2898:2938  Start=4544593  End=4544593  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 23
+Return Value      : (void)
+
+[Op#:   247]------------------------------------------------------------------------------
+Comment             :  logout 
+
+[Op#:   248]------------------------------------------------------------------------------
+Api Event (721)     : Id=HTTP Proc=2898:800cc0d1  Start=4559578  End=4559578  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 9
+Argument#  3  IN  : [buflen] = ->841
+Argument#  3  OUT : [buflen] = ->841
+Return Value      : (void)
+
+[Op#:   249]------------------------------------------------------------------------------
+Api Event (722)     : Id=HTTP Proc=2898:80004009  Start=4559328  End=4559578  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 9
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:808]{ "GET /authenticate.php?logout HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:841]{ "HTTP/1.1 302 Found\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369764&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=Q059Ys8CSWLYEmyFhG%2BMApQsCaFdEEzMM1jMnRVgDLg%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369764&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=Q059Ys8CSWLYEmyFhG%2BMApQsCaFdEEzMM1jMnRVgDLg%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:44 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Location: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Content-Length: 0\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->808
+Argument#  7  OUT : [hdr_buflen] = ->841
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_009.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   250]------------------------------------------------------------------------------
+Api Event (723)     : Id=HTTP Proc=2898:800cc0d2  Start=4559828  End=4559843  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 10
+Argument#  3  IN  : [buflen] = ->795
+Argument#  3  OUT : [buflen] = ->795
+Return Value      : (void)
+
+[Op#:   251]------------------------------------------------------------------------------
+Api Event (724)     : Id=HTTP Proc=2898:8000400a  Start=4559593  End=4559843  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 10
+Argument#  3  IN  : [ipaddress] = 54.235.77.118 (764deb36)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:785]{ "GET / HTTP/1.1\r\n"
+							"Host: katalon-demo-cura.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Referer: https://katalon-demo-cura.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: PHPSESSID=8019ftifto3kf574t08lnadmjc8qcvek\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:795]{ "HTTP/1.1 200 OK\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707369764&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=Q059Ys8CSWLYEmyFhG%2BMApQsCaFdEEzMM1jMnRVgDLg%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707369764&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=Q059Ys8CSWLYEmyFhG%2BMApQsCaFdEEzMM1jMnRVgDLg%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"Date: Thu, 08 Feb 2024 05:22:44 GMT\r\n"
+							"Server: Apache\r\n"
+							"Expires: Thu, 19 Nov 1981 08:52:00 GMT\r\n"
+							"Cache-Control: no-store, no-cache, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=UTF-8\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->785
+Argument#  7  OUT : [hdr_buflen] = ->795
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "D:\\SDET Training\\LoadRunnerScripts\\Solution1\\Script1\\data\\http.db\\resp_004_010.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.38 (263d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   252]------------------------------------------------------------------------------
+Api Event (725)     : Id=HTTP Proc=2898:800cc0d2  Start=4559843  End=4559843  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 10
+Argument#  3  IN  : [buflen] = ->4247
+Argument#  3  OUT : [buflen] = ->4247
+Return Value      : (void)
+
+[Op#:   253]------------------------------------------------------------------------------
+Api Event (726)     : Id=WPLUS Proc=2898:23b8  Start=4559859  End=4559859  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   254]------------------------------------------------------------------------------
+Api Event (727)     : Id=WPLUS Proc=2898:23b8  Start=4559890  End=4559890  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 24
+Argument#  2  IN  : [ipaddress] = 142.250.196.10 (0ac4fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   255]------------------------------------------------------------------------------
+Api Event (728)     : Id=WPLUS Proc=2898:2938  Start=4562312  End=4562312  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 24
+Return Value      : (void)
+
+[Op#:   256]------------------------------------------------------------------------------
+Api Event (729)     : Id=WPLUS Proc=2898:2938  Start=4565546  End=4565546  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 5
+Return Value      : (void)
+
+[Op#:   257]------------------------------------------------------------------------------
+Api Event (730)     : Id=WPLUS Proc=2898:2938  Start=4565546  End=4565546  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 14
+Return Value      : (void)
+
+[Op#:   258]------------------------------------------------------------------------------
+Api Event (731)     : Id=WPLUS Proc=2898:2938  Start=4565546  End=4565546  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 16
+Return Value      : (void)
+
+[Op#:   259]------------------------------------------------------------------------------
+Api Event (732)     : Id=WPLUS Proc=2898:23b8  Start=4565671  End=4565671  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "aab07a2b4ac2553"
+Argument#  2  IN  : [ipaddress] = 172.19.61.38 (263d13ac)
+Return Value      : (void)
+
+[Op#:   260]------------------------------------------------------------------------------
+Api Event (733)     : Id=WPLUS Proc=2898:23b8  Start=4565703  End=4565703  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 25
+Argument#  2  IN  : [ipaddress] = 142.250.193.142 (8ec1fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:   261]------------------------------------------------------------------------------
+Api Event (734)     : Id=WPLUS Proc=2898:2938  Start=4568093  End=4568093  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 25
+Return Value      : (void)
+
+[Op#:   262]------------------------------------------------------------------------------
+End Record          : END
+
+------------------------------------------------------------------------------------------

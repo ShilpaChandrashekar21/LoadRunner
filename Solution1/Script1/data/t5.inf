@@ -1,0 +1,17 @@
+[t5]
+FileName1=t5_userinfo.json
+URL1=https://www.googleapis.com/oauth2/v1/userinfo
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_theme.css
+URL2=https://katalon-demo-cura.herokuapp.com//css/theme.css
+FileName3=t5_theme.html
+URL3=https://katalon-demo-cura.herokuapp.com//js/theme.js
+FileName4=t5_css.css
+URL4=https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+[ProtocolInfo]
+ProtocolId=QTWeb

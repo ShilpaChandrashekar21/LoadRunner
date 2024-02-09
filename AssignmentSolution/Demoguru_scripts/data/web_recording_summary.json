@@ -1,0 +1,663 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "service-worker",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.google.octet-stream-compressible"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 23,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-07-2024",
+    "RecordingDuration": 62000,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707304899,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 557943,
+    "TotalBytesSent": 40830,
+    "TotalRequests": 41,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "saucedemo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "185.199.108.153",
+          "IncludeInScript": true,
+          "Name": "www.saucedemo.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 534,
+              "HttpStatus": 200,
+              "Size": 65641,
+              "URL": "https://www.saucedemo.com/static/media/sl-404.168b1cce.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 492,
+              "HttpStatus": 200,
+              "Size": 50028,
+              "URL": "https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 490,
+              "HttpStatus": 200,
+              "Size": 30463,
+              "URL": "https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 19681,
+              "URL": "https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 48521,
+              "URL": "https://www.saucedemo.com/static/media/pony-express.46394a5d.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 18574,
+              "URL": "https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b2.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 475,
+              "HttpStatus": 200,
+              "Size": 355,
+              "URL": "https://www.saucedemo.com/static/media/menu3x.52cc17a3.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 279,
+              "URL": "https://www.saucedemo.com/static/media/filter3x.2943df5b.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 469,
+              "HttpStatus": 200,
+              "Size": 527,
+              "URL": "https://www.saucedemo.com/static/media/cart3x.3669d74a.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 466,
+              "HttpStatus": 200,
+              "Size": 345,
+              "URL": "https://www.saucedemo.com/static/media/close@3x.a30a8a1d.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 454,
+              "HttpStatus": 200,
+              "Size": 11975,
+              "URL": "https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b0.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 14983,
+              "URL": "https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 447,
+              "HttpStatus": 200,
+              "Size": 234,
+              "URL": "https://www.saucedemo.com/static/media/arrow3x.4b825b78.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 46,
+              "EventId": 441,
+              "HttpStatus": 200,
+              "Size": 776,
+              "URL": "https://www.saucedemo.com/static/js/runtime-main.7bfd0a48.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 436,
+              "HttpStatus": 200,
+              "Size": 1299,
+              "URL": "https://www.saucedemo.com/index.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 31,
+              "EventId": 425,
+              "HttpStatus": 200,
+              "Size": 2138,
+              "URL": "https://www.saucedemo.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 422,
+              "HttpStatus": 200,
+              "Size": 13467,
+              "URL": "https://www.saucedemo.com/service-worker.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 309,
+              "HttpStatus": 200,
+              "Size": 175755,
+              "URL": "https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 21411,
+              "URL": "https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 288,
+              "HttpStatus": 200,
+              "Size": 11075,
+              "URL": "https://www.saucedemo.com/static/css/main.d9c3792d.chunk.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 1299,
+              "URL": "https://www.saucedemo.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "185.199.111.153",
+          "IncludeInScript": true,
+          "Name": "saucedemo.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 270,
+              "HttpStatus": 301,
+              "Size": 162,
+              "URL": "https://saucedemo.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.227",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 31,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 15024,
+              "URL": "https://fonts.gstatic.com/s/dmmono/v14/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 31,
+              "EventId": 368,
+              "HttpStatus": 200,
+              "Size": 14872,
+              "URL": "https://fonts.gstatic.com/s/dmmono/v14/aFTU7PB1QTsUX8KYthqQBA.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 15,
+              "EventId": 363,
+              "HttpStatus": 200,
+              "Size": 37000,
+              "URL": "https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.76.35",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 266,
+              "EventId": 644,
+              "HttpStatus": 200,
+              "Size": 894,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:_0cNpvolZVVEdhbHA8xvi6RO0R0DNpCD-a5lb88yGR4&cup2hreq=8f213f05a1e1ce36475ed291e74198a88288f2c8010d2e995f1e16b8e3804ef0"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.74",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 337,
+              "HttpStatus": 200,
+              "Size": 472,
+              "URL": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.106",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 439,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDESIAlFkLTOuKWH4RIFDRM2JzMSBQ3OQUx6IZFEnCqjIjpF?alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.205.238",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 594,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 315,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "backtrace.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.167.181.158",
+          "IncludeInScript": true,
+          "Name": "events.backtrace.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 438,
+              "EventId": 637,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 632,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 625,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 618,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 453,
+              "EventId": 609,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 604,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 597,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 590,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 469,
+              "EventId": 572,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 549,
+              "HttpStatus": 401,
+              "Size": 53,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 431,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 429,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

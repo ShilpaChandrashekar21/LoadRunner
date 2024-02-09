@@ -1,0 +1,439 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.google.octet-stream-compressible"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 11,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-07-2024",
+    "RecordingDuration": 223203,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707304952,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 82891,
+    "TotalBytesSent": 20351,
+    "TotalRequests": 15,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.195",
+          "IncludeInScript": true,
+          "Name": "www.gstatic.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 644,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://www.gstatic.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 635,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://www.gstatic.com/generate_204"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.35",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 266,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 872,
+              "URL": "http://update.googleapis.com/service/update2/json?cup2key=13:nE4JAgIJHmwUgOyVQMrfzyQq8XZVSZIQ42dQP2jHkFI&cup2hreq=6b989f593e5f8d0aae03e65fb9a80fa6e6a91c679d05b23db367a4d8f38667e2"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.202",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 668,
+              "HttpStatus": 200,
+              "Size": 3402,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTIxLjAuNjE2Ny4xNDEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDelxUaAhgL_a330iIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpOoNGgIYC0fgjbUiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABENzhDRoCGAv4W-lsIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDNrwcaAhgLczpccCIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ4TcaAhgLvwgj8yIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQ4qwCGgIYC0UDd6EiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgLYjna-CIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAuXnkjLIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCyFRoCGAuvTEX6IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCljQIaAhgLCTLfEiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ2bAOGgIYC1pmx0oiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJMhGgIYCwafaK8iBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.99",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 219,
+              "EventId": 487,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.205.238",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 859,
+              "EventId": 585,
+              "HttpStatus": 200,
+              "Size": 316,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.142",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 93,
+              "EventId": 688,
+              "HttpStatus": 200,
+              "Size": 4,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=884293478&t=pageview&_s=1&dl=https%3A%2F%2Fwww.bunnycart.com%2F&ul=en-gb&de=UTF-8&dt=Buy%20Aquatic%20Plants%20%26%20Aquarium%20Fish%20online&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=1413964495&gjid=652083596&cid=865183460.1707305173&tid=UA-53135226-1&_gid=1809341902.1707305173&_r=1&_slc=1&z=206325388"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 559,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j101&a=1466975774&t=pageview&_s=2&dl=https%3A%2F%2Fwww.bunnycart.com%2F&ul=en-gb&de=UTF-8&dt=Buy%20Aquatic%20Plants%20%26%20Aquarium%20Fish%20online&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=KEBAAEABAAAAACAAI~&jid=&gjid=&cid=865183460.1707305173&tid=UA-53135226-1&_gid=1809341902.1707305173&z=531945670"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 4,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1466975774&t=pageview&_s=1&dl=https%3A%2F%2Fwww.bunnycart.com%2F&ul=en-gb&de=UTF-8&dt=Buy%20Aquatic%20Plants%20%26%20Aquarium%20Fish%20online&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=IEBAAEABAAAAACAAI~&jid=1744770239&gjid=307832902&cid=865183460.1707305173&tid=UA-53135226-1&_gid=1809341902.1707305173&_r=1&_slc=1&z=1513304316"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 20994,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "",
+          "IncludeInScript": true,
+          "Name": "connect.facebook.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 540,
+              "HttpStatus": 200,
+              "Size": 57257,
+              "URL": "https://connect.facebook.net/en_US/fbevents.js"
+            }
+          ],
+          "SSLCipher": "TLS_CHACHA20_POLY1305_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.175.155",
+          "IncludeInScript": true,
+          "Name": "stats.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 561,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-53135226-1&cid=865183460.1707305173&jid=1744770239&gjid=307832902&_gid=1809341902.1707305173&_u=IEBAAEAAAAAAACAAI~&z=1798194236"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cloudflare.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.18.20.157",
+          "IncludeInScript": true,
+          "Name": "csp-reporting.cloudflare.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 93,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=xEMplc1bLQAPVT4WSrNprqFXjMbdFpDBDlIbNIxFlkQ-1707307307-1-AUeaS4BTJCZimi5kMNtviCc53N9nyPPLDgc4XuZf7T3chqk5ObYuPQhMSUQ1hbokG0n53ChYT-FPDm9kGdg-m87ByrQfY4uTGxshZXKbsAIqMnlX3igyyIb4PwAtpku3AmkVFJFvFFrL-TaD4P3f9kn9ISRzxKm_CZ08QkihExKE"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 516,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=xEMplc1bLQAPVT4WSrNprqFXjMbdFpDBDlIbNIxFlkQ-1707307307-1-AUeaS4BTJCZimi5kMNtviCc53N9nyPPLDgc4XuZf7T3chqk5ObYuPQhMSUQ1hbokG0n53ChYT-FPDm9kGdg-m87ByrQfY4uTGxshZXKbsAIqMnlX3igyyIb4PwAtpku3AmkVFJFvFFrL-TaD4P3f9kn9ISRzxKm_CZ08QkihExKE"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.190.80.1",
+          "IncludeInScript": true,
+          "Name": "a.nel.cloudflare.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 266,
+              "EventId": 679,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.nel.cloudflare.com/report/v3?s=PdFyyZ3%2BHYOBv0u8ppWed7%2FZKXo4KFoEyhIOR2WtAJ5Ev1%2F36QqTmXPqhR%2BqCnkS5JSAeYIY0VZt%2F4tOc1%2FLBVHJMKYP9odSrQUf8Cpq0Mn0x9e9wgBhc2FlQh7HbK3igFh3"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

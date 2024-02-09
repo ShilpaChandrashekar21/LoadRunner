@@ -1,0 +1,46 @@
+Virtual User Script started at: 07-02-2024 15:34:26
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\SDET Training\LoadRunnerScripts\CURAScripts\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 367945 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_url("katalon-demo-cura.herokuapp.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://katalon-demo-cura.herokuapp.com//css/theme.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://katalon-demo-cura.herokuapp.com//js/theme.js" in HTML "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(14): web_url("katalon-demo-cura.herokuapp.com") highest severity level was "warning", 81089 body bytes, 9124 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(23): web_url("header.jpg") started  	[MsgId: MMSG-26355]
+Action.c(23): web_url("header.jpg") was successful, 379361 body bytes, 760 header bytes  	[MsgId: MMSG-26386]
+Action.c(31): web_custom_request("reports") started  	[MsgId: MMSG-26355]
+Action.c(31): web_custom_request("reports") was successful, 0 body bytes, 166 header bytes  	[MsgId: MMSG-26386]
+Action.c(42): web_custom_request("command") started  	[MsgId: MMSG-26355]
+Action.c(42): Error -26630: HTTP Status-Code=400 (Bad Request) for "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D"  	[MsgId: MERR-26630]
+Action.c(42): web_custom_request("command") highest severity level was "ERROR", 31 body bytes, 482 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
