@@ -1,0 +1,35 @@
+<html><body>
+<script>
+    if (navigator.joinAdInterestGroup) {
+        const addIgScript = document.createElement('script');
+        let src = null;
+        if (navigator.runAdAuction) {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://asia.creativecdn.com/ig-membership?ntk=g_iuoGhEm222RH1QJci4MlonlksgG8RHaRTV2JoYV9WPF1i2sgwIXlBVd2dQ7Us5SNX7QdRgObitX0-PQDIp80pkXVghIp1Sjg2jXTgiNdk';
+            } else {
+                src = 'https://asia.creativecdn.com/ig-membership?ntk=g_iuoGhEm222RH1QJci4MlonlksgG8RHaRTV2JoYV9WPF1i2sgwIXlBVd2dQ7Us5SNX7QdRgObitX0-PQDIp89oFJAn5VjBzWYs65psEyPo';
+            }
+        } else {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://asia.creativecdn.com/ig-membership?ntk=g_iuoGhEm222RH1QJci4MlonlksgG8RHaRTV2JoYV9WPF1i2sgwIXlBVd2dQ7Us5SNX7QdRgObitX0-PQDIp8zVaTVszSanHPwPeCtbXeso';
+            } else {
+                src = 'https://asia.creativecdn.com/ig-membership?ntk=g_iuoGhEm222RH1QJci4MlonlksgG8RHaRTV2JoYV9WPF1i2sgwIXlBVd2dQ7Us5SNX7QdRgObitX0-PQDIp82CsgvDrdafx-D0aFW1cGF4';
+            }
+        }
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                if (label) {
+                    src += "&lbl=" + label;
+                }
+
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            });
+        } else {
+            addIgScript.setAttribute('src', src);
+            document.body.appendChild(addIgScript);
+        }
+    }
+</script>
+</body></html>

@@ -1,0 +1,503 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 7,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-12-2024",
+    "RecordingDuration": 44797,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707722164,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 97852,
+    "TotalBytesSent": 23725,
+    "TotalRequests": 37,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.76.35",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 305,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.166.106",
+          "IncludeInScript": true,
+          "Name": "ajax.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 379,
+              "HttpStatus": 200,
+              "Size": 29707,
+              "URL": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 32,
+              "EventId": 366,
+              "HttpStatus": 200,
+              "Size": 52746,
+              "URL": "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.78",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 524,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://safebrowsing.google.com/safebrowsing/clientreport/crx-telemetry"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "globalsqa.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.67.193.202",
+          "IncludeInScript": true,
+          "Name": "www.globalsqa.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 545,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.globalsqa.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 437,
+              "EventId": 539,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.globalsqa.com/favicon.ico"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 535,
+              "HttpStatus": 200,
+              "Size": 483,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/account.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 812,
+              "EventId": 533,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.globalsqa.com/favicon.ico"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 813,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 294,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/customerView.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 506,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.globalsqa.com/favicon.ico"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 437,
+              "EventId": 491,
+              "HttpStatus": 200,
+              "Size": 159,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/options.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 486,
+              "HttpStatus": 200,
+              "Size": 4119,
+              "URL": "https://www.globalsqa.com/wp-includes/images/w-logo-blue-white-bg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 812,
+              "EventId": 483,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.globalsqa.com/favicon.ico"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 813,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 166,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/main.html"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 403,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/withdrawlController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 901,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/transactionSummaryController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 219,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/optionsController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 266,
+              "EventId": 467,
+              "HttpStatus": 200,
+              "Size": 425,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/openAccountController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 465,
+              "HttpStatus": 200,
+              "Size": 279,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/managerViewController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 461,
+              "HttpStatus": 200,
+              "Size": 196,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/mainController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 459,
+              "HttpStatus": 200,
+              "Size": 299,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/listCustomerController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 455,
+              "HttpStatus": 200,
+              "Size": 390,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/depositController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 453,
+              "HttpStatus": 200,
+              "Size": 187,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/bodyController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 265,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 275,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/customerViewController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 447,
+              "HttpStatus": 200,
+              "Size": 409,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/addCustomerController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 443,
+              "HttpStatus": 200,
+              "Size": 652,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/accountViewController.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 189,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/date.search.filter.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 265,
+              "EventId": 436,
+              "HttpStatus": 200,
+              "Size": 431,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/config.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 434,
+              "HttpStatus": 200,
+              "Size": 391,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/customer.data.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 359,
+              "HttpStatus": 200,
+              "Size": 719,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/mockDataLoadService.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 759,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/transaction.service.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 266,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 664,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/account.service.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 344,
+              "HttpStatus": 200,
+              "Size": 556,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/user.service.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 265,
+              "EventId": 341,
+              "HttpStatus": 200,
+              "Size": 71,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/app.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 316,
+              "HttpStatus": 200,
+              "Size": 593,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/style.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 311,
+              "HttpStatus": 200,
+              "Size": 463,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 828,
+              "EventId": 307,
+              "HttpStatus": 301,
+              "Size": 707,
+              "URL": "https://www.globalsqa.com/angularJs-protractor/BankingProject"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

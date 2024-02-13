@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: thinking-tester-contact-list.herokuapp.com",
+                "infFile": "t1.inf",
+                "time": 1707735002949
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: login",
+                "infFile": "t2.inf",
+                "time": 1707735003294
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: contactList",
+                "infFile": "t3.inf",
+                "time": 1707735003800
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: contacts",
+                "infFile": "t4.inf",
+                "time": 1707735004070
+            }
+        ],
+        "transactions": []
+    }
+]

@@ -1,0 +1,354 @@
+[API Trapper      (38bc:38c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1728:33f4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 724:3990)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 724:3158)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 724:3158)] Load Network Traffic Analyzers:
+[Network Analyzer ( 724:3158)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 724:3158)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 724:3158)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 724:3158)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 724:3158)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 724:3158)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 724:3158)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 724:3158)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 724: 1a0)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.76.35:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 724:3360)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 74.125.200.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 724:3360)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724:34ac)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:34ac)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 724: 1a0)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=121"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 696 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 6a8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724: 6a8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724: 1a0)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 54 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1243 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 14 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/style.css"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 60 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Net An. Error    ( 724:3888)] SSL_connect(ssl_id = 2414947671744 = 0000023246191EC0) Failed, ctx = 0000023246130B50, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724:3888)]   (Sid:  4) SSL handshake with remote server Failed!
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Net An. Error    ( 724:2b98)] SSL_connect(ssl_id = 2414947741440 = 00000232461A2F00) Failed, ctx = 0000023246130B50, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724:2b98)]   (Sid:  5) SSL handshake with remote server Failed!
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 104.18.10.207:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 104.18.10.207:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3624)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 104.17.24.14:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.217.166.106:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.217.166.106:443   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/app.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724:3624)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    ( 724: 21c)] SSL_connect(ssl_id = 2414947897968 = 00000232461C9270) Failed, ctx = 0000023246130B50, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724: 21c)]   (Sid:  7) SSL handshake with remote server Failed!
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/user.service.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 607 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/account.service.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Net An. Error    ( 724: a0c)] SSL_connect(ssl_id = 2414947914064 = 00000232461CD150) Failed, ctx = 0000023246130B50, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724: a0c)]   (Sid:  8) SSL handshake with remote server Failed!
+[Net An. Error    ( 724:383c)] SSL_connect(ssl_id = 2414947949776 = 00000232461D5CD0) Failed, ctx = 00000232461D3A70, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724:383c)]   (Sid:  9) SSL handshake with remote server Failed!
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/transaction.service.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 151 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/mockDataLoadService.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Net An. Error    ( 724:3940)] SSL_connect(ssl_id = 2414953421424 = 000002324670DA70) Failed, ctx = 00000232461D3A70, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    ( 724:3940)]   (Sid: 10) SSL handshake with remote server Failed!
+[Network Analyzer ( 724:3848)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3848)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724:3858)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3858)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724:3238)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /ajax/libs/angularjs/1.4.7/angular.min.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 198 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724:3238)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/customer.data.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 608 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /ajax/libs/jquery/2.1.3/jquery.min.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/config.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Server -> Client : 131 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Server -> Client : 58 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1235 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1284 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/date.search.filter.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 613 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/accountViewController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 616 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1037 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 135 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/addCustomerController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 616 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/customerViewController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 617 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1258 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/bodyController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 609 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1126 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/depositController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 612 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1038 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1242 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/listCustomerController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 617 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/mainController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 609 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1154 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1047 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/managerViewController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 616 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/openAccountController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 616 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1131 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1279 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/optionsController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 612 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/transactionSummaryController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1064 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/withdrawlController.js"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 1257 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/main.html"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /favicon.ico"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 627 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 939 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 973 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /wp-includes/images/w-logo-blue-white-bg.png"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Client -> Server @ : 659 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/options.html"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Server -> Client : 831 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 951 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /favicon.ico"   
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Client -> Server @ : 627 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.195.170:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 724: a74)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724: a74)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.4.188:5228   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.205.227:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Server -> Client : 963 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724:1014)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 724:1014)] SSLAccept(ssl_id = 2414954483456 = 0000023246810F00) Failed, ctx = 0000023246838560, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 724:1014)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 724:2b78)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 724:2b78)] SSLAccept(ssl_id = 2414954446256 = 0000023246807DB0) Failed, ctx = 0000023246838560, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 724:2b78)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 724:3648)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 724:3648)] SSLAccept(ssl_id = 2414954431376 = 0000023246804390) Failed, ctx = 0000023246838560, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 724:3648)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 724: 1a0)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 724:2380)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 724:2380)] SSLAccept(ssl_id = 2414954505776 = 0000023246816630) Failed, ctx = 00000232460FB5A0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    ( 724:2380)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 724: 1a0)]   (Sid: 18) Connection Terminated (by Client)
+[API Trapper      (256c:331c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 724: 1a0)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 724: 1a0)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.182.78:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 724:2870)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:2870)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724: 1a0)]   (Sid: 19) Client -> Server @ : 939 bytes (SSL)(Service=HTTP)
+[Web Request      ( 724: 1a0)] "POST /safebrowsing/clientreport/crx-telemetry"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 19) Client -> Server @ : 657 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 19) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 172.67.193.202:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 724:3a2c)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3a2c)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/customerView.html"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 1095 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /favicon.ico"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Client -> Server @ : 627 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 967 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /angularJs-protractor/BankingProject/account.html"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 1275 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 6 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 724: 1a0)] "GET /favicon.ico"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Client -> Server @ : 627 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 963 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 724:3158)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer ( 724:3158)] Request Connection: Remote Server @ 142.250.4.188:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 724:3a88)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 724:3a88)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 724: 1a0)]   (Sid: 21) Client -> Server @ : 192 bytes (SSL)
+[Network Analyzer ( 724: 1a0)]   (Sid: 21) Server -> Client : 1 bytes (SSL)
+[Network Analyzer ( 724: 1a0)]   (Sid: 21) Server -> Client : 67 bytes (SSL)
+[Network Analyzer ( 724: 1a0)]   (Sid: 21) Server -> Client : 12 bytes (SSL)
+[Web Request      ( 724: 1a0)] "GET /favicon.ico"   
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Client -> Server @ : 627 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 724: 1a0)]   (Sid: 20) Server -> Client : 967 bytes (SSL) (Service=HTTP)

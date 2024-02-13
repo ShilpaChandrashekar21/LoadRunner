@@ -1,0 +1,1459 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "client-sdk",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "attribution-reporting-support",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "attribution-reporting-eligible",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/webp"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.google.octet-stream-compressible"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 37,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-12-2024",
+    "RecordingDuration": 89860,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707735969,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 2795982,
+    "TotalBytesSent": 77734,
+    "TotalRequests": 95,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yimg.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "27.123.43.205",
+          "IncludeInScript": true,
+          "Name": "s.yimg.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1087,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://s.yimg.com/wi/config/10092155.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 995,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "https://s.yimg.com/wi/config/10092155.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 894,
+              "HttpStatus": 200,
+              "Size": 6262,
+              "URL": "https://s.yimg.com/wi/ytc.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "yahoo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.10.236.146",
+          "IncludeInScript": true,
+          "Name": "sp.analytics.yahoo.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 1093,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2012%20Feb%202024%2011%3A07%3A20%20GMT&n=-5&b=FreshToHome%20-%20Order%20Fresh%20Fish%2C%20Chicken%20and%20Mutton%20Online.&.yp=10092155&f=https%3A%2F%2Fwww.freshtohome.com%2F&e=https%3A%2F%2Fwww.freshtohome.com%2F&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 1011,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2012%20Feb%202024%2011%3A06%3A57%20GMT&n=-5&b=FreshToHome%20-%20Order%20Fresh%20Fish%2C%20Chicken%20and%20Mutton%20Online.&.yp=10092155&f=https%3A%2F%2Fwww.freshtohome.com%2F&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "omguk.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.169.213.67",
+          "IncludeInScript": true,
+          "Name": "track.omguk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 1083,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://track.omguk.com/e/qs/?action=Content&MID=1975058&PID=36352&ref=https%3A//www.freshtohome.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 110,
+              "EventId": 978,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://track.omguk.com/e/qs/?action=Content&MID=1975058&PID=36352&ref=https%3A//www.freshtohome.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.131",
+          "IncludeInScript": true,
+          "Name": "www.gstatic.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 45,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://www.gstatic.com/generate_204"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googletagmanager.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.40",
+          "IncludeInScript": true,
+          "Name": "www.googletagmanager.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 386,
+              "HttpStatus": 200,
+              "Size": 95882,
+              "URL": "https://www.googletagmanager.com/gtm.js?id=GTM-TFD95RK"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.205.227",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 281,
+              "EventId": 1031,
+              "HttpStatus": 200,
+              "Size": 889,
+              "URL": "http://update.googleapis.com/service/update2/json?cup2key=13:3DFWKLuWd3X6_2gyKDM8vFK8JUP4cN7GmOKsqg8iUPg&cup2hreq=0b06393a53fe09034618fd9fc098d19f9c4251aca238445e27caa79294348491"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.138",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 926,
+              "HttpStatus": 200,
+              "Size": 153,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESXwlSayB0o321MxIFDRnanecSBQ2eO5DeEgUND8N9PBIFDZcNumISBQ0WEGLXEgUN1xxW4xIFDeE4jR0SBQ0Pw308EgUNN21msxIFDRbPtVwSBQ3KiqTnIRvcAwEmnI4y?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.35",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 219,
+              "EventId": 14,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleadservices.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.98",
+          "IncludeInScript": true,
+          "Name": "www.googleadservices.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 110,
+              "EventId": 922,
+              "HttpStatus": 200,
+              "Size": 1780,
+              "URL": "https://www.googleadservices.com/pagead/conversion/660083121/?random=1707736015294&cv=11&fst=1707736015294&bg=ffffff&guid=ON&async=1&gtm=45He4270v78148969za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.freshtohome.com%2F&label=F7tmCI3P2skBELGj4LoC&hn=www.googleadservices.com&frm=0&tiba=FreshToHome%20-%20Order%20Fresh%20Fish%2C%20Chicken%20and%20Mutton%20Online.&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=1351083710.1707736015&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.161%7CChromium%3B121.0.6167.161&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&fledge=1&capi=1&rfmt=3&fmt=4"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.142",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 672,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 315,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.239.38.181",
+          "IncludeInScript": true,
+          "Name": "analytics.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1158,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-QW17VFVMT1&gtm=45je4270v875292147z878148969za200&_p=1707736039399&_gaz=1&gcd=13l3l3l3l1&npa=0&dma=0&cid=1679941838.1707736017&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.161%7CChromium%3B121.0.6167.161&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&pae=1&pscdl=noapi&_s=1&sid=1707736041&sct=1&seg=0&dl=https%3A%2F%2Fwww.freshtohome.com%2F&dr=https%3A%2F%2Fwww.freshtohome.com%2F&dt=FreshToHome%20-%20Order%20Fresh%20Fish%2C%20Chicken%20and%20Mutton%20Online.&en=page_view&_fv=1&_ss=1&tfd=1864"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.239.38.178",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 46,
+              "EventId": 498,
+              "HttpStatus": 200,
+              "Size": 20994,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "freshtohome.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.67.73.6",
+          "IncludeInScript": true,
+          "Name": "www.freshtohome.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 93,
+              "EventId": 1039,
+              "HttpStatus": 200,
+              "Size": 39923,
+              "URL": "https://www.freshtohome.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 361,
+              "HttpStatus": 200,
+              "Size": 6214,
+              "URL": "https://www.freshtohome.com/skin/frontend/default/theme659/images/playstore_badge.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 274,
+              "HttpStatus": 200,
+              "Size": 3760,
+              "URL": "https://www.freshtohome.com/skin/frontend/default/theme659/images/appstore_badge.png"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 39816,
+              "URL": "https://www.freshtohome.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.67.73.6",
+          "IncludeInScript": true,
+          "Name": "static.freshtohome.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1112,
+              "HttpStatus": 200,
+              "Size": 5144,
+              "URL": "https://static.freshtohome.com/media/favicon/default/logo-3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1021,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/images/camera/blank.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 912,
+              "HttpStatus": 200,
+              "Size": 37094,
+              "URL": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/g/r/green_backs_scaled_sardine_whole.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 907,
+              "HttpStatus": 200,
+              "Size": 51200,
+              "URL": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/sea_crab_-whole_1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 79,
+              "EventId": 905,
+              "HttpStatus": 200,
+              "Size": 51983,
+              "URL": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/m/a/mackerel_whole_1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 79,
+              "EventId": 903,
+              "HttpStatus": 200,
+              "Size": 20193,
+              "URL": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken-chickenthigh.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 32,
+              "EventId": 901,
+              "HttpStatus": 200,
+              "Size": 406,
+              "URL": "https://static.freshtohome.com/images/icons/social/icon-youtube-purple.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 876,
+              "HttpStatus": 200,
+              "Size": 682,
+              "URL": "https://static.freshtohome.com/images/icons/social/icon-instagram-purple.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 871,
+              "HttpStatus": 200,
+              "Size": 464,
+              "URL": "https://static.freshtohome.com/images/icons/social/icon-facebook-purple.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 868,
+              "HttpStatus": 200,
+              "Size": 56708,
+              "URL": "https://static.freshtohome.com/images/web/download-app-banner-lollypop.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 864,
+              "HttpStatus": 200,
+              "Size": 524,
+              "URL": "https://static.freshtohome.com/images/icons/social/icon-twitter-purple.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 862,
+              "HttpStatus": 200,
+              "Size": 57660,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/batter.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 649,
+              "HttpStatus": 200,
+              "Size": 58204,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/fillet.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 645,
+              "HttpStatus": 200,
+              "Size": 67306,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/rtc.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 47,
+              "EventId": 642,
+              "HttpStatus": 200,
+              "Size": 24376,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/fonts/orkney/Orkney-Medium.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 61604,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/combo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 47,
+              "EventId": 634,
+              "HttpStatus": 200,
+              "Size": 24936,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/fonts/orkney/Orkney-Bold.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 64032,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/mutton.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 626,
+              "HttpStatus": 200,
+              "Size": 9352,
+              "URL": "https://static.freshtohome.com/images/logo/2021/logo-medium.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 47,
+              "EventId": 599,
+              "HttpStatus": 200,
+              "Size": 24876,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/fonts/orkney/Orkney-Regular.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 93,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 44432,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/fonts/fontawesome-webfont.woff?v=4.0.3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 509,
+              "HttpStatus": 200,
+              "Size": 70528,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/css/flags.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 500,
+              "HttpStatus": 200,
+              "Size": 4119,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/images/camera/camera-loader.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 68230,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/seafood.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 476,
+              "HttpStatus": 200,
+              "Size": 56358,
+              "URL": "https://static.freshtohome.com/images/mobile/home/categories/new-ui/chicken.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 383,
+              "HttpStatus": 200,
+              "Size": 1288,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/mutton.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 380,
+              "HttpStatus": 200,
+              "Size": 1144,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/basket.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 378,
+              "HttpStatus": 200,
+              "Size": 1632,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/chicken.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 78,
+              "EventId": 374,
+              "HttpStatus": 200,
+              "Size": 2416,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/steaks.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 1054,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/readytocook.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 359,
+              "HttpStatus": 200,
+              "Size": 352,
+              "URL": "https://static.freshtohome.com/images/icons/download-app.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 357,
+              "HttpStatus": 200,
+              "Size": 1596,
+              "URL": "https://static.freshtohome.com/images/icons/early-delivery.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 355,
+              "HttpStatus": 200,
+              "Size": 1632,
+              "URL": "https://static.freshtohome.com/images/icons/category-icons/fish.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 352,
+              "HttpStatus": 200,
+              "Size": 1112,
+              "URL": "https://static.freshtohome.com/images/icons/vip.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 338,
+              "HttpStatus": 200,
+              "Size": 1394,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/images/new/cart-icon-04.png"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 306,
+              "HttpStatus": 200,
+              "Size": 679,
+              "URL": "https://static.freshtohome.com/media/css_secure/fe76842601fed9febe32eb842c90c87b.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 303,
+              "HttpStatus": 200,
+              "Size": 1480,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/images/new/profile-icon-01.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 277,
+              "HttpStatus": 200,
+              "Size": 113372,
+              "URL": "https://static.freshtohome.com/antibioticfree/certificate-banner-web-2021.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 266,
+              "HttpStatus": 200,
+              "Size": 3342,
+              "URL": "https://static.freshtohome.com/images/others/fssai-veg-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 246,
+              "HttpStatus": 200,
+              "Size": 510,
+              "URL": "https://static.freshtohome.com/images/others/fssai-nveg-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 3300,
+              "URL": "https://static.freshtohome.com/skin/frontend/default/theme659/images/image_placeholder.jpg"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 78,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 278257,
+              "URL": "https://static.freshtohome.com/media/js/42ffcdb83e942694f3ed36a0b3510054.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 93622,
+              "URL": "https://static.freshtohome.com/media/css_secure/315dd443cc4f9011a1eb6b8508b2173f.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 104,
+              "HttpStatus": 200,
+              "Size": 13806,
+              "URL": "https://static.freshtohome.com/images/logo/2023/app-icon-valentine.png"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.26.8.222",
+          "IncludeInScript": true,
+          "Name": "cdn.freshtohome.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 1025,
+              "HttpStatus": 200,
+              "Size": 44688,
+              "URL": "https://cdn.freshtohome.com/media/banner/1b60de8d3fcedd11.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 94,
+              "EventId": 1016,
+              "HttpStatus": 200,
+              "Size": 57986,
+              "URL": "https://cdn.freshtohome.com/media/banner/dea035c3a787ef26.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 960,
+              "HttpStatus": 200,
+              "Size": 49300,
+              "URL": "https://cdn.freshtohome.com/media/banner/ee99e1b8f7cfaa8e.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 954232,
+              "URL": "https://cdn.freshtohome.com/media/banner/fa5803d7a46e6dbc.gif"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.192.16",
+          "IncludeInScript": true,
+          "Name": "connect.facebook.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 971,
+              "HttpStatus": 200,
+              "Size": 57257,
+              "URL": "https://connect.facebook.net/en_US/fbevents.js"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.192.35",
+          "IncludeInScript": true,
+          "Name": "www.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 1104,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=772459473600138&ev=PageView&dl=https%3A%2F%2Fwww.freshtohome.com%2F&rl=https%3A%2F%2Fwww.freshtohome.com%2F&if=false&ts=1707736040169&sw=1280&sh=720&v=2.9.145&r=stable&a=tmgoogletagmanager&ec=0&o=4126&fbp=fb.1.1707736017199.1791303972&ler=empty&cdl=API_unavailable&it=1707736039900&coo=false&exp=e1&rqm=FGET"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 1098,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1634294196826271&ev=PageView&dl=https%3A%2F%2Fwww.freshtohome.com%2F&rl=https%3A%2F%2Fwww.freshtohome.com%2F&if=false&ts=1707736040159&sw=1280&sh=720&v=2.9.145&r=stable&ec=0&o=4126&fbp=fb.1.1707736017199.1791303972&ler=empty&cdl=API_unavailable&it=1707736039900&coo=false&exp=e1&rqm=FGET"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1091,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.facebook.com/tr/?id=772459473600138&ev=PageView&dl=https%3A%2F%2Fwww.freshtohome.com%2F&rl=https%3A%2F%2Fwww.freshtohome.com%2F&if=false&ts=1707736040169&sw=1280&sh=720&v=2.9.145&r=stable&a=tmgoogletagmanager&ec=0&o=4126&fbp=fb.1.1707736017199.1791303972&ler=empty&cdl=API_unavailable&it=1707736039900&coo=false&exp=e1&rqm=GET"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1089,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.facebook.com/tr/?id=1634294196826271&ev=PageView&dl=https%3A%2F%2Fwww.freshtohome.com%2F&rl=https%3A%2F%2Fwww.freshtohome.com%2F&if=false&ts=1707736040159&sw=1280&sh=720&v=2.9.145&r=stable&ec=0&o=4126&fbp=fb.1.1707736017199.1791303972&ler=empty&cdl=API_unavailable&it=1707736039900&coo=false&exp=e1&rqm=GET"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.162",
+          "IncludeInScript": true,
+          "Name": "td.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 967,
+              "HttpStatus": 200,
+              "Size": 16,
+              "URL": "https://td.doubleclick.net/td/rul/660083121?random=1707736015294&cv=11&fst=1707736015294&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45He4270v78148969za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.freshtohome.com%2F&label=F7tmCI3P2skBELGj4LoC&hn=www.googleadservices.com&frm=0&tiba=FreshToHome%20-%20Order%20Fresh%20Fish%2C%20Chicken%20and%20Mutton%20Online.&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=1351083710.1707736015&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.161%7CChromium%3B121.0.6167.161&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&fledge=1&capi=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.175.154",
+          "IncludeInScript": true,
+          "Name": "stats.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1146,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-QW17VFVMT1&cid=1679941838.1707736017&gtm=45je4270v875292147z878148969za200&aip=1&dma=0&gcd=13l3l3l3l1&npa=0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 997,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-32234783-1&cid=1679941838.1707736017&jid=535950374&gjid=918419895&_gid=1893447347.1707736017&_u=IEBAAEAAAAAAACAAI~&z=436324710"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "criteo.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "182.161.73.129",
+          "IncludeInScript": true,
+          "Name": "static.criteo.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 1128,
+              "HttpStatus": 200,
+              "Size": 15200,
+              "URL": "https://static.criteo.net/js/ld/ld.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "criteo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "182.161.73.146",
+          "IncludeInScript": true,
+          "Name": "sslwidget.criteo.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 94,
+              "EventId": 1169,
+              "HttpStatus": 200,
+              "Size": 975,
+              "URL": "https://sslwidget.criteo.com/event?a=61826&v=5.21.0&otl=1&p0=e%3Dce%26m%3D%255B%255D&p1=e%3Dexd%26site_type%3Dd&p2=e%3Dvh&p3=e%3Ddis&adce=1&tld=freshtohome.com&fu=https%253A%252F%252Fwww.freshtohome.com%252F&pu=https%253A%252F%252Fwww.freshtohome.com%252F&ceid=b5aa0133-6d2e-4535-8baf-f8fb93c36804&dtycbr=71881"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "creativecdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "103.132.192.30",
+          "IncludeInScript": true,
+          "Name": "f.creativecdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 1160,
+              "HttpStatus": 200,
+              "Size": 61,
+              "URL": "https://f.creativecdn.com/.well-known/interest-group/permissions/?origin=https%3A%2F%2Fasia.creativecdn.com"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "103.132.192.30",
+          "IncludeInScript": true,
+          "Name": "asia.creativecdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 1138,
+              "HttpStatus": 200,
+              "Size": 678,
+              "URL": "https://asia.creativecdn.com/ig-membership?ntk=g_iuoGhEm222RH1QJci4MlonlksgG8RHaRTV2JoYV9WPF1i2sgwIXlBVd2dQ7Us5SNX7QdRgObitX0-PQDIp80pkXVghIp1Sjg2jXTgiNdk"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 1126,
+              "HttpStatus": 200,
+              "Size": 569,
+              "URL": "https://asia.creativecdn.com/ig-membership?ntk=jYCnjk4iPtJ5BAuegqq3GNVF5DEPIetf8s3zaW0gENDn791a21GTHMLhpuDMZASUrex3thuUiqLT0d_NeLUN-FWPVt8MDeuw9peEv_E7pqc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 1119,
+              "HttpStatus": 200,
+              "Size": 452,
+              "URL": "https://asia.creativecdn.com/topics-membership?ntk=4bhEhOsvzVY91wuTilTMJj_vnGIHcw16eC_gTJxJrgpM4vI3xQZ5uNgk3Ayv76dvxWDqmcbkxxdmbBtCp72GyOOJICyZyIMWq3ZhHgsCT2A"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 1110,
+              "HttpStatus": 200,
+              "Size": 420,
+              "URL": "https://asia.creativecdn.com/tags?id=pr_4ioo4qmFHYgLJsDnam70_home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 1081,
+              "HttpStatus": 200,
+              "Size": 26,
+              "URL": "https://asia.creativecdn.com/tags?id=pr_4ioo4qmFHYgLJsDnam70&ncm=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 958,
+              "HttpStatus": 200,
+              "Size": 26,
+              "URL": "https://asia.creativecdn.com/tags?id=pr_4ioo4qmFHYgLJsDnam70&ncm=1&tc=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 94,
+              "EventId": 914,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://asia.creativecdn.com/tags?id=pr_4ioo4qmFHYgLJsDnam70&ncm=1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "artfut.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.26.1.109",
+          "IncludeInScript": true,
+          "Name": "www.artfut.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 636,
+              "HttpStatus": 200,
+              "Size": 7938,
+              "URL": "https://www.artfut.com/static/crossdevice.min.js?campaign_code=cc0dff692b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 5685,
+              "URL": "https://www.artfut.com/static/tracking.min.js?campaign_code=cc0dff692b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 1353,
+              "URL": "https://www.artfut.com/static/tagtag.min.js?campaign_code=cc0dff692b"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "adnxs.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "103.43.90.54",
+          "IncludeInScript": true,
+          "Name": "ib.adnxs.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 94,
+              "EventId": 1149,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://ib.adnxs.com/bounce?%2Fsetuid%3Fentity%3D315%26code%3Dacczd5HcAi7J5TdS7uRrEnD9d8ykEMtc0NuRUJwuyPQ"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 1140,
+              "HttpStatus": 307,
+              "Size": 0,
+              "URL": "https://ib.adnxs.com/setuid?entity=315&code=acczd5HcAi7J5TdS7uRrEnD9d8ykEMtc0NuRUJwuyPQ"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "adjust.net.in",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "185.151.204.33",
+          "IncludeInScript": true,
+          "Name": "app.adjust.net.in",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 562,
+              "EventId": 1154,
+              "HttpStatus": 500,
+              "Size": 257,
+              "URL": "https://app.adjust.net.in/session?gps_adid=96eacd87-b851-48aa-8086-4be02489ec80&app_token=b0n6h09skpog&environment=production&os_name=Windows&platform_name=Win32&callback_params=%7B%22device_id%22%3A%2296eacd87-b851-48aa-8086-4be02489ec80%22%2C%22medium%22%3A%22Desktop%22%7D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 829,
+              "EventId": 1131,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://app.adjust.net.in/session?gps_adid=96eacd87-b851-48aa-8086-4be02489ec80&app_token=b0n6h09skpog&environment=production&os_name=Windows&platform_name=Win32&callback_params=%7B%22device_id%22%3A%2296eacd87-b851-48aa-8086-4be02489ec80%22%2C%22medium%22%3A%22Desktop%22%7D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 562,
+              "EventId": 1002,
+              "HttpStatus": 200,
+              "Size": 84,
+              "URL": "https://app.adjust.net.in/session?gps_adid=96eacd87-b851-48aa-8086-4be02489ec80&app_token=b0n6h09skpog&environment=production&os_name=Windows&platform_name=Win32&callback_params=%7B%22device_id%22%3A%2296eacd87-b851-48aa-8086-4be02489ec80%22%2C%22medium%22%3A%22Desktop%22%7D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 563,
+              "EventId": 985,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://app.adjust.net.in/session?gps_adid=96eacd87-b851-48aa-8086-4be02489ec80&app_token=b0n6h09skpog&environment=production&os_name=Windows&platform_name=Win32&callback_params=%7B%22device_id%22%3A%2296eacd87-b851-48aa-8086-4be02489ec80%22%2C%22medium%22%3A%22Desktop%22%7D"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}
