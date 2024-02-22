@@ -1,0 +1,15 @@
+open appdynamics
+lauch controller
+in services -> getting started
+download agent
+in the folder ->conf
+controller-info file add this <application-name>Shilpa_machine_agent</application-name>
+	<tier-name>ShilpaC_windows_system</tier-name>
+	<node-name>Shilpa_windows_node</node-name>
+save nd exit
+copy machine agent path 
+run cmd as administrator go into machine agent path
+run java -jar machineagent.jar
+run installservice.vbs
+to check if agent is running
+search service in start
