@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("E4F015B2-4639-4CA6-8700-BC9146C68C28") = "LoadRunnerPractice", "LoadRunnerPractice\LoadRunnerPractice.usr", "E4F015B2-4639-4CA6-8700-BC9146C68C28"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcUHJhY3RpY2VcTG9hZFJ1bm5lclByYWN0aWNlXExvYWRSdW5uZXJQcmFjdGljZS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcU0RFVCBUcmFpbmluZ1xMb2FkUnVubmVyU2NyaXB0c1xQcmFjdGljZVxMb2FkUnVubmVyUHJhY3RpY2VcTG9hZFJ1bm5lclByYWN0aWNlLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMTlUMTU6Mjk6MDMuNDQ3Mjg4NyswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("2511F4A0-E9AB-44D0-B8CD-F9302391FB43") = "LRP", "..\LRP\LRP.usr", "2511F4A0-E9AB-44D0-B8CD-F9302391FB43"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcTFJQXExSUC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcU0RFVCBUcmFpbmluZ1xMb2FkUnVubmVyU2NyaXB0c1xMUlBcTFJQLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMTlUMTU6NDE6MjkuMzYwOTQ5NCswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("274D3ABE-BB4B-486F-B65F-2EAE310DF82F") = "LRP3", "..\LRP3\LRP3.usr", "274D3ABE-BB4B-486F-B65F-2EAE310DF82F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcTFJQM1xMUlAzLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5EOlxTREVUIFRyYWluaW5nXExvYWRSdW5uZXJTY3JpcHRzXExSUDNcTFJQMy51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTAyLTE5VDE2OjEyOjM4Ljc0NjU3NDkrMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		E4F015B2-4639-4CA6-8700-BC9146C68C28.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E4F015B2-4639-4CA6-8700-BC9146C68C28.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E4F015B2-4639-4CA6-8700-BC9146C68C28.Release|Any CPU.Build.0 = Release|Any CPU
+		E4F015B2-4639-4CA6-8700-BC9146C68C28.Release|Any CPU.ActiveCfg = Release|Any CPU
+		2511F4A0-E9AB-44D0-B8CD-F9302391FB43.Debug|Any CPU.Build.0 = Debug|Any CPU
+		2511F4A0-E9AB-44D0-B8CD-F9302391FB43.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		2511F4A0-E9AB-44D0-B8CD-F9302391FB43.Release|Any CPU.Build.0 = Release|Any CPU
+		2511F4A0-E9AB-44D0-B8CD-F9302391FB43.Release|Any CPU.ActiveCfg = Release|Any CPU
+		274D3ABE-BB4B-486F-B65F-2EAE310DF82F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		274D3ABE-BB4B-486F-B65F-2EAE310DF82F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		274D3ABE-BB4B-486F-B65F-2EAE310DF82F.Release|Any CPU.Build.0 = Release|Any CPU
+		274D3ABE-BB4B-486F-B65F-2EAE310DF82F.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

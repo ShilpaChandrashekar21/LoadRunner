@@ -1,0 +1,312 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 9,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-20-2024",
+    "RecordingDuration": 27281,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1708403246,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 145880,
+    "TotalBytesSent": 13072,
+    "TotalRequests": 14,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.163",
+          "IncludeInScript": true,
+          "Name": "www.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 24,
+              "HttpStatus": 200,
+              "Size": 78832,
+              "URL": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.u8Ti_iwBwEs.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsL4HiE1bvJV-MS9_mgAxWPHzXqxw"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 21,
+              "HttpStatus": 200,
+              "Size": 640,
+              "URL": "https://www.gstatic.com/og/_/ss/k=og.qtm.zz20CdIDKVg.L.W.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvwL5uXLldqnwtu49O3C0adR0c4Jg"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.174",
+          "IncludeInScript": true,
+          "Name": "encrypted-tbn0.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 246,
+              "HttpStatus": 200,
+              "Size": 1949,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRqfOO_2GDRYCo3n4njzVMv4kuRB18gpGpwvgSMdXCKIHaHIVUgcW66Ac&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 241,
+              "HttpStatus": 200,
+              "Size": 878,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-ZKJT2NX6tIsv_y5RWO0BDzlkvLWGwgLzEQE2JI&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 236,
+              "HttpStatus": 200,
+              "Size": 1822,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBLEBkLrKLcYJDDMVxyNGEARF9_n78jmAuYckYnE&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 232,
+              "HttpStatus": 200,
+              "Size": 1979,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bDxFXjoprkuTPQdiSZAlfsYdqxS7D3eczc1Z34sACogj2u6NwQ8Wsvc&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 1271,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_s3Lp8qhr7leNRkFETBE44AiOwmCJkqWm88_IJHQ&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 225,
+              "HttpStatus": 200,
+              "Size": 2833,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-PZVKIv9gfht_80JnLJaYccOUNPniZ27uHm10o63tDejVMhnYhoAoJe8&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 221,
+              "HttpStatus": 200,
+              "Size": 2314,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSieUazqomi06p53_bUUUwTIOlSGDWHdLVG2HiGNakZRTpT-1rcH4HgYK0&s=10"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.238",
+          "IncludeInScript": true,
+          "Name": "play.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 162,
+              "HttpStatus": 200,
+              "Size": 131,
+              "URL": "https://play.google.com/log?format=json&hasfast=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://play.google.com/log?format=json&hasfast=true&authuser=0"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.46",
+          "IncludeInScript": true,
+          "Name": "ogs.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 98,
+              "HttpStatus": 200,
+              "Size": 12108,
+              "URL": "https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=a5627eb5c02923db&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=en"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.215.35",
+          "IncludeInScript": true,
+          "Name": "id.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 375,
+              "EventId": 277,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://id.google.com/verify/ADyTd2FdG5bZvFalP3oYhp_Vv0EpW3bIbb3tBfCFhlH3vs0FWjH9JdGa0rBFYHoED4vaafB6kI7ELkTI2qqBW6Gn3rpz0AtVLdVwKc19H5dedWIYoUPl"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.78",
+          "IncludeInScript": true,
+          "Name": "apis.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 110,
+              "HttpStatus": 200,
+              "Size": 41123,
+              "URL": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.sY-PcpVhgWw.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo9Rvk-uuNpxhdO70m878GpubWGzeQ/cb=gapi.loaded_0"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

@@ -1,0 +1,13 @@
+[t33]
+FileName1=t33.htm
+URL1=http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Total=2
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_33.xml
+FileName2=t33_JScript_CC.html
+URL2=http://loadrunnertips.com/JS/JScript_CC.js
+[ProtocolInfo]
+ProtocolId=QTWeb

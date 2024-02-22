@@ -73,15 +73,19 @@ vuser_init()
 	//web_set_user("{email}","{pass}","contacts");
 	
 
-	web_set_max_html_param_len("9999999");
+	//web_set_max_html_param_len("9999999");
 	web_reg_save_param_ex(
 	"ParamName=my_token",
-    "LB=\"token:",
-    "RB=",
+    "LB=token:",
+    "RB=}",
     "Ordinal=1",
+    SEARCH_FILTERS,
+		"Scope=body",
     LAST);
 		
-	web_add_auto_header("Authorization", "Bearer{my_token}");
+	char *token = "${my_token}";
+	web_add_header("Authorization", lr_eval_string("Bearer %s", token));
+
 	web_custom_request("contacts",
 		"URL=https://thinking-tester-contact-list.herokuapp.com/contacts", 
 		"Method=GET", 

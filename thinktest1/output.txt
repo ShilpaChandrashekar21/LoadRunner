@@ -1,0 +1,767 @@
+Virtual User Script started at: 20-02-2024 15:49:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\SDET Training\LoadRunner\LoadRunnerScripts\thinktest1\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "D:\SDET Training\LoadRunner\LoadRunnerScripts\thinktest1"  	[MsgId: MMSG-27052]
+Vuser output directory: "D:\SDET Training\LoadRunner\LoadRunnerScripts\thinktest1"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "d:\sdet training\loadrunner\loadrunnerscripts\thinktest1"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-02-20 10:19:45  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-02-20 15:49:45  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "D:\SDET Training\LoadRunner\LoadRunnerScripts\thinktest1\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+Action.c(6): t=289ms: Connecting [0] to host 3.229.186.102:443  	[MsgId: MMSG-26000]
+Action.c(6): t=515ms: Connected socket [0] from 172.19.61.38:52670 to 3.229.186.102:443 in 226 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=521ms: Trying to set SNI with servername thinking-tester-contact-list.herokuapp.com  	[MsgId: MMSG-26000]
+Action.c(6): t=521ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Action.c(6): t=1001ms: 299-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/" (RelFrameId=1, Internal ID=1)
+Action.c(6):     GET / HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(6):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(6):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=1247ms: 753-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/" (RelFrameId=1, Internal ID=1)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Server: Cowboy\r\n
+Action.c(6):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(6):     m/reports?ts=1708424960&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=%2FIwZ2IIUPg%2FqYb7mvf5
+Action.c(6):     XbBaNDnURGZX4gK%2BKJ65vxt4%3D"}]}\r\n
+Action.c(6):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424960&sid=af571f24-
+Action.c(6):     03ee-46d1-9f90-ab9030c2c74c&s=%2FIwZ2IIUPg%2FqYb7mvf5XbBaNDnURGZX4gK%2BKJ65vxt4%3D\r\n
+Action.c(6):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(6):     0.05,"response_headers":["Via"]}\r\n
+Action.c(6):     Connection: keep-alive\r\n
+Action.c(6):     X-Powered-By: Express\r\n
+Action.c(6):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(6):     Content-Length: 1303\r\n
+Action.c(6):     Etag: W/"517-dgrTykhOUWR7EM+tHUWOgXdTCM4"\r\n
+Action.c(6):     Date: Tue, 20 Feb 2024 10:29:20 GMT\r\n
+Action.c(6):     Via: 1.1 vegur\r\n
+Action.c(6):     \r\n
+Action.c(6): t=1256ms: 1303-byte response body for "https://thinking-tester-contact-list.herokuapp.com/" (RelFrameId=1, Internal ID=1)
+Action.c(6):     <!DOCTYPE html>\n
+Action.c(6):     \n
+Action.c(6):     <html>\n
+Action.c(6):     \n
+Action.c(6):     <head>\n
+Action.c(6):         <title>Contact List App</title>\n
+Action.c(6):         <link rel="icon" href="/img/thinkingTesterIcon.png">\n
+Action.c(6):         <link rel="stylesheet" href="/css/styles.css">\n
+Action.c(6):     </head>\n
+Action.c(6):     \n
+Action.c(6):     <body>\n
+Action.c(6):         <h1>Contact List App</h1>\n
+Action.c(6):         <div class = "welcome-message">\n
+Action.c(6):             Welcome! This application is for testing purposes only. The database will be purge
+Action.c(6):     d as needed to keep costs down.\n
+Action.c(6):         </div>\n
+Action.c(6):         <div class = "welcome-message">\n
+Action.c(6):             The API documentation can be found <a href="https://documenter.getpostman.com/view
+Action.c(6):     /4012288/TzK2bEa8">here</a>.\n
+Action.c(6):         </div>\n
+Action.c(6):         <div class="main-content">\n
+Action.c(6):             <p>Log In:</p>\n
+Action.c(6):             <span id="error"></span>\n
+Action.c(6):             <form>\n
+Action.c(6):                 <p>\n
+Action.c(6):                     <input id="email" placeholder="Email">\n
+Action.c(6):                 </p>\n
+Action.c(6):                 <p>\n
+Action.c(6):                     <input id="password" type="password" placeholder="Password">\n
+Action.c(6):                 </p>\n
+Action.c(6):                 <p>\n
+Action.c(6):                     <button id="submit">Submit</button>\n
+Action.c(6):                 </p>\n
+Action.c(6):             </form>\n
+Action.c(6):             <p>Not yet a user? Click here to sign up!</p>\n
+Action.c(6):             <button id="signup" onclick="location.href='/addUser'">Sign up</button>\n
+Action.c(6):         </div> \n
+Action.c(6):         <footer>\n
+Action.c(6):             <p>Created by Kristin Jackvony, Copyright 2021 </p>\n
+Action.c(6):             <img src = "/img/thinkingTesterLogo.png">\n
+Action.c(6):         </footer>\n
+Action.c(6):         \n
+Action.c(6):         <script src="/js/login.js"></script>\n
+Action.c(6):     </body>\n
+Action.c(6):     \n
+Action.c(6):     </html>
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): t=1262ms: Request done "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26000]
+Action.c(6): t=1269ms: Connecting [1] to host 54.146.248.82:443  	[MsgId: MMSG-26000]
+Action.c(6): t=1270ms: Connecting [2] to host 54.146.248.82:443  	[MsgId: MMSG-26000]
+Action.c(6): t=1270ms: Connecting [3] to host 54.146.248.82:443  	[MsgId: MMSG-26000]
+Action.c(6): t=1496ms: Connected socket [1] from 172.19.61.38:52673 to 54.146.248.82:443 in 227 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=1496ms: Trying to set SNI with servername thinking-tester-contact-list.herokuapp.com  	[MsgId: MMSG-26000]
+Action.c(6): t=1496ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Action.c(6): t=1501ms: Connected socket [3] from 172.19.61.38:52675 to 54.146.248.82:443 in 231 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=1502ms: Trying to set SNI with servername thinking-tester-contact-list.herokuapp.com  	[MsgId: MMSG-26000]
+Action.c(6): t=1502ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Action.c(6): t=1503ms: Connected socket [2] from 172.19.61.38:52674 to 54.146.248.82:443 in 233 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=1503ms: Trying to set SNI with servername thinking-tester-contact-list.herokuapp.com  	[MsgId: MMSG-26000]
+Action.c(6): t=1503ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Action.c(6): t=1772ms: 375-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" (RelFrameId=, Internal ID=2)
+Action.c(6):     GET /css/styles.css HTTP/1.1\r\n
+Action.c(6):     Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(6):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(6):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=1777ms: 372-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/js/login.js" (RelFrameId=, Internal ID=4)
+Action.c(6):     GET /js/login.js HTTP/1.1\r\n
+Action.c(6):     Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(6):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(6):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=1820ms: 387-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=3)
+Action.c(6):     GET /img/thinkingTesterLogo.png HTTP/1.1\r\n
+Action.c(6):     Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(6):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(6):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=2225ms: 825-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" (RelFrameId=, Internal ID=2)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Server: Cowboy\r\n
+Action.c(6):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(6):     m/reports?ts=1708424961&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD
+Action.c(6):     58qK15STmv4VCwQ1Brck%3D"}]}\r\n
+Action.c(6):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424961&sid=af571f24-
+Action.c(6):     03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD58qK15STmv4VCwQ1Brck%3D\r\n
+Action.c(6):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(6):     0.05,"response_headers":["Via"]}\r\n
+Action.c(6):     Connection: keep-alive\r\n
+Action.c(6):     X-Powered-By: Express\r\n
+Action.c(6):     Accept-Ranges: bytes\r\n
+Action.c(6):     Cache-Control: public, max-age=0\r\n
+Action.c(6):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(6):     Etag: W/"391-17aa2a80818"\r\n
+Action.c(6):     Content-Type: text/css; charset=UTF-8\r\n
+Action.c(6):     Content-Length: 913\r\n
+Action.c(6):     Date: Tue, 20 Feb 2024 10:29:21 GMT\r\n
+Action.c(6):     Via: 1.1 vegur\r\n
+Action.c(6):     \r\n
+Action.c(6): t=2226ms: 913-byte response body for "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" (RelFrameId=, Internal ID=2)
+Action.c(6):     body {\n
+Action.c(6):         color: #333333;\n
+Action.c(6):         font-family: arial;\n
+Action.c(6):         max-width: 1200px;\n
+Action.c(6):         margin: 0 auto; \n
+Action.c(6):         padding: 0 16px;\n
+Action.c(6):     \n
+Action.c(6):         display: flex;\n
+Action.c(6):         flex-direction: column;\n
+Action.c(6):         min-height: 100vh;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #error {\n
+Action.c(6):         color: red;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     table {\n
+Action.c(6):         width: 100%;\n
+Action.c(6):         border: 1px solid black;\n
+Action.c(6):         border-collapse: collapse;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     th {\n
+Action.c(6):         border: 1px solid black;\n
+Action.c(6):         padding: 2px 15px 2px 15px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     td {\n
+Action.c(6):         border: 1px solid black;\n
+Action.c(6):         padding: 10px 15px 10px 15px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     .main-content {\n
+Action.c(6):         flex-grow: 1;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     .welcome-message {\n
+Action.c(6):         color: #4287f5;\n
+Action.c(6):         margin-top: 10px;\n
+Action.c(6):         margin-bottom: 5px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     button {\n
+Action.c(6):         margin: 5px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     .logout {\n
+Action.c(6):         position: absolute; top:40px; right:40px\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     footer {\n
+Action.c(6):         color: #888888;\n
+Action.c(6):         border-top: 1px solid #eeeeee;\n
+Action.c(6):         margin-top: 16px;\n
+Action.c(6):         padding: 16px 0;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     header {\n
+Action.c(6):         margin-top: 16px;\n
+Action.c(6):         margin-bottom: 48px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     h1 {\n
+Action.c(6):         font-size: 48px;\n
+Action.c(6):         margin-bottom: 16px;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     footer img {\n
+Action.c(6):        width: 300px; \n
+Action.c(6):     }
+Action.c(6): t=2229ms: Request done "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"  	[MsgId: MMSG-26000]
+Action.c(6): t=2236ms: 839-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/js/login.js" (RelFrameId=, Internal ID=4)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Server: Cowboy\r\n
+Action.c(6):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(6):     m/reports?ts=1708424961&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD
+Action.c(6):     58qK15STmv4VCwQ1Brck%3D"}]}\r\n
+Action.c(6):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424961&sid=af571f24-
+Action.c(6):     03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD58qK15STmv4VCwQ1Brck%3D\r\n
+Action.c(6):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(6):     0.05,"response_headers":["Via"]}\r\n
+Action.c(6):     Connection: keep-alive\r\n
+Action.c(6):     X-Powered-By: Express\r\n
+Action.c(6):     Accept-Ranges: bytes\r\n
+Action.c(6):     Cache-Control: public, max-age=0\r\n
+Action.c(6):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(6):     Etag: W/"38b-17aa2a80818"\r\n
+Action.c(6):     Content-Type: application/javascript; charset=UTF-8\r\n
+Action.c(6):     Content-Length: 907\r\n
+Action.c(6):     Date: Tue, 20 Feb 2024 10:29:21 GMT\r\n
+Action.c(6):     Via: 1.1 vegur\r\n
+Action.c(6):     \r\n
+Action.c(6): t=2238ms: 907-byte response body for "https://thinking-tester-contact-list.herokuapp.com/js/login.js" (RelFrameId=, Internal ID=4)
+Action.c(6):     const signupForm = document.querySelector('form')\n
+Action.c(6):     const errorMessage = document.querySelector('#error')\n
+Action.c(6):     var token = ''\n
+Action.c(6):     \n
+Action.c(6):     signupForm.addEventListener('submit', (e) => {\n
+Action.c(6):         e.preventDefault()\n
+Action.c(6):         \n
+Action.c(6):         const email = signupForm.querySelector('#email').value\n
+Action.c(6):         const password = signupForm.querySelector('#password').value\n
+Action.c(6):     \n
+Action.c(6):         const bodyData = {'email': email, 'password': password}\n
+Action.c(6):     \n
+Action.c(6):         fetch('/users/login', {\n
+Action.c(6):             method: 'POST',\n
+Action.c(6):             headers: {\n
+Action.c(6):                 'Content-Type': 'application/json'\n
+Action.c(6):             },\n
+Action.c(6):             body: JSON.stringify(bodyData)\n
+Action.c(6):         }).then((response) => {\n
+Action.c(6):             if(response.status != 200) {\n
+Action.c(6):                 errorMessage.innerHTML = 'Incorrect username or password'\n
+Action.c(6):             }\n
+Action.c(6):             else {\n
+Action.c(6):                 response.json().then((data) => {\n
+Action.c(6):                     token = data.token\n
+Action.c(6):                     console.log(token)\n
+Action.c(6):                     window.location = "/contactList"\n
+Action.c(6):                 })\n
+Action.c(6):             }\n
+Action.c(6):         })\n
+Action.c(6):     })
+Action.c(6): t=2240ms: Request done "https://thinking-tester-contact-list.herokuapp.com/js/login.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=2515ms: 814-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=3)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Server: Cowboy\r\n
+Action.c(6):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(6):     m/reports?ts=1708424961&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD
+Action.c(6):     58qK15STmv4VCwQ1Brck%3D"}]}\r\n
+Action.c(6):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424961&sid=af571f24-
+Action.c(6):     03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD58qK15STmv4VCwQ1Brck%3D\r\n
+Action.c(6):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(6):     0.05,"response_headers":["Via"]}\r\n
+Action.c(6):     Connection: keep-alive\r\n
+Action.c(6):     X-Powered-By: Express\r\n
+Action.c(6):     Accept-Ranges: bytes\r\n
+Action.c(6):     Cache-Control: public, max-age=0\r\n
+Action.c(6):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(6):     Etag: W/"31ae-17aa2a80818"\r\n
+Action.c(6):     Content-Type: image/png\r\n
+Action.c(6):     Content-Length: 12718\r\n
+Action.c(6):     Date: Tue, 20 Feb 2024 10:29:21 GMT\r\n
+Action.c(6):     Via: 1.1 vegur\r\n
+Action.c(6):     \r\n
+Action.c(6): t=2517ms: 11473-byte response body for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=3)
+Action.c(6): t=2517ms: 1245-byte response body for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=3)
+Action.c(6): t=2518ms: Request done "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"  	[MsgId: MMSG-26000]
+Action.c(6): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3231 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(58): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(58): Warning: The string '"email":"xy@zfz.com","password":"12345678"' with parameter delimiters is not a parameter.
+Action.c(58): t=2668ms: Already connected [0] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(58): t=2669ms: 425-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/users/login" (RelFrameId=1, Internal ID=5)
+Action.c(58):     POST /users/login HTTP/1.1\r\n
+Action.c(58):     Content-Type: application/json\r\n
+Action.c(58):     Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n
+Action.c(58):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(58):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(58):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(58):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(58):     Accept: */*\r\n
+Action.c(58):     Connection: Keep-Alive\r\n
+Action.c(58):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(58):     Content-Length: 44\r\n
+Action.c(58):     \r\n
+Action.c(58): t=2670ms: 44-byte request body for "https://thinking-tester-contact-list.herokuapp.com/users/login" (RelFrameId=1, Internal ID=5)
+Action.c(58):     {"email":"xy@zfz.com","password":"12345678"}
+Action.c(58): t=2937ms: 978-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/users/login" (RelFrameId=1, Internal ID=5)
+Action.c(58):     HTTP/1.1 200 OK\r\n
+Action.c(58):     Server: Cowboy\r\n
+Action.c(58):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(58):     m/reports?ts=1708424961&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD
+Action.c(58):     58qK15STmv4VCwQ1Brck%3D"}]}\r\n
+Action.c(58):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424961&sid=af571f24-
+Action.c(58):     03ee-46d1-9f90-ab9030c2c74c&s=EAqOzmDEqkViizPSCYdAsyD58qK15STmv4VCwQ1Brck%3D\r\n
+Action.c(58):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(58):     0.05,"response_headers":["Via"]}\r\n
+Action.c(58):     Connection: keep-alive\r\n
+Action.c(58):     X-Powered-By: Express\r\n
+Action.c(58):     Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM
+Action.c(58):     0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg; Max-Age=360
+Action.c(58):     00; Path=/; Expires=Tue, 20 Feb 2024 20:29:22 GMT\r\n
+Action.c(58):     Content-Type: application/json; charset=utf-8\r\n
+Action.c(58):     Content-Length: 272\r\n
+Action.c(58):     Etag: W/"110-0ZSSvVimite4pT9Ayd+0/BqbvQA"\r\n
+Action.c(58):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(58):     Via: 1.1 vegur\r\n
+Action.c(58):     \r\n
+Action.c(58): t=2940ms: 272-byte response body for "https://thinking-tester-contact-list.herokuapp.com/users/login" (RelFrameId=1, Internal ID=5)
+Action.c(58):     {"user":{"_id":"65d301dd274537001342de59","firstName":"xxxxx","lastName":"yyyyy","email":"
+Action.c(58):     xy@zfz.com","__v":86},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZD
+Action.c(58):     I3NDUzNzAwMTM0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg
+Action.c(58):     "}
+Action.c(58): t=2940ms: Request done "https://thinking-tester-contact-list.herokuapp.com/users/login"  	[MsgId: MMSG-26000]
+Action.c(58): Notify: Saving Parameter "t1 = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg".
+Action.c(58): web_custom_request("login") was successful, 272 body bytes, 978 header bytes  	[MsgId: MMSG-26386]
+Action.c(73): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(73): t=3018ms: Already connected [0] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(73): t=3018ms: 537-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/contactList" (RelFrameId=1, Internal ID=6)
+Action.c(73):     GET /contactList HTTP/1.1\r\n
+Action.c(73):     Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n
+Action.c(73):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(73):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(73):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(73):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(73):     Accept: */*\r\n
+Action.c(73):     Connection: Keep-Alive\r\n
+Action.c(73):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(73):     Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmR
+Action.c(73):     lNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3246ms: 740-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/contactList" (RelFrameId=1, Internal ID=6)
+Action.c(73):     HTTP/1.1 200 OK\r\n
+Action.c(73):     Server: Cowboy\r\n
+Action.c(73):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(73):     m/reports?ts=1708424962&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQt
+Action.c(73):     CJiprkl5oOqDn4ycXRts%3D"}]}\r\n
+Action.c(73):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424962&sid=af571f24-
+Action.c(73):     03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQtCJiprkl5oOqDn4ycXRts%3D\r\n
+Action.c(73):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(73):     0.05,"response_headers":["Via"]}\r\n
+Action.c(73):     Connection: keep-alive\r\n
+Action.c(73):     X-Powered-By: Express\r\n
+Action.c(73):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(73):     Content-Length: 849\r\n
+Action.c(73):     Etag: W/"351-itJOrudI8E+WV8omG2fQk0XDgjE"\r\n
+Action.c(73):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(73):     Via: 1.1 vegur\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3251ms: 849-byte response body for "https://thinking-tester-contact-list.herokuapp.com/contactList" (RelFrameId=1, Internal ID=6)
+Action.c(73):     <!DOCTYPE html>\n
+Action.c(73):     \n
+Action.c(73):     <html>\n
+Action.c(73):     \n
+Action.c(73):     <head>\n
+Action.c(73):         <title>My Contacts</title>\n
+Action.c(73):         <link rel="icon" href="/img/thinkingTesterIcon.png">\n
+Action.c(73):         <link rel="stylesheet" href="/css/styles.css">\n
+Action.c(73):     </head>\n
+Action.c(73):     \n
+Action.c(73):     <body>\n
+Action.c(73):         <div class="main-content">\n
+Action.c(73):             <header>\n
+Action.c(73):                 <h1>Contact List</h1>\n
+Action.c(73):                 <button id='logout' class='logout' onclick="location.href='/logout'">Logout</b
+Action.c(73):     utton>\n
+Action.c(73):             </header>\n
+Action.c(73):             \n
+Action.c(73):             \n
+Action.c(73):             <p>Click on any contact to view the Contact Details</p>\n
+Action.c(73):             <p>\n
+Action.c(73):                 <button id="add-contact" onclick="location.href='/addContact'">Add a New Conta
+Action.c(73):     ct</button>\n
+Action.c(73):             </p>\n
+Action.c(73):             <div class='contacts'></div>   \n
+Action.c(73):         </div>\n
+Action.c(73):         <footer>\n
+Action.c(73):             <p>Created by Kristin Jackvony, Copyright 2021 </p>\n
+Action.c(73):             <img src = "/img/thinkingTesterLogo.png">\n
+Action.c(73):         </footer>\n
+Action.c(73):         \n
+Action.c(73):         <script src="/js/contactList.js"></script>\n
+Action.c(73):     </body>\n
+Action.c(73):     \n
+Action.c(73):     </html>
+Action.c(73): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(73): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(73): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(73): t=3256ms: Request done "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26000]
+Action.c(73): t=3262ms: Already connected [1] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(73): t=3262ms: 637-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" (RelFrameId=, Internal ID=7)
+Action.c(73):     GET /css/styles.css HTTP/1.1\r\n
+Action.c(73):     Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n
+Action.c(73):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(73):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(73):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(73):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(73):     Accept: */*\r\n
+Action.c(73):     Connection: Keep-Alive\r\n
+Action.c(73):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(73):     Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmR
+Action.c(73):     lNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(73):     If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(73):     If-None-Match: W/"391-17aa2a80818"\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3263ms: Already connected [2] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(73): t=3263ms: 650-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=8)
+Action.c(73):     GET /img/thinkingTesterLogo.png HTTP/1.1\r\n
+Action.c(73):     Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n
+Action.c(73):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(73):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(73):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(73):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(73):     Accept: */*\r\n
+Action.c(73):     Connection: Keep-Alive\r\n
+Action.c(73):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(73):     Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmR
+Action.c(73):     lNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(73):     If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(73):     If-None-Match: W/"31ae-17aa2a80818"\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3263ms: Already connected [3] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(73): t=3263ms: 554-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" (RelFrameId=, Internal ID=9)
+Action.c(73):     GET /js/contactList.js HTTP/1.1\r\n
+Action.c(73):     Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n
+Action.c(73):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(73):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(73):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(73):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(73):     Accept: */*\r\n
+Action.c(73):     Connection: Keep-Alive\r\n
+Action.c(73):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(73):     Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmR
+Action.c(73):     lNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3493ms: 794-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" (RelFrameId=, Internal ID=7)
+Action.c(73):     HTTP/1.1 304 Not Modified\r\n
+Action.c(73):     Server: Cowboy\r\n
+Action.c(73):     Content-Length: 0\r\n
+Action.c(73):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(73):     m/reports?ts=1708424962&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQt
+Action.c(73):     CJiprkl5oOqDn4ycXRts%3D"}]}\r\n
+Action.c(73):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424962&sid=af571f24-
+Action.c(73):     03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQtCJiprkl5oOqDn4ycXRts%3D\r\n
+Action.c(73):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(73):     0.05,"response_headers":["Via"]}\r\n
+Action.c(73):     Connection: keep-alive\r\n
+Action.c(73):     X-Powered-By: Express\r\n
+Action.c(73):     Accept-Ranges: bytes\r\n
+Action.c(73):     Cache-Control: public, max-age=0\r\n
+Action.c(73):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(73):     Etag: W/"391-17aa2a80818"\r\n
+Action.c(73):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(73):     Via: 1.1 vegur\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3497ms: Request done "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"  	[MsgId: MMSG-26000]
+Action.c(73): t=3499ms: 795-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" (RelFrameId=, Internal ID=8)
+Action.c(73):     HTTP/1.1 304 Not Modified\r\n
+Action.c(73):     Server: Cowboy\r\n
+Action.c(73):     Content-Length: 0\r\n
+Action.c(73):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(73):     m/reports?ts=1708424962&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQt
+Action.c(73):     CJiprkl5oOqDn4ycXRts%3D"}]}\r\n
+Action.c(73):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424962&sid=af571f24-
+Action.c(73):     03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQtCJiprkl5oOqDn4ycXRts%3D\r\n
+Action.c(73):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(73):     0.05,"response_headers":["Via"]}\r\n
+Action.c(73):     Connection: keep-alive\r\n
+Action.c(73):     X-Powered-By: Express\r\n
+Action.c(73):     Accept-Ranges: bytes\r\n
+Action.c(73):     Cache-Control: public, max-age=0\r\n
+Action.c(73):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(73):     Etag: W/"31ae-17aa2a80818"\r\n
+Action.c(73):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(73):     Via: 1.1 vegur\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3502ms: Request done "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"  	[MsgId: MMSG-26000]
+Action.c(73): t=3504ms: 840-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" (RelFrameId=, Internal ID=9)
+Action.c(73):     HTTP/1.1 200 OK\r\n
+Action.c(73):     Server: Cowboy\r\n
+Action.c(73):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(73):     m/reports?ts=1708424962&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQt
+Action.c(73):     CJiprkl5oOqDn4ycXRts%3D"}]}\r\n
+Action.c(73):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424962&sid=af571f24-
+Action.c(73):     03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQtCJiprkl5oOqDn4ycXRts%3D\r\n
+Action.c(73):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(73):     0.05,"response_headers":["Via"]}\r\n
+Action.c(73):     Connection: keep-alive\r\n
+Action.c(73):     X-Powered-By: Express\r\n
+Action.c(73):     Accept-Ranges: bytes\r\n
+Action.c(73):     Cache-Control: public, max-age=0\r\n
+Action.c(73):     Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n
+Action.c(73):     Etag: W/"f14-17aa2a80818"\r\n
+Action.c(73):     Content-Type: application/javascript; charset=UTF-8\r\n
+Action.c(73):     Content-Length: 3860\r\n
+Action.c(73):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(73):     Via: 1.1 vegur\r\n
+Action.c(73):     \r\n
+Action.c(73): t=3505ms: 3860-byte response body for "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" (RelFrameId=, Internal ID=9)
+Action.c(73):     const cookies = document.cookie\n
+Action.c(73):     const token = cookies.substring(cookies.lastIndexOf("=") + 1)\n
+Action.c(73):     \n
+Action.c(73):     const contactDiv = document.querySelector('div.contacts')\n
+Action.c(73):     \n
+Action.c(73):     let tableHeaders = ["Name", "Birthdate", "Email", "Phone", "Address", "City, State/Provinc
+Action.c(73):     e, Postal Code", "Country"]\n
+Action.c(73):         \n
+Action.c(73):     const createContactTable = () => {\n
+Action.c(73):         while (contactDiv.firstChild) contactDiv.removeChild(contactDiv.firstChild)\n
+Action.c(73):     \n
+Action.c(73):         let contactTable = document.createElement('table')\n
+Action.c(73):         contactTable.className = 'contactTable'\n
+Action.c(73):     \n
+Action.c(73):         let contactTableHead = document.createElement('thead')\n
+Action.c(73):         contactTableHead.className = 'contactTableHead'\n
+Action.c(73):     \n
+Action.c(73):         let contactTableHeaderRow = document.createElement('tr')\n
+Action.c(73):         contactTableHeaderRow.classname = 'contactTableHeaderRow'\n
+Action.c(73):     \n
+Action.c(73):         tableHeaders.forEach(header => {\n
+Action.c(73):             let contactHeader = document.createElement('th')\n
+Action.c(73):             contactHeader.innerText = header\n
+Action.c(73):             contactTableHeaderRow.append(contactHeader)\n
+Action.c(73):         })\n
+Action.c(73):     \n
+Action.c(73):         contactTableHead.append(contactTableHeaderRow)\n
+Action.c(73):         contactTable.append(contactTableHead)\n
+Action.c(73):     \n
+Action.c(73):         let contactTableBody = document.createElement('tbody')\n
+Action.c(73):         contactTableBody.className = 'contactTable-Body'\n
+Action.c(73):         contactTable.append(contactTableBody)\n
+Action.c(73):     \n
+Action.c(73):         contactDiv.append(contactTable)\n
+Action.c(73):     }\n
+Action.c(73):     \n
+Action.c(73):     const appendContacts = (singleContact, singleContactIndex) => {\n
+Action.c(73):         const contactTable = document.querySelector('.contactTable')\n
+Action.c(73):         contactTable.setAttribute('id', 'myTable')\n
+Action.c(73):     \n
+Action.c(73):         let contactTableBodyRow = document.createElement('tr')\n
+Action.c(73):         contactTableBodyRow.className = 'contactTableBodyRow'\n
+Action.c(73):     \n
+Action.c(73):         let id = document.createElement('td')\n
+Action.c(73):         id.innerText = singleContact._id\n
+Action.c(73):         id.setAttribute("hidden", true )\n
+Action.c(73):     \n
+Action.c(73):         let name = document.createElement('td')\n
+Action.c(73):         name.innerText = singleContact.firstName + ' ' + singleContact.lastName\n
+Action.c(73):     \n
+Action.c(73):         let birthdate = document.createElement('td')\n
+Action.c(73):         if(singleContact.birthdate) {\n
+Action.c(73):             birthdate.innerText = singleContact.birthdate\n
+Action.c(73):         }  \n
+Action.c(73):     \n
+Action.c(73):         let email = document.createElement('td')\n
+Action.c(73):         if(singleContact.email) {\n
+Action.c(73):             email.innerText = singleContact.email\n
+Action.c(73):         }\n
+Action.c(73):     \n
+Action.c(73):         let phone = document.createElement('td')\n
+Action.c(73):         if(singleContact.phone) {\n
+Action.c(73):             phone.innerText = singleContact.phone\n
+Action.c(73):         }\n
+Action.c(73):     \n
+Action.c(73):         let address = document.createElement('td')\n
+Action.c(73):         let street1 = ''\n
+Action.c(73):         let street2 = ''\n
+Action.c(73):         if(singleContact.street1) {\n
+Action.c(73):             street1 = singleContact.street1\n
+Action.c(73):         }\n
+Action.c(73):         if(singleContact.street2) {\n
+Action.c(73):             street2 = singleContact.street2\n
+Action.c(73):         }\n
+Action.c(73):         address.innerText = street1 + ' ' + street2\n
+Action.c(73):     \n
+Action.c(73):         let address2 = document.createElement('td')\n
+Action.c(73):         let city = ''\n
+Action.c(73):         let stateProvince = ''\n
+Action.c(73):         let postalCode = ''\n
+Action.c(73):         if(singleContact.city) {\n
+Action.c(73):             city = singleContact.city\n
+Action.c(73):         }\n
+Action.c(73):         if(singleContact.stateProvince) {\n
+Action.c(73):             stateProvince = singleContact.stateProvince\n
+Action.c(73):         }\n
+Action.c(73):         if(singleContact.postalCode) {\n
+Action.c(73):             postalCode = singleContact.postalCode\n
+Action.c(73):         }\n
+Action.c(73):         address2.innerText = city + ' ' + stateProvince + ' ' + postalCode\n
+Action.c(73):     \n
+Action.c(73):         let country = document.createElement('td')\n
+Action.c(73):         if(singleContact.country) {\n
+Action.c(73):             country.innerText = singleContact.country\n
+Action.c(73):         }\n
+Action.c(73):        \n
+Action.c(73):         contactTableBodyRow.addEventListener('click', function(e) {\n
+Action.c(73):             localStorage.setItem('id', id.innerText)\n
+Action.c(73):             location.href = '/contactDetails'\n
+Action.c(73):         })\n
+Action.c(73):     \n
+Action.c(73):         contactTableBodyRow.append(id, name, birthdate, email, phone, address, address2, count
+Action.c(73):     ry)\n
+Action.c(73):     \n
+Action.c(73):         contactTable.append(contactTableBodyRow)\n
+Action.c(73):     }\n
+Action.c(73):     \n
+Action.c(73):     fetch('/contacts', {\n
+Action.c(73):         method: 'GET',\n
+Action.c(73):         headers: {\n
+Action.c(73):             'Content-Type': 'application/json',\n
+Action.c(73):             'Authorization': 'Bearer ' + token\n
+Action.c(73):         }\n
+Action.c(73):     }).then((response) => {\n
+Action.c(73):         response.json().then((contacts) => {\n
+Action.c(73):             if (contacts.error) {\n
+Action.c(73):                 console.log(contacts.error)\n
+Action.c(73):             }  else {\n
+Action.c(73):                 createContactTable()\n
+Action.c(73):                 for (const contact of contacts) {\n
+Action.c(73):                     let contactIndex = contacts.indexOf(contact) + 1\n
+Action.c(73):                     appendContacts(contact, contactIndex)\n
+Action.c(73):                 }\n
+Action.c(73):             }\n
+Action.c(73):         }) \n
+Action.c(73):     })
+Action.c(73): t=3510ms: Request done "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js"  	[MsgId: MMSG-26000]
+Action.c(73): web_url("contactList") was successful, 4709 body bytes, 3169 header bytes  	[MsgId: MMSG-26386]
+Action.c(85): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(85): Notify: Parameter Substitution: parameter "t1" =  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg"
+Action.c(85): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Action.c(85): "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+Action.c(85): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(87): web_custom_request("contacts") started  	[MsgId: MMSG-26355]
+Action.c(87): t=3564ms: Already connected [0] to thinking-tester-contact-list.herokuapp.com:443  	[MsgId: MMSG-26000]
+Action.c(87): t=3564ms: 718-byte request headers for "https://thinking-tester-contact-list.herokuapp.com/contacts" (RelFrameId=1, Internal ID=10)
+Action.c(87):     GET /contacts HTTP/1.1\r\n
+Action.c(87):     Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzA
+Action.c(87):     wMTM0MmRlNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(87):     Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n
+Action.c(87):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(87):     o) Chrome/121.0.0.0 Safari/537.36\r\n
+Action.c(87):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(87):     Accept-Language: en-GB,en;q=0.9\r\n
+Action.c(87):     Accept: */*\r\n
+Action.c(87):     Connection: Keep-Alive\r\n
+Action.c(87):     Host: thinking-tester-contact-list.herokuapp.com\r\n
+Action.c(87):     Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDFkZDI3NDUzNzAwMTM0MmR
+Action.c(87):     lNTkiLCJpYXQiOjE3MDg0MjQ5NjJ9.Pk2FWnY5kvbZDIGL8KMl2x-DYDpYI6yHnPorrhlE1Xg\r\n
+Action.c(87):     \r\n
+Action.c(87): t=3797ms: 746-byte response headers for "https://thinking-tester-contact-list.herokuapp.com/contacts" (RelFrameId=1, Internal ID=10)
+Action.c(87):     HTTP/1.1 200 OK\r\n
+Action.c(87):     Server: Cowboy\r\n
+Action.c(87):     Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.co
+Action.c(87):     m/reports?ts=1708424962&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQt
+Action.c(87):     CJiprkl5oOqDn4ycXRts%3D"}]}\r\n
+Action.c(87):     Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708424962&sid=af571f24-
+Action.c(87):     03ee-46d1-9f90-ab9030c2c74c&s=yghNAsaNFdLnAcArNjECQQtCJiprkl5oOqDn4ycXRts%3D\r\n
+Action.c(87):     Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":
+Action.c(87):     0.05,"response_headers":["Via"]}\r\n
+Action.c(87):     Connection: keep-alive\r\n
+Action.c(87):     X-Powered-By: Express\r\n
+Action.c(87):     Content-Type: application/json; charset=utf-8\r\n
+Action.c(87):     Content-Length: 117\r\n
+Action.c(87):     Etag: W/"75-OyJSs/r5jP4MyHS+ZCJRu3bMjTw"\r\n
+Action.c(87):     Date: Tue, 20 Feb 2024 10:29:22 GMT\r\n
+Action.c(87):     Via: 1.1 vegur\r\n
+Action.c(87):     \r\n
+Action.c(87): t=3803ms: 117-byte response body for "https://thinking-tester-contact-list.herokuapp.com/contacts" (RelFrameId=1, Internal ID=10)
+Action.c(87):     [{"_id":"65d33719763852001332e955","firstName":"aaaa","lastName":"xxxxx","owner":"65d301dd
+Action.c(87):     274537001342de59","__v":0}]
+Action.c(87): t=3805ms: Request done "https://thinking-tester-contact-list.herokuapp.com/contacts"  	[MsgId: MMSG-26000]
+Action.c(87): web_custom_request("contacts") was successful, 117 body bytes, 746 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=3860ms: Closed connection [0] to thinking-tester-contact-list.herokuapp.com:443 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=3860ms: Closed connection [1] to thinking-tester-contact-list.herokuapp.com:443 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=3860ms: Closed connection [2] to thinking-tester-contact-list.herokuapp.com:443 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=3860ms: Closed connection [3] to thinking-tester-contact-list.herokuapp.com:443 after completing 2 request(s)  	[MsgId: MMSG-26000]

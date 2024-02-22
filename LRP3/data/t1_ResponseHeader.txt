@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 19 Feb 2024 10:43:37 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Opener-Policy: same-origin
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Content-Security-Policy: script-src 'report-sample' 'nonce-TopXF8QCUCDLFitCS4keiA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+reporting-endpoints: default="/_/IdentityListAccountsHttp/web-reports?context=eJzjMtDikmJw1ZBiOHxtB5Meyy0mIyCe2_2UaSEQH4x7znQUiHf4eLA4pc9gDQJiIW6Omw_PrGMTuNBwWBQAoFcXPA"
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=ABTWhQH5K6tgQ8XkBGrTGEeBQ4d_Ob56wyGYyARPZDh-80PsfiVFifCjWdXKPWGEMJpAYzcNCQ; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=ABTWhQGYAuqkNBCuhUF4dbyA6lWFmNHxdnPGIxltfVr06FQwmoS49lmNBimJNjikfd3kwu_o_6Y; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=ABTWhQGDWtUJ0IiRx6TcVHDAD6k0n5cz43qB1Nh4rl64k1Q2qOgVQxg1o0lIg87Zi-kBeiBACb0; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Set-Cookie: SIDCC=ABTWhQGcnm123CpbyAqtjDGiYR-9ZVNCpi9c87D2j7wxR7EZee67uLsfAGmSGwGK8FtSNw2rsA; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=ABTWhQEj11KYSSiZJdVPA1zK_T7fSRCn9D_CXFqWN3ARlF0hk8g1TjOGGOEBvPpqb57pRIFnK2Y; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=ABTWhQHOdsSJN__VVDpzmkQTWs5nqlWAc0jA3RR58P9AmTtrQG1ABc059ynUeyV9zw_BkRY-p-w; expires=Tue, 18-Feb-2025 10:43:37 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+

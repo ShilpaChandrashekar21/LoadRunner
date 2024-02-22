@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.htm
+URL1=https://safebrowsing.google.com/safebrowsing/clientreport/crx-telemetry
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_styles.css
+URL2=https://thinking-tester-contact-list.herokuapp.com/css/styles.css
+[ProtocolInfo]
+ProtocolId=QTWeb

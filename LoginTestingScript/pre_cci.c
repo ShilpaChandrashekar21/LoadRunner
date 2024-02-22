@@ -1,4 +1,4 @@
-# 1 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c"
+# 1 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 1 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 2 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 
 # 1 "globals.h" 1
 
@@ -2597,7 +2597,7 @@ void
  
 
 
-# 3 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 3 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 
 # 1 "vuser_init.c" 1
  
@@ -2675,15 +2675,19 @@ vuser_init()
 	 
 	
 
-	web_set_max_html_param_len("9999999");
+	 
 	web_reg_save_param_ex(
 	"ParamName=my_token",
-    "LB=\"token:",
-    "RB=",
+    "LB=token:",
+    "RB=}",
     "Ordinal=1",
+    "SEARCH_FILTERS",
+		"Scope=body",
     "LAST");
 		
-	web_add_auto_header("Authorization", "Bearer{my_token}");
+	char *token = "${my_token}";
+	web_add_header("Authorization", lr_eval_string("Bearer %s", token));
+
 	web_custom_request("contacts",
 		"URL=https://thinking-tester-contact-list.herokuapp.com/contacts", 
 		"Method=GET", 
@@ -2699,7 +2703,7 @@ vuser_init()
 
 	return 0;
 }
-# 4 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 4 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2791,7 +2795,7 @@ Action()
 
 	return 0;
 }
-# 5 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 5 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2833,5 +2837,5 @@ vuser_end()
 
 	return 0;
 }
-# 6 "d:\\sdet training\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
+# 6 "d:\\sdet training\\loadrunner\\loadrunnerscripts\\logintestingscript\\\\combined_LoginTestingScript.c" 2
 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that &lt;machineKey&gt; configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.<br><br>See http://go.microsoft.com/fwlink/?LinkID=314055 for more information.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that &lt;machineKey&gt; configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.<br><br>See http://go.microsoft.com/fwlink/?LinkID=314055 for more information.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br><br>
+
+            <b> Exception Details: </b>System.Web.HttpException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that &lt;machineKey&gt; configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.<br><br>See http://go.microsoft.com/fwlink/?LinkID=314055 for more information.<br><br>
+
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[No relevant source lines]</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b> Source File: </b> App_Web_mnh0fm3i.6.cs<b> &nbsp;&nbsp; Line: </b> 0
+            <br><br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[ViewStateException: Invalid viewstate. 
+	Client IP: 203.92.61.72
+	Port: 49848
+	Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+	Path: /LoadRunner_Correlation_Challenge_Mod.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+	ViewState: /wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==]
+
+[HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that &lt;machineKey&gt; configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+
+See http://go.microsoft.com/fwlink/?LinkID=314055 for more information.]
+   System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError) +124
+   System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose) +444
+   System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose) +14
+   System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose) +41
+   System.Web.UI.HiddenFieldPageStatePersister.Load() +255
+   System.Web.UI.Page.LoadPageStateFromPersistenceMedium() +257
+   System.Web.UI.Page.LoadAllState() +36
+   System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +6796
+   System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +250
+   System.Web.UI.Page.ProcessRequest() +76
+   System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context) +24
+   System.Web.UI.Page.ProcessRequest(HttpContext context) +62
+   ASP.loadrunner_correlation_challenge_mod_aspx.ProcessRequest(HttpContext context) in App_Web_mnh0fm3i.6.cs:0
+   System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +195
+   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +50
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) +73
+</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4690.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[ViewStateException]: Invalid viewstate. 
+	Client IP: 203.92.61.72
+	Port: 49848
+	Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+	Path: /LoadRunner_Correlation_Challenge_Mod.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+	ViewState: /wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==
+[HttpException]: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that &lt;machineKey&gt; configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+
+See http://go.microsoft.com/fwlink/?LinkID=314055 for more information.
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.loadrunner_correlation_challenge_mod_aspx.ProcessRequest(HttpContext context) in g:\pleskvhosts\loadrunnertips.com\tmp\root\15d81bcb\56bc89d0\App_Web_mnh0fm3i.6.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->

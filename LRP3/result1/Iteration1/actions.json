@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: loadrunnertips.com",
+                "infFile": "t1.inf",
+                "time": 1708403079420
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: LoadRunner_Correlation_Challenge_Mod.aspx",
+                "infFile": "t2.inf",
+                "time": 1708403080319
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: LoadRunner_Correlation_Challenge_Mod.aspx_2",
+                "infFile": "t3.inf",
+                "time": 1708403080713
+            }
+        ],
+        "transactions": []
+    }
+]

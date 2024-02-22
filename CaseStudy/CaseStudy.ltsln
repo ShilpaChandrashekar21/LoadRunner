@@ -2,59 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 # SharpDevelop 4.1.3.0
-Project("8F5F4883-0FA1-4E5B-B3CF-239412E5AB21") = "CaseStudy_Script", "CaseStudy_Script\CaseStudy_Script.usr", "8F5F4883-0FA1-4E5B-B3CF-239412E5AB21"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcQ2FzZVN0dWR5XENhc2VTdHVkeV9TY3JpcHRcQ2FzZVN0dWR5X1NjcmlwdC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcU0RFVCBUcmFpbmluZ1xMb2FkUnVubmVyU2NyaXB0c1xDYXNlU3R1ZHlcQ2FzZVN0dWR5X1NjcmlwdFxDYXNlU3R1ZHlfU2NyaXB0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMTJUMTI6NDU6MjguMDgwOTQxNiswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = True
-	EndProjectSection
-EndProject
-Project("0182E7FA-C381-4D2F-A6C8-3924E06FB8AA") = "ContactListScript", "..\ContactListScript\ContactListScript.usr", "0182E7FA-C381-4D2F-A6C8-3924E06FB8AA"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcQ29udGFjdExpc3RTY3JpcHRcQ29udGFjdExpc3RTY3JpcHQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcQ29udGFjdExpc3RTY3JpcHRcQ29udGFjdExpc3RTY3JpcHQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0wMi0xMlQxMzo1Njo1OS4wNTE2NzA2KzA1OjMwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = True
-	EndProjectSection
-EndProject
-Project("EC307C79-B023-4412-8F3F-FAE0BD88D957") = "LoginTestingScript", "..\LoginTestingScript\LoginTestingScript.usr", "EC307C79-B023-4412-8F3F-FAE0BD88D957"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcTG9naW5UZXN0aW5nU2NyaXB0XExvZ2luVGVzdGluZ1NjcmlwdC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcU0RFVCBUcmFpbmluZ1xMb2FkUnVubmVyU2NyaXB0c1xMb2dpblRlc3RpbmdTY3JpcHRcTG9naW5UZXN0aW5nU2NyaXB0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMTJUMTU6MDE6MTEuMzg0NjUxNCswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = True
-	EndProjectSection
-EndProject
-Project("DE3A5227-5C35-40BD-A01F-FC01768D9118") = "saucedemo", "..\saucedemo\saucedemo.usr", "DE3A5227-5C35-40BD-A01F-FC01768D9118"
-	ProjectSection(CustomLoading) = Data
-		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XFNERVQgVHJhaW5pbmdcTG9hZFJ1bm5lclNjcmlwdHNcc2F1Y2VkZW1vXHNhdWNlZGVtby51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcU0RFVCBUcmFpbmluZ1xMb2FkUnVubmVyU2NyaXB0c1xzYXVjZWRlbW9cc2F1Y2VkZW1vLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMTJUMTY6MzQ6NDMuMjAxNTQyNiswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
-	EndProjectSection
-	ProjectSection(ExpandInVugen) = Data
-		Value = True
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		8F5F4883-0FA1-4E5B-B3CF-239412E5AB21.Debug|Any CPU.Build.0 = Debug|Any CPU
-		8F5F4883-0FA1-4E5B-B3CF-239412E5AB21.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		8F5F4883-0FA1-4E5B-B3CF-239412E5AB21.Release|Any CPU.Build.0 = Release|Any CPU
-		8F5F4883-0FA1-4E5B-B3CF-239412E5AB21.Release|Any CPU.ActiveCfg = Release|Any CPU
-		0182E7FA-C381-4D2F-A6C8-3924E06FB8AA.Debug|Any CPU.Build.0 = Debug|Any CPU
-		0182E7FA-C381-4D2F-A6C8-3924E06FB8AA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		0182E7FA-C381-4D2F-A6C8-3924E06FB8AA.Release|Any CPU.Build.0 = Release|Any CPU
-		0182E7FA-C381-4D2F-A6C8-3924E06FB8AA.Release|Any CPU.ActiveCfg = Release|Any CPU
-		EC307C79-B023-4412-8F3F-FAE0BD88D957.Debug|Any CPU.Build.0 = Debug|Any CPU
-		EC307C79-B023-4412-8F3F-FAE0BD88D957.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		EC307C79-B023-4412-8F3F-FAE0BD88D957.Release|Any CPU.Build.0 = Release|Any CPU
-		EC307C79-B023-4412-8F3F-FAE0BD88D957.Release|Any CPU.ActiveCfg = Release|Any CPU
-		DE3A5227-5C35-40BD-A01F-FC01768D9118.Debug|Any CPU.Build.0 = Debug|Any CPU
-		DE3A5227-5C35-40BD-A01F-FC01768D9118.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		DE3A5227-5C35-40BD-A01F-FC01768D9118.Release|Any CPU.Build.0 = Release|Any CPU
-		DE3A5227-5C35-40BD-A01F-FC01768D9118.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal

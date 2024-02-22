@@ -1,0 +1,342 @@
+[API Trapper      (107c:1224)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1e20:1bfc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (103c: 7c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (103c: fc4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (103c: fc4)] Load Network Traffic Analyzers:
+[Network Analyzer (103c: fc4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (103c: fc4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (103c: fc4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (103c: fc4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (103c: fc4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (103c: fc4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (103c: fc4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (103c: fc4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (103c: 840)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.195.67:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 74.125.200.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (103c:3414)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:3414)] SSLAccept(ssl_id = 2392277397744 = 0000022CFED830F0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:3414)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c:31ec)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:31ec)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (103c: 840)]   (Sid:  2) Client -> Server @ : 3589 bytes (SSL)(Service=HTTP)
+[Web Request      (103c: 840)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (103c: 840)]   (Sid:  2) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  2) Server -> Client : 2965 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  2) Server -> Client : 427 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  2) Server -> Client : 77 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  1) Connection Terminated (by Client)
+[API Trapper      (2b24:1d54)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.4.188:5228   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 50.63.8.83:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 216.58.196.163:443   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (103c: 840)] "GET /"   
+[Network Analyzer (103c: 840)]   (Sid:  4) Client -> Server @ : 433 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c:355c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 216.58.196.163:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (103c:355c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c:1360)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:1360)] SSLAccept(ssl_id = 2392277808336 = 0000022CFEDE74D0) Failed, ctx = 0000022CFEDA97A0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (103c:1360)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid:  3) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (103c: 840)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 172.217.167.138:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.74:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (103c: 840)]   (Sid:  3) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (103c: 840)]   (Sid:  3) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (103c: 840)]   (Sid:  3) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (103c:18d8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c: 840)]   (Sid:  4) Server -> Client : 1350 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  4) Server -> Client : 12150 bytes  (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.205.238:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: 13c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:15fc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c: 840)]   (Sid:  4) Server -> Client : 4050 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  4) Server -> Client : 1239 bytes  (Service=HTTP)
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 50.63.8.83:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (103c:18d8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: bdc)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 50.63.8.83:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (103c: 840)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "GET /JS/StyleSheet.css"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 340 bytes (Service=HTTP)
+[Network Analyzer (103c: 13c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (103c: 840)] "GET /IMG/LR.gif"   
+[Network Analyzer (103c: 840)]   (Sid: 11) Client -> Server @ : 379 bytes (Service=HTTP)
+[Net An. Error    (103c:15fc)] SSLAccept(ssl_id = 2392287818944 = 0000022CFF7734C0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c: bdc)] SSLAccept(ssl_id = 2392287945776 = 0000022CFF792430) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:15fc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (103c: bdc)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 11) Server -> Client : 1350 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 2700 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1091 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 11) Server -> Client : 571 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "GET /img/images.jpg"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 400 bytes (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.195.98:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.193.110:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (103c:1638)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:1638)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (103c:1a7c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:1a7c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (103c: 840)] "GET /analytics.js"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 407 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1350 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 260 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 526 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (103c: 840)]   (Sid:  9) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=1312087856&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2F&ul=en-gb&de=UTF-8&dt=Load%20Runner%20Tips-%20Performance%20testing%2C%20load%20testing%2C%20stress%20testing%2C%20soak%20testing%2C%20endurances%20testing%20tool%2CVuGen%20script%20creation%2C%20Load%20Runner%20Correlation%2C%20LR%20Scripting%2C%20Load%20Runner%20parameterization%2C%20Load%20Runner%20transaction%20naming%2CLR%20think%20time%2C%20LR%20transaction%2C%20web%20reg%20save%20param%2C%20Web%20reg%20find%2C%20Lr%20pacing&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=IEBAAEABAAAAACAAI~&jid=1846901141&gjid=275502944&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_r=1&_slc=1&z=1095459641"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 1311 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.182.72:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (103c:2f5c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:2f5c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (103c: 840)] "GET /gtag/js?id=G-7JE8RPG7Y7&cx=c&_slc=1"   
+[Network Analyzer (103c: 840)]   (Sid: 14) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1177 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 448 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 448 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 436 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 448 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 14) Server -> Client : 904 bytes (SSL) (Service=HTTP)
+[Web Request      (103c: 840)] "GET /favicon.ico"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 785 bytes (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1350 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "POST /g/collect?v=2&tid=G-7JE8RPG7Y7&gtm=45je42e0v9134516205za200&_p=1708339430007&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-gb&sr=1280x720&cid=971446286.1708339430&are=1&pscdl=noapi&_eu=ABAI&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2F&dt=Load%20Runner%20Tips-%20Performance%20testing%2C%20load%20testing%2C%20stress%20testing%2C%20soak%20testing%2C%20endurances%20testing%20tool%2CVuGen%20script%20creation%2C%20Load%20Runner%20Correlation%2C%20LR%20Scripting%2C%20Load%20Runner%20parameterization%2C%20Load%20Runner%20transaction%20naming%2CLR%20think%20time%2C%20LR%20transaction%2C%20web%20reg%20save%20param%2C%20Web%20reg%20find%2C%20Lr%20pacing&sid=1708339432&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=18148"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 1283 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 111 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 834)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c: 834)] SSLAccept(ssl_id = 2392287890704 = 0000022CFF784D10) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c: 834)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (103c: 840)]   (Sid:  6) Connection Terminated (by Server)
+[Web Request      (103c: 840)] "GET /LoadRunner_Correlation_Challenge_Mod.aspx"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 12150 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1117 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "GET /JS/JScript_CC.js"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 770 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1350 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 182 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=1874356820&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&ul=en-gb&de=UTF-8&dt=LoadRunner%3A%20Correlation%20Challenge&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=&gjid=&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_slc=1&z=1615401342"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 955 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (103c:33b0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:33b0)] SSLAccept(ssl_id = 2392277763568 = 0000022CFEDDC5F0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:33b0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 16) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "POST /g/collect?v=2&tid=G-7JE8RPG7Y7&gtm=45je42e0v9134516205za200&_p=1708339446438&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-gb&sr=1280x720&cid=971446286.1708339430&are=1&pscdl=noapi&_eu=ABAI&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&dt=LoadRunner%3A%20Correlation%20Challenge&sid=1708339432&sct=1&seg=1&en=page_view&_ee=1&tfd=5870"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 938 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Web Request      (103c: 840)] "POST /LoadRunner_Correlation_Challenge_Mod.aspx"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 1350 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 2700 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 8100 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 706 bytes  (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=1444123748&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&ul=en-gb&de=UTF-8&dt=LoadRunner%3A%20Correlation%20Challenge&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=&gjid=&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_slc=1&z=150025287"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 954 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c:2a34)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:2a34)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Web Request      (103c: 840)] "GET /v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSGQme3hZIcPy3aBIFDVCogv0h7n1w3PVcIlE=?alt=proto"   
+[Network Analyzer (103c: 840)]   (Sid: 17) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (103c: 840)]   (Sid: 17) Server -> Client : 483 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c:2f2c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:2f2c)] SSLAccept(ssl_id = 2392217296880 = 0000022CFB431FF0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:2f2c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 18) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "POST /g/collect?v=2&tid=G-7JE8RPG7Y7&gtm=45je42e0v9134516205za200&_p=1708339457406&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-gb&sr=1280x720&cid=971446286.1708339430&are=1&pscdl=noapi&_eu=ABAI&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&dt=LoadRunner%3A%20Correlation%20Challenge&sid=1708339432&sct=1&seg=1&en=page_view&_ee=1&tfd=5554"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 938 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.205.238:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 216.58.196.163:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (103c:34b4)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:34b4)] SSLAccept(ssl_id = 2392288302032 = 0000022CFF7E93D0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:34b4)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c:3298)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (103c:3298)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (103c: 840)] "POST /service/update2/json?cup2key=13:L35qlUpPXTzM2UES0Ao3vFNMSmsZHBGtPE3Q6CeJ2nw&cup2hreq=902d912d13341387217053cdcf895c1375c84efbf45dd14f8e74e4d3992669d6"
+[Network Analyzer (103c: 840)]   (Sid: 20) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 20) Client -> Server @ : 8563 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 20) Server -> Client : 1144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 20) Server -> Client : 924 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 1133 bytes (Service=HTTP)
+[Web Request      (103c: 840)] "POST /LoadRunner_Correlation_Challenge_Mod.aspx"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 12150 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 747 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=463966673&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&ul=en-gb&de=UTF-8&dt=LoadRunner%3A%20Correlation%20Challenge&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=&gjid=&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_slc=1&z=390579916"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 953 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (103c:32c4)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:32c4)] SSLAccept(ssl_id = 2392288502272 = 0000022CFF81A200) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:32c4)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 21) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "POST /g/collect?v=2&tid=G-7JE8RPG7Y7&gtm=45je42e0v9134516205za200&_p=1708339477190&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-gb&sr=1280x720&cid=971446286.1708339430&are=1&pscdl=noapi&_eu=ABAI&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx&dt=LoadRunner%3A%20Correlation%20Challenge&sid=1708339432&sct=1&seg=1&en=page_view&_ee=1&tfd=5800"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 938 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Web Request      (103c: 840)] "GET /LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Table%20Tennis"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 1026 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 1350 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 6566 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 124 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=1394480520&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx%3Fdd%3D1%26game%3DTable%2520Tennis&ul=en-gb&de=UTF-8&dt=LoadRunner%3A%20Correlation%20Challenge&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=&gjid=&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_slc=1&z=356274052"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 989 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (103c:1460)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:1460)] SSLAccept(ssl_id = 2392277245424 = 0000022CFED5DDF0) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:1460)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (103c: 840)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      (103c: 840)] "POST /g/collect?v=2&tid=G-7JE8RPG7Y7&gtm=45je42e0v9134516205za200&_p=1708339487388&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-gb&sr=1280x720&cid=971446286.1708339430&are=1&pscdl=noapi&_eu=ABAI&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx%3Fdd%3D1%26game%3DTable%2520Tennis&dt=LoadRunner%3A%20Correlation%20Challenge&sid=1708339432&sct=1&seg=1&en=page_view&_ee=1&tfd=5461"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 973 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 1174 bytes (Service=HTTP)
+[Web Request      (103c: 840)] "POST /LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Table+Tennis"   
+[Network Analyzer (103c: 840)]   (Sid: 10) Client -> Server @ : 1316 bytes (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 2700 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 8100 bytes  (Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 10) Server -> Client : 174 bytes  (Service=HTTP)
+[Web Request      (103c: 840)] "POST /j/collect?v=1&_v=j101&a=626445325&t=pageview&_s=1&dl=http%3A%2F%2Floadrunnertips.com%2FLoadRunner_Correlation_Challenge_Mod.aspx%3Fdd%3D1%26game%3DTable%2BTennis&ul=en-gb&de=UTF-8&dt=LoadRunner%3A%20Correlation%20Challenge&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=AACAAEABAAAAACAAI~&jid=1766384104&gjid=2001007478&cid=971446286.1708339430&tid=UA-54539864-2&_gid=1874777944.1708339430&_r=1&_slc=1&z=797022116"   
+[Network Analyzer (103c: 840)]   (Sid: 13) Client -> Server @ : 1011 bytes (SSL)(Service=HTTP)
+[Network Analyzer (103c: 840)]   (Sid: 13) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (103c: fc4)] Address lookup for aab07a2b4ac2553 = 172.19.61.38
+[Network Analyzer (103c: fc4)] Request Connection: Remote Server @ 142.250.196.1:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (103c:3270)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (103c:3270)] SSLAccept(ssl_id = 2392288294688 = 0000022CFF7E7720) Failed, ctx = 0000022CFED66460, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (103c:3270)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (103c: 840)]   (Sid: 23) Connection Terminated (by Client)

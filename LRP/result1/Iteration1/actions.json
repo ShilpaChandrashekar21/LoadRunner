@@ -1,0 +1,122 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: loadrunnertips.com",
+                "infFile": "t1.inf",
+                "time": 1708338795266
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: collect",
+                "infFile": "t2.inf",
+                "time": 1708338795805
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: runner.html",
+                "infFile": "t3.inf",
+                "time": 1708338796367
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: LoadRunner_Correlation_Challenge_Mod.aspx",
+                "infFile": "t4.inf",
+                "time": 1708338797064
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: runner.html_2",
+                "infFile": "t5.inf",
+                "time": 1708338797377
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: collect_2",
+                "infFile": "t6.inf",
+                "time": 1708338797486
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: LoadRunner_Correlation_Challenge_Mod.aspx_2",
+                "infFile": "t7.inf",
+                "time": 1708338798015
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: collect_3",
+                "infFile": "t8.inf",
+                "time": 1708338798137
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: runner.html_3",
+                "infFile": "t9.inf",
+                "time": 1708338798168
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: LoadRunner_Correlation_Challenge_Mod.aspx_3",
+                "infFile": "t10.inf",
+                "time": 1708338798563
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: collect_4",
+                "infFile": "t11.inf",
+                "time": 1708338798861
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: runner.html_4",
+                "infFile": "t12.inf",
+                "time": 1708338798906
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: LoadRunner_Correlation_Challenge_Mod.aspx_4",
+                "infFile": "t13.inf",
+                "time": 1708338799841
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: collect_5",
+                "infFile": "t14.inf",
+                "time": 1708338799937
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: runner.html_5",
+                "infFile": "t15.inf",
+                "time": 1708338799974
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: json",
+                "infFile": "t16.inf",
+                "time": 1708338800396
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: LoadRunner_Correlation_Challenge_Mod.aspx_5",
+                "infFile": "t17.inf",
+                "time": 1708338801554
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: collect_6",
+                "infFile": "t18.inf",
+                "time": 1708338801638
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: runner.html_6",
+                "infFile": "t19.inf",
+                "time": 1708338801898
+            }
+        ],
+        "transactions": []
+    }
+]

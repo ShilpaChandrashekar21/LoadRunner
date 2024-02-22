@@ -1,0 +1,2568 @@
+****** Start Log Message ******
+Web Recorder version : 2023.0.0.506 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2023.0.0.506
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 242 ******
+GET / HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 242 Ended $$$$$$
+
+****** Response Header For Transaction With Id 242 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: text/html
+Content-Encoding: gzip
+Last-Modified: Thu, 25 Sep 2014 17:47:28 GMT
+Accept-Ranges: bytes
+ETag: "9a7c50c6e8d8cf1:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:05 GMT
+Content-Length: 18433
+
+
+$$$$$$ Response Header For Transaction With Id 242 Ended $$$$$$
+
+****** Response Body For Transaction With Id 242 ******
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Load Runner Tips- Performance testing, load testing, stress testing, soak testing, endurances testing tool,VuGen script creation, Load Runner Correlation, LR Scripting, Load Runner parameterization, Load Runner transaction naming,LR think time, LR transaction, web reg save param, Web reg find, Lr pacing  </title>
+    
+    <meta name="keywords" content="Performances testing, LoadRunner , LR testing, performances tuning,  performances monitoring, LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice, Correlation, LoadRunner, Vugen, Components, Scenario, Analysis, Load Generator, Virtual User Generator" />
+    <meta name="description" content="LoadRunnertips.com  WILL PROVIDE YOU ALL THE INFORMATION ABOUT THE LOAD RUNNER AND PERFORMANCE TESTING, Loadrunner Tips, Performnaces " />	
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<div class="divPageHeader">
+        <table  cellspacing="0" cellpadding="0" class="tbMenu">
+            <tr>
+                <td width="20%">
+                    
+                    <img src="IMG/LR.gif" />
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Interview_Question/Interview_question_home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>
+                                          
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+<table cellpadding="0" cellspacing="0" style="padding-top:40px ">
+            <tr>
+                <td width="300px" style="padding: 10px" >
+                    </td>
+                <td width="950px" class="tbcontant">
+                    
+                       <br />
+                    
+                       <!--<iframe width="100%" height="315" src="//www.youtube.com/embed/QjSBYc3GJvM" frameborder="0" allowfullscreen></iframe>-->
+                       
+                </td>
+                <td width="300px" style="padding: 10px">
+                    </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center">
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                
+               </td>
+                <td valign="top" width="950px" class="tbcontant1">
+                   <div style=" margin:10px; font-family:'lucida grande', tahoma, verdana, arial, sans-serif">
+        
+    
+        <table style="width: 100%">
+            <tr>
+                <td valign="top" width="50%">
+                    <div class="divTopicMain">
+                        <div class="divTopicHeader">
+                            Correlation Challenge</div>
+                        <ol style=" list-style-type:none; padding:0; margin:0">
+                            <li class="liTopicData">
+                                Correlation Challenge- Beginners Level</li>
+                            <li class="liTopicData">
+                                <a href="LoadRunner_Correlation_Challenge_Mod.aspx"  class="aBlank" >Correlation Challenge- Moderate Level</a>
+                            </li>
+            
+                            <li class="liTopicDataLast">
+                                <a href="LoadRunner_Correlation_Challenge_Exp.aspx" class="aBlank" >Correlation Challenge- Expert Level</a></li>
+        
+                        </ol>    
+                    </div>
+                     <div class="divTopicMain">
+                        <div class="divTopicHeader">
+                            Training
+                             </div>
+                        <ol style=" list-style-type:none; padding:0; margin:0">
+                            <li class="liTopicData">
+                               <a href="Load_Runner/Load_Runner_Home.htm" class="aBlank" >Introduction And Architecture of Load Runner</a></li>
+                           <li class="liTopicData"> 
+                                <a href="VuGen/Load_Runner_VuGen_Home.htm" class="aBlank" >Load Runner VuGen Introduction</a></li>            
+                             <li class="liTopicData"> 
+                                <a href="Controller/Controller.htm" class="aBlank" >Load Runner Controller Introduction</a></li>
+                              <li class="liTopicData"> 
+                                <a href="AN/Load_Runner_Analysis.htm" class="aBlank" >Load Runner Analysis Introduction</a></li>  
+                                 <li class="liTopicData"> 
+                                <a href="PT/Performance_Tuning.htm" class="aBlank" >What is Performance Tuning?</a></li>
+                                <li class="liTopicData"> 
+                                <a href="PT/Performance_Testing.htm" class="aBlank" >What is Performance Testing?</a></li>    
+                            <li class="liTopicDataLast">
+                                <a href="LR_Error/Load_Runner_Errors.htm" class="aBlank" >Common Load Runner Errors</a></li>
+        
+                        </ol>    
+                    </div>
+                     
+                   
+                </td>
+                <td valign="top" width="50%">
+                     <div class="divTopicMain">
+                        <div class="divTopicHeader">
+                            Tool
+                             <div style=" float:right; padding-right:10px; color:#0092DD; font-size:14px"><a href="Tool/Tool.htm" class="aBlank">View All</a></div> 
+                          </div>
+                        <ol style=" list-style-type:none; padding:0; margin:0">
+                            <li class="liTopicData">
+                               <a href="LoadRunner_transaction_naming_tool.aspx" class="aBlank" > Transaction Naming</a></li>
+                           <li class="liTopicData"> 
+                                <a href="LoadRunner_Correlation_Finder.aspx" class="aBlank" >Correlation Finder</a></li>            
+                             <li class="liTopicData"> 
+                                <a href="Tool/Free_Load_Testing_From_Excel.htm" class="aBlank" >Load Test By Excel</a></li>
+                              <li class="liTopicData"> 
+                                <a href="Tool/Free_Website_Automation_from_Excel.htm" class="aBlank" >Web Automation By Excel</a></li>  
+                            <li class="liTopicDataLast">
+                                <a href="ENDE.aspx" class="aBlank" >URLEncode/URLDecode</a></li>
+        
+                        </ol>    
+                    </div>   
+                     <div class="divTopicMain">
+                        <div class="divTopicHeader">
+                            Load Runner Interview Question
+                            <div style=" float:right; padding-right:10px; color:#0092DD; font-size:14px"><a href="Interview_Question/Interview_question_home.htm" class="aBlank">View All</a></div> 
+                           </div>                                       
+                                        <ol style=" list-style-type:none; padding:0; margin:0">
+                                            <li class="liTopicData">
+                                                 <a href="Interview_Question/LoadRunner_Interview_Questions_Beginners_Level_1_Q1_10.htm" 
+                                                    class="aBlank">Interview Questions Beginners Level I</a></li>
+                                            <li class="liTopicData">
+                                                <a href="Interview_Question/LoadRunner_Interview_Questions_Beginners_Level_1_Q11_20.htm" 
+                                                    class="aBlank">Interview Questions Beginners Level I</a> </li>
+                                            <li class="liTopicData">
+                                                <a href="Interview_Question/LoadRunner_Interview_Questions_Intermediate_Level_2_Q1_10.htm"
+                                                    class="aBlank">Interview Questions Intermediate Level I</a> </li>
+                                            <li class="liTopicData">
+                                                <a href="Interview_Question/LoadRunner_Interview_Questions_Intermediate_Level_2_Q11_20.htm" 
+                                                    class="aBlank">Interview Questions Intermediate Level II</a> </li>
+                                            <li class="liTopicDataLast">
+                                                <a href="Interview_Question/LoadRunner_Interview_Questions_Expert_Level_3_Q1_10.htm" 
+                                                    class="aBlank">Interview Questions Expert Level I</a></li>
+                                        </ol>
+                                    </div>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="50%" colspan="2" style="width: 100%">
+                <br /><hr />
+                <strong> What is Performances Testing?</strong><br />
+                    <span style=" font-size:14px;">
+                        What is Load Testing?
+                        Load Testing is a process to design and simulate usage traffic which can be used to test your server for performance, reliability and scalability. Load Testing of websites involves testing the performance and scalability of your web servers with varying user load. Load testing involves simulating real-life user load for the target website. It helps you determine how your website behaves when multiple users hits it simultaneously. Load testing with different load strategies and conditions helps you determine software design issues like incorrect concurrency/pooling mechanism, poor optimization, memory build-up, etc. Load Testing helps you identify server configuration issues with Web server, application server, database server, load balancer, etc. Load Testing helps you detect if your current infrastructure is sufficient to meet your user demand. Load Testing helps you determine the peak user load your website can sustain, number of concurrent users your website can support, and whether or not your website will scale as more users access it.
+                       
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                         <br />
+                        <strong> Load testing will provide you answers of below questions:</strong>
+                        <br />
+                        •	Do you know the number of concurrent users that your website can safely support?
+                    <br />
+                    •	Will your website scale as more users access it?
+                    <br />
+                    •	Do you know how long it would take a visitor to receive a page?
+                    <br />
+                    •	Do you know the load point where your server crashes?
+                    <br />
+                    •	Is your current hardware sufficient to meet your predicted demand? If no, what additional hardware would you need?
+Load Testing can help you identify a variety of problems before you go into production:
+                    <br />
+                    •	Software design issues (incorrect concurrency/pooling mechanism, poor optimization, memory build-up, etc.)
+                    <br />
+                    •	Server configuration issues (Web server, application server, database server, load balancer, etc.)
+                    <br />
+                    •	Hardware limitation issues (Excessive disk I/O, CPU maximization, memory limitations, network bottleneck, etc.)
+
+
+                    
+                    </span>
+                <br />
+                  
+                </td>
+            </tr>
+        </table>
+        
+    
+    </div>
+                  
+                </td>
+                <td valign="top" style=" align="center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+               </td>
+            </tr>
+            <tr>
+                <td width="300px">
+                    &nbsp;</td>
+                <td width="950px">
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                    </td>
+                <td width="300px">
+                    &nbsp;</td>
+            </tr>
+        </table>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 242 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 242 ****** (Location Flag : tFlagInsertEnd, Location ID : 242)
+	web_url("loadrunnertips.com",
+		"URL=http://loadrunnertips.com/",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t12.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 242 Ended $$$$$$
+
+****** Request Header For Transaction With Id 246 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=121 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDI0MDIxOC0xODAxMzkuNTQxMDAwEggIABADGHkgAA==#UJ4PoSkLeyw=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 246 Ended $$$$$$
+
+****** Response Header For Transaction With Id 246 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Date: Mon, 19 Feb 2024 10:24:06 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 246 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 251 ******
+GET /IMG/LR.gif HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://loadrunnertips.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 251 Ended $$$$$$
+
+****** Response Header For Transaction With Id 251 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: image/gif
+Last-Modified: Sat, 23 Aug 2014 12:27:06 GMT
+Accept-Ranges: bytes
+ETag: "e23e7b8dcdbecf1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:06 GMT
+Content-Length: 1613
+
+
+$$$$$$ Response Header For Transaction With Id 251 Ended $$$$$$
+
+****** Response Body For Transaction With Id 251 ******
+GIF89a\xFA\x00\x1B\x00\xF5\x00\x00\x7F\x06\x00y]-\x86\x14\x0F\x8D#\x1E\x8F%\x1F\x942-\x974/\x9B@=\x9FD?\xA2OL\xA7SO\xA9^[\xAFc_\xB0lj\xB7ro\xB7{zF\x9C#Q\xA20[\xA6=]\xA8>e\xABJh\xAELp\xB1Wt\xB4Z\x7F\xBAg\xA0\x88h\xBF\x82\x7F\x85\xBBq\x8B\xC1u\x8F\xC1~\xBE\x8A\x89\xC7\x92\x8F\xC5\x98\x98\xCF\xA1\x9F\xCC\xA7\xA7\xD7\xB1\xAF\xD3\xB6\xB7\x96\xC7\x83\xA2\xCD\x91\xAE\xD3\x9E\xAF\xD1\xA5\xB9\xD9\xAC\xDF\xC0\xBF\xC4\xDB\xBF\xC5\xE0\xBA\xDA\xC4\xC6\xE7\xD0\xCF\xE1\xD3\xD5\xEF\xDF\xDF\xCF\xE1\xCC\xD0\xE6\xC8\xDC\xEC\xD5\xD9\xE6\xD9\xE8\xE2\xE4\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x006\x00,\x00\x00\x00\x00\xFA\x00\x1B\x00\x00\x06\xFE@\x9BpH,\x1A\x8F\xC8\xA4r\xC9l:\x9FPa\x05\x12\xB9X\xAFV\xD4\x10\xCB\xBD@J\xD1\xB0xL.\x9B\xCF\xE84\x12\xC2\x86L\xACS\xF6J(k\xBF'm\xB6V\xCD\xEF\xFB\xFF\x80\x81K,l\x18Fx4B)l3F\x11\x101\x82\x92\x93\x94\x95\x96C%\x10\x17GT\x98\x9DF\x15\x11\x97\xA3\xA4\xA5\xA6M\xA1Gu\x9BB^\xACEV\xA7\xB26\x1A\xB5\xB5!\xA4\x1A\x1E\x1E\x0F\x1A06\xBC\xBD\xB5\x0E\xB5\x1F#*\xB3i'\x10&Cl\xCDC\xB6\x01\x19\x94"\xB6\xB5\xC2\xB8\xA6\x00\xDC\xDC\xDA\x97\x07\x02\xDC\x02B	\xE3\xE3\x02\xE9\x00\x02\xC9g\x1C\x10)\xCE\xF1C$\xEA\x00\x0F\x92!\xF7\xDD\xEB\x02\x07\xA7\xFA\x11(\xD5\x0F\xA0q\xDD\x1ExX\xA0.]\x0Bwe\xBC4\xB2A\x08\xC2D\x1B\x0E\xFA\xB9\x90\x84\x90\x9B\x01b\x0F\x1A\x14\xC8WjD?\x07\xA4\xEC%\xB4aO\x9C\x00\x03C\x10\xA0#\x01\x91\x0C\x9B!&n\x96\xEC\x87\xA0f\xFE\xC6n#\x8E\x848\x80\xA0\xA3G\x05\x1Bm\xC8\xEC7\x0E\x81\x82!\x1E\x0E\x0C\xF0\xA7\x80A\xC7\x8D\x0F\xD6\xADC)\x84@?\x1BV]j3\xD0\xEF\x17:~\x04\x10\xFC\x02\x86P\xC0\xD4n\x084D;\xE0\xB5\x9F\x81\x03	~\x81h\xEB\x02\xC1\xDB\xA434m\x11,d\x1FB\x066\x16\xF4c\xD0-\xAD\\\x96\x08\x962\x05\xF0\xD8\xC8On\\\x8B\xA8P\x80\xC0k\xC3\xB4"\x84h\xE8\xA7\x80\xA9\x80Zu\x01\xC4U\x92\x1A\xC0\x91\xD1Z\x01\x18h=P\x05\x80\x02\x91#\xC7\x06\xD0\x0Ev\xB7\x03\xFD\xD2	\x01>\xAEA\x8B\x16\x1F\xFA-\x00[\xB6kc!L\xD3v\x1Ch#+O\xB2\xDDp]^W\xF4\xA4\x15\x1D\x0Bt#'\x84\x10\x87!x\xC0\x08!\xD1\x0F\x97\xE2\xF1\xDD\x81\xBA`\x9A{i\xD0#\xD8\xB9\xDD'b;\xB8\x01~\xBF\xF8&N\x01\x1D\xA5#\x80d\xDC s\xC4\x0Bv\x1D\x81\xE0Z\x08&\xD1VO\xF9\x91w\xD08O\xD9\x10\x9CQ\xD9\xFE]\xB8\xCE\x00B\xC0\xE0\xDD|\xDD F\xCBW6\x946\xCEZ\xFD\xC8%\x99\x85.\x1Dh\xC3\x07F\x15@`\x866\xE4t\xC2<;
+\x91\\7\xBFL'\x04\x89\xDCh`Rv*$\xB9V\x12L\xBD\xD6\x9E\x10\x0Ft\x84\x8C\x8A\xEB\x0C1\x1Ey\xFD\x15\x89\x84\x07\xDE\x19\xD1\xA0\x10\xF9\xC1\xE4\x00\x02\xE2M\x86\x99\x86\xDDd\x98%\x00\x1E|w\xCF?o:e\x03\x91\x00,gC\x08\xFD\x04\xF5\xA3~B0\xD6\x8D\x10\xF7\x14\x10b\x8Bhr\x83@\x92Gr\xD3\xA69\xDC$\x80\x84\x172\xD0\xC1F\xA4BP9\x10\x9D\\\xE1\xD9\x8D
+\xDB1\x05\x13\x12\x89\xCA\xE6 \x8A\x18\xA1\xD8\x96\x89\x85\xD6)D\xA8\xFB\x15\xC1h\x82F\xAC\x99\xD9Ik\x9A	@\x08\xA1>&\xE0/\\\x1Ef\xC3[\x00\x80\xE8\xE3\x93\xCC\xF9S)\xA9\xA9\x818\x1FB\\\x81\xD0^\xAD\xBBqCSG\x99\x15\xF1\x08N:\x01Z\xE2\x8Cy\xF6\xF9\x15\x82\x93}\x80\xC4v\x95\x11\xF1\xA5\xFE\xF9	J\xA76\x9A\xAE\x03\x82\x10\xDB-Y\x84QGX\xC7Mh68\xDB\x08\xF6\x02@\x93\xF4\xF3B\xC0\xDD\xFC\xFB*y\xF9\xF9kC8\xE3\xBC0\x9C\xC0B\x00\xEBh\xAA\x13\xB7\xD0O;\xFD>d\xC3\xAB\x00\xD4\xD0\xEF\x01 \x87\x8C\xC0\x015\xB4t\xEF\x1A\x12\x0C\xB1\x01\x04\x14\xD4\xD3\xCF\xBB\x1C\x0F\xD1\x11@\xEF\xD9J\x92\x11e\xAE\xD3\xEAz\x17\x0B\xC1`7\xCB\xF5\xEBpb\xE3%\x95\xB3\xB0\xB1\xF24\xEA\x9F\xDE\x02\x19!\x98\xDD\x80\x08\xACk\x80"dg\x81P\xF6\x83o?\xC2\x8A\xD8\xE1\x9A\xE2\xD2r\x95R\xE3\xC9\x9C&\xD9L\xD7[\xB6*\x10\x18"\x05\x04\xE7\x89\xD6\x91YpI\xE8\xC6\xF51\xB5Q}\x19\x06\xE7$P\x85\xBD\x8C6\x00\xD4y\x18\xAC\x95\xDB\x1Eq\x99[w\x89\xAC\x82d\x06$\xA9Bj=I6\x00	*\xEC\xA9jG\x97\xAB\xD0/.\xFB\x8Cc\xA2a\xDC\\m\xA0\x02IR	\xC0/\xF1B\xCDu\x8B\xAD\xFA\xA4\xFEd\x04\x1C#y\x92B\xE4,\xE8\x119Ac\xC33C\xE4W\x9B]I\xFA\x99 \xAE\x98Kn\xE9w\xB1\xAB\xD4T}\x87\xFA\x06\x80\xF2\xE3\xD5\x90\xAA\x9D\xE0\x01-\xFB8\xDF\x14\x01\xAC\x81\xE0\x93#\xBD\x99\xC8\xC0\xD6\x96K\xDE$\xD6\x96?\xE3!cU7\x8F9/\x1CF\xE7k\x85\x90sL{m\xE8\x9Dw\x1B?\xFD\x89\xB6\xAAR\xF6\xD6a'#\xC0\x83R+\x98\x94\x10\xD6\x84\x18\x01qHT\xAD\x99\x8C\\\x04\xA4\x8D\x07\x96ZL\x91\x0B\x9E\x10\xD2\xA6R\xEDK\x08/RP\x11`\x10\x8Ca\xD8\xE2\x01\x0F\xB8\xCF\x084 \x8Ck\x18i\x08!`a-<\xE0\x02[\xD0pU&4\x86Bj\x11 \x16\xF2B\x84\x1E\xD0\x05
+\x93\x12\x02\x14\x061\x85\xD7\xB0\x01\x0CN\xF8\x18\x15\\\x03t'T\x90\x0B\xD7\x92\xB9\x16^#(+\xDC!\xBE@\x01\x81!\xA0 [+\xB4EP\x12VC\x17\x8AF\x86.\xD4\x00\xBB\xB0q\xB3\x19\xA5\xB1\x16\xF8*\xE3\x1Bo\xC3\x16C[(\xE8\x03\xD8\xF0\x80\xC6|\x18Dy\xD5\xE4\x8F\xA4\xF8\x84: \xC8#(\x90\x88L\xA4"\x8F\x10\x98WX\x800G\x08U\x1B\x17I\xC9J\xCEB\x06S\xF0\x1D\x1B"P\x02J\x15!#\x08\xD9\x99%GIJId\xA2\xF2\x10B\x1E\xDAV\xCAV\xBA\xB2\x143\x90\x81,=I\x87Y\xBE\xF2\x96\xB8\xCC\xA5.w\xC9\xCB^\xFA\xF2\x97\xC0te\x10\x00\x00;
+$$$$$$ Response Body For Transaction With Id 251 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 253 ******
+GET /JS/StyleSheet.css HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://loadrunnertips.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 253 Ended $$$$$$
+
+****** Response Header For Transaction With Id 253 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Sat, 06 Dec 2014 13:25:32 GMT
+Accept-Ranges: bytes
+ETag: "17fc841c5811d01:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:06 GMT
+Content-Length: 3437
+
+
+$$$$$$ Response Header For Transaction With Id 253 Ended $$$$$$
+
+****** Response Body For Transaction With Id 253 ******
+﻿body 
+{
+    padding:0px; margin:0px;background-color:#EFEFEF; font-family:Verdana;  
+}
+#divPageData
+{
+    padding-top:90px; background-color:White; padding-left:10px; padding-bottom:10px; padding-right:10px;    
+}
+.divHeader
+{
+    padding-bottom:10px;font-variant:small-caps;font-size:45px;line-height:normal; display:block; color:#333; 
+}
+.divPageHeader
+{border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;}
+.divContent
+{color:#333; font-size:16px; line-height:1.5625;text-align:justify; font-family:Verdana; text-decoration:none;}
+.tbMenu
+{ background:url('../img/images.jpg'); background-repeat:repeat-x; width:100%; padding-top:10px; }
+#divTags
+{background-color: #000000; color:Gray; padding:10px}
+.tbcontant
+{border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;}
+.tbcontant1 
+{ border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width:1200px ;}
+
+#trans-nav { list-style-type: none; height: 40px; padding: 0; margin: 0; vertical-align:bottom; text-align:left }
+#trans-nav { list-style-type: none; height: 40px; padding: 0; margin: 0; }
+#trans-nav li { float: left; position: relative; padding: 0; line-height: 40px;  font-weight:bold; font-family:Arial,Verdana,sans-serif; font-size:15px; }
+#trans-nav li:hover { background-position: 0 -40px; background-color:#308dbf; border-radius:12px}
+#trans-nav li a { display: block; padding: 0 15px; color: black; text-decoration: none; }
+#trans-nav li a:hover { color:white; }
+#trans-nav li ul { opacity: 0; position: absolute; left: 0;width: 15em ; background: #308dbf; list-style-type: none; padding: 0; margin: 0; }
+#trans-nav li:hover ul { opacity: 1; }
+#trans-nav li ul li { float: none; position: static; height: 0; line-height: 0; background: none; }
+#trans-nav li:hover ul li { height: 30px; line-height: 30px; }
+#trans-nav li ul li a { background: #FBFDFF; border:1px solid gray;border-radius:3px}
+#trans-nav li ul li a:hover { background: #308dbf; }
+                
+#trans-nav li { -webkit-transition: all 0.2s; }
+#trans-nav li a { -webkit-transition: all 0.5s; }
+#trans-nav li ul { -webkit-transition: all 1s; }
+#trans-nav li ul li { -webkit-transition: height 0.5s; }
+
+#trans-nav li ul { display: none; }
+#trans-nav li:hover ul, #trans-nav li.over ul {display: block; }
+#trans-nav li ul li { height: 30px; line-height: 30px; }
+
+.divTopicMain
+{margin-left:15px; float:left; clear:left; border:2px solid #D4DADF; border-radius:3px; margin-bottom:24px; width:95%; font-size:13px; font-family:Arial,Helvetica,Sans-Serif; color:#5F6D81;}
+
+.divTopicHeader
+{margin-left:0px; margin-right:0px; padding-left:10px; padding-right:10px; height:44px;  line-height:44px; font-weight:bold; border-bottom:2px solid #D4DADF; font-size:16px; color:#5F6D81}
+
+.liTopicData
+{margin-left:13px; margin-right:13px; height:30px; line-height:30px; border-bottom:1px solid #D4DADF;}
+
+.liTopicDataLast
+{ margin-left:13px; margin-right:13px; height:30px; line-height:30px;    }
+.tadA
+{text-decoration:none; color:Gray; font-size:14px; padding:3px}
+.aBlank
+{text-decoration:none; color:inherit}
+.divAdd
+{padding-top:30px;}
+$$$$$$ Response Body For Transaction With Id 253 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 259 ******
+GET /img/images.jpg HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://loadrunnertips.com/JS/StyleSheet.css
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 259 Ended $$$$$$
+
+****** Response Header For Transaction With Id 259 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: image/jpeg
+Last-Modified: Sat, 23 Aug 2014 12:27:05 GMT
+Accept-Ranges: bytes
+ETag: "85c1988ccdbecf1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:06 GMT
+Content-Length: 1567
+
+
+$$$$$$ Response Header For Transaction With Id 259 Ended $$$$$$
+
+****** Response Body For Transaction With Id 259 ******
+\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xFF\xDB\x00\x84\x00	\x06\x07\x08\x07\x06	\x08\x07\x08
+
+	\x0B\x16\x0F\x0C\x0C\x1B\x14\x15\x10\x16 \x1D"" \x1D\x1F\x1F$(4,$&1'\x1F\x1F-=-157:::#+?D?8C49:7\x01
+
+
+\x0C\x1A\x0F\x0F\x1A7%\x1F%77777777777777777777777777777777777777777777777777\xFF\xC0\x00\x11\x08\x00\xDD\x00X\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xFF\xC4\x00\x18\x00\x00\x03\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x02\x03\x07\xFF\xC4\x00-\x10\x00\x01\x03\x03\x04\x02\x02\x01\x03\x04\x03\x00\x00\x00\x00\x00\x00\x01\x11\xB1\x02"\x82!#\x81\x83r\xC1s\xC2q3B\x91\x1212CA\x92\xD1\xFF\xC4\x00\x16\x01\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x03\xFF\xC4\x00\x15\x11\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xFF\xDA\x00\x0C\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xEA
+\xBA\x7F\x00\xFA\xFF\x00$\xAA\xFA\x07\xFE\xDC\x99\xB2S\xFA\x07\xD7\x95'\xFA\xBD\x03\xCA\x80\xD5t_\xC2\x14\xFA\xF2\xA6o\xA7\x087\xD7\x95\x01\xBE\x9C!OvJf\xFAp\x85=\xF9(\x03\xDB\x8A\x14\xF7df\xF6\xE2\x85=\xD9\x00=\xB8\x81/n \x02\x7F@\xFA\xA7$?\xA0}S\x92"\x91t\xE1\x06\xF2\xA4>\x9C <\xA8\x14\xFAp\x83}rS7\xD3\x84\x1B\xEB\x92\x85S\xDB\x8A\xEF_%3{W\xC5
+{\x97\xC9@on(7\xBB#7\xB7\x14)\xEE\xC8 {p\xF62\x1E\xDC=\x80\x12\xFE\x86\xFE\xC8U\xFA\x83\xFB\x08\xA7\x84\x1A,\xA9\x0F\xA7\xF0\x0F\xAF5\x02\xA9\xF4\xE1\x06\xFA\xE4\xA4>\x9C =\xD9(Zon)%=\xD9)\x9B\xDA\xBE)%=\xF9\xAC\x02\x87\xB7\x14)\xF5\xCB\xD1\x9B\xDB\x8A\x14\xF7/\x9F\xA0P\xF6\xE3\xEC	{0\xF6\x01	W\xEA\x0F\xAF\xF2B\xAF\xD4\x1F\xECAj\xB6\xF0\x80\xFA\xF3Q\x0Fo\x087\xD7\x9A\x80o\xA7\x084[\xB2S7\xD3\x84)\x16\xEET\xA1\xBD\x8B\xE2\x92S\xDF\x9A\xC1\x93\xD8\xBE)%~\xF4\xF3X\x01\xBD\xB8$\x94\xF7g\xE8\xC9\xEC\xC1$\xA7\xBB?@7\xB3\x0F`C\xD9\x87\xB0"\x13\xFDA\xE6\xA2\x1F\xEA\x0F5\x01J\xB6\xF0\x83}y\xA8\x87\xB7\x84\x1B\xEB\xCD@5]\x17\xC5\x06\xF7eT\x10\xABj\xF8\xA0\xDE\xEC\xAA\x82P\xDE\xCCRJ{\xF3X2{pI)\xEF\xCD`P\xDE\xCC\x12J{\xB3\xF4d\xF6`\x92S\xDD\x9F\xA1C{\x13\xC3\xD8\x10\xFBx{\x01B\x7F\xA8\x7F\xEDD?\xD4\x15f\xA0\x8BU\xD1\x7F\x14\x8D\xF5\xE6\xA2\x1FN)\x07\xD7\x9A\x80oj\xF8\xA1OvUA\x9B\xD9\x8D27\xBB*\xA0\x06\xF6\xE0\x92S\xDF\x9A\xC1\x9B\xDB\x82IO~k\x00\x1F\xB3\x04\x92\x9E\xEC\xFD\x19=\x98$\x96\xF7\xE6\xB0\x00\xF6u\xFB\x11/\xB7\xD7\xEC\x00O\xAF\xFDA\xE6\xA2\x15b\x91\xBC\xD4AO\xA7\x14\x82.\xA9\xF9\xA8\x87\xD3\x8AF\x8B\xAA~j\x01\xBD\xB8\xD3%=\xD9U\x06On4\xC9ovU@\x03\xD9\x852R-\xF9\xAC\x19\xBD\x98S#E\xBF5\x80\x1A\xAD\x8B\xE0\x92S\xEEf\xB0e\xFDVu\xA4\x96\xFB\x9D\x8B\x00\x0Fg_\xB0!\xF6\xFA\xFD\x80BU\xFA\x8D\xF5\xE6\xA37\xFA\x8D\xF5\xE6\xA0U>\x9CR4[\x93\xF3Q\x9B\xC5#E\xBB*\x81M\xED\xC6\x99)\xEE\xCE\xA83{q\xA6F\xF7gT\x02\x9B\xD8\xBE\x14\xC9H\xB7\xA7\xC8\xB0d\x8Bf\x14\xC9h\xB7\xA7\x9A\xC0(U\xDB\xEBI-\xF7\x13\xE4X1}\xBE\xB4\x92\xDFs\xB1`%\x0Fg_\xB1\x12\xFB}~\xC0\x04\xFF\x00Q\xBC\xD6B\xAF\xD4\x1F^k \xA7\xD3\x8A\x06\xF7eT\x19\xBE\x9CPS\xDD\x95P\x03{q\xA6J{\xF3\xAA\x0C\x9E\xDCi\x92\x91o\xCE\xA8\x00}\xB5\xF0\xA6K\xFF\x00gePb\xFBk\xE1L\x9A>\xE7eP\x02U\xDB_\x8D$\xB7\xDDO\x91`\xC5Wm~4\x93G\xDDO\x91`\x04\x8B\xB7\xD7\xECD\xBE\xD7ZH\x82\x07\xFA\x8D\xF5\xE6\xB2\x1F\xEA7\xD7\x9A\xC0o\xA7\x14\x8D\x16\xEC\xAA\x82\x1FN)\x1A-\xD9U\x00\x0Ff4Io~uA\x97\xEC\xC2\x99)\x16\xFC\xEA\x80\x07\xDB\xC2\x99-\xF7;*\x83\x15]\xBC)\x92\xDFs\xB2\xA8\x00U\xDB_\x8D$\xD1\x17u>E\x83\x05]\xB5\xF8\xD2M\x1F{\xB1`	}\xAE\xBFc!\xF6\xBA\xFD\x81\x00\xF1@"\xDD\xCDd*\xC5\x00\x8Bw5\x84S\xDB\x8D\x12S\xDD\x95Pd\xF6\xE3D\x94\xF7e\\\x00=\x98\xD1%\xA2\xDF\x9DPd\xF6cD\x96\x8B\x7FeP\x02U\xDB\xC2\x99-\xF7;*\x83%\xFD<)\x92\xDFs\xB2\xA8\x02Uv\xD7\xE2I5}\xEE\xC5\x83\x05]\xB5\xF8\x92M_u>U\x80!\x17k\xAD$	}\xAE\xB4\x90\x14\x0F\x14\x03\xDD\xCDd*\xC5\x03}y\xAC\x81\xBD\xB8\xD1#{\xB2\xAE\x08_\xEC\xBE4H\xD3\xFC\xB2\xAE\x00of4IO\x7Fepd\xF6cD\x96\xF7\xF6W\x00%]\xBE\xBAd\xD1\xF7;*\x83\x05[:\xE9\x93D]\xCE\xCA\xA0\x04\xAB\xB6\xBF\x12I\xA3\xEFv\xAC\x18/\xE9\xAF\xC4\x92j\x9F\xAD\xDA\xB0\x04\xBE\xD7W\xB0!\xF6\xBA}\x80\x02\xACP4]y\xAC\xCDWN(\x1B\xEB\xCDdJ\xA7\xD3\x1A$h\xB7e\\\x19\xBE\x98\xD1#E\xB9<\xAB\x80SU\xB3\x1A$\xA7\xBF\xB2\xB82U\xB3
+$\xB7\xBF\xB2\xB8(J\xB6u\xD3%\xBE\xE7ePd\xABg]2Z.\xE7mP
+O\xB6\xBF\x12I\xA3\xEFv\xAC\x18*\xED\xAF\xC4\x92j\x8B\xBB\xDA\xB0
+\x97\xDA\xE9\xF6\x04>\xD7O\xB0!B\xACP\x0F\xAF5\x92\xBE\xA8\x1F\xFC\xF3X@\xFAcD\x94\x8BryW\x04/\xF6\xC6\x89\x1A\x7F\x92yW\x00
+\xB6/\x85\x12[\xDF\xD9\\\x19=\x98Q%\xFE\xFE\xCA\xE0\x04\xABg]2[\xEEv\xD5\x06\x1F\xEB\xEB\xA6MS\xF5;j\x80%Wi~$\x93G\xDE\xEDX0U\xDA_\x85$\xD5\xF7{V\x00\x87\xDA\xE9\xF6\x04\xBE\xD7O\xB0\x03\xFF\xD9
+$$$$$$ Response Body For Transaction With Id 259 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 279 ******
+POST /chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 315
+Pragma: no-cache
+Cache-Control: no-cache
+Authorization: Bearer ya29.a0AfB_byBnoPGGf0FRbRBBAGNvIwCaKTcarbGZVb-71ZGXNlsrxZPIddUfajKelzXlNCPHl92ne2oBaijdkvTZMjN-XrDu7YuRz5_HA1rqtlxzDZ4Q07JY7QU9yD1dssjHSTlrf9vFfoyahMrW1RKmCavb35nudSkWHgJHQDbf07Ju8MUyeHM9I5h1CEeAD_mb5vmLcDiX6ADup0XYivi6l5Ps1kYxsu8uotGFtvvmTFQJJWd1WGrSbf84e3IHeRca9kTvY2teMs9qkxIaCgYKAZUSARESFQHGX2Miar46PBI51jXFHgrCLejCaQ0278
+Content-Encoding: gzip
+User-Agent: Chrome WIN 121.0.6167.185 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) channel(stable)
+Content-Type: application/octet-stream
+X-Client-Data: CI22yQEIo7bJAQipncoBCJvZygEIkqHLAQiFoM0BCJbbzQEIou7NAQje7s0BCIPwzQEInPLNAQji9c0BCOj3zQEI4PrNARj2yc0BGKfqzQEYofjNARjK+M0B
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+
+$$$$$$ Request Header For Transaction With Id 279 Ended $$$$$$
+
+****** Request Body For Transaction With Id 279 ******
+
+\x18shilpagowda939@gmail.com\x10c\x18\x02*'\x12\x04\x08\x00\x10\x00\x18\x012\x04\x08\xDE\xD8\x122\x13\x08\x81\xF5\x02\x12 \x00\x88\x01\xAF\xC8\xC9\xCB\xC4\x9F\xD4\xB4\x01@\x00H\x07:%z00000162-c454-d76e-0000-00005ad2013dR\x12
+\x02\x08\x05
+\x02\x08	
+\x02\x08
+\x10\x01\x18\x00 \x00Z\x81\x01
+\x7F\x12}Chrome WIN 121.0.6167.185 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) channel(stable),gzip(gfe)b'AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgwj\x02\x10\x00
+$$$$$$ Request Body For Transaction With Id 279 Ended $$$$$$
+
+****** Response Header For Transaction With Id 279 ******
+HTTP/1.1 200 OK
+Content-Type: application/vnd.google.octet-stream-compressible
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 19 Feb 2024 10:24:22 GMT
+Content-Disposition: attachment; filename="response"
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 279 Ended $$$$$$
+
+****** Response Body For Transaction With Id 279 ******
+\x12\x85\x01
+I
+\x12Customer:869773354 \xB9\xE1\x94\x87\xDC1:\x12Customer:869773354\xAA\x01\x17\xF2\xC5\x95\x01\x12\x08\x03"\x0E
+\x0C484861137370 \x00*!\x08\xDE\xD8\x12\x12\x10 \x00x\xF4\xE4\xB5\xBF\x02\x80\x01\xB9\xE1\x94\x87\xDC12	\x08\x01\x10\xB8\xE1\x94\x87\xDC1*\x13\x08\x81\xF5\x02\x12 \x00\x88\x01\xAF\xC8\xC9\xCB\xC4\x9F\xD4\xB4\x01 \x002%z00000162-c454-d76e-0000-00005ad2013d:	\x08\xC0p\x10\xE0\xA8\x01\x18Zr\x81\x01
+\x7F\x12}Chrome WIN 121.0.6167.185 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) channel(stable),gzip(gfe)
+$$$$$$ Response Body For Transaction With Id 279 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 279 ****** (Location Flag : tFlagInsertEnd, Location ID : 279)
+	web_custom_request("command",
+		"URL=https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/vnd.google.octet-stream-compressible",
+		"Referer=",
+		"Snapshot=t13.inf",
+		"Mode=HTML",
+		"EncType=application/octet-stream",
+		"ContentEncoding=gzip",
+		"BodyBinary=\n"
+		"\\x18shilpagowda939@gmail.com\\x10c\\x18\\x02*'\\x12\\x04\\x08\\x00\\x10\\x00\\x18\\x012\\x04\\x08\\xDE\\xD8\\x122\\x13\\x08\\x81\\xF5\\x02\\x12\r \\x00\\x88\\x01\\xAF\\xC8\\xC9\\xCB\\xC4\\x9F\\xD4\\xB4\\x01@\\x00H\\x07:%z00000162-c454-d76e-0000-00005ad2013dR\\x12\n"
+		"\\x02\\x08\\x05\n"
+		"\\x02\\x08\t\n"
+		"\\x02\\x08\n"
+		"\\x10\\x01\\x18\\x00 \\x00Z\\x81\\x01\n"
+		"\\x7F\\x12}Chrome WIN 121.0.6167.185 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) channel(stable),gzip(gfe)b'AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgwj\\x02\\x10\\x00",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 279 Ended $$$$$$
+
+****** Request Header For Transaction With Id 285 ******
+GET /pagead/js/adsbygoogle.js HTTP/1.1
+Host: pagead2.googlesyndication.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://loadrunnertips.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 285 Ended $$$$$$
+
+****** Response Header For Transaction With Id 285 ******
+HTTP/1.1 200 OK
+P3P: policyref="https://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+Timing-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+Link: <https://googleads.g.doubleclick.net>; rel="preconnect"; crossorigin
+Vary: Accept-Encoding
+Date: Mon, 19 Feb 2024 10:24:23 GMT
+Expires: Mon, 19 Feb 2024 10:24:23 GMT
+Cache-Control: private, max-age=3600, stale-while-revalidate=3600
+Content-Type: text/javascript; charset=UTF-8
+ETag: 2973528184095542376
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Content-Disposition: attachment; filename="f.txt"
+Content-Encoding: br
+Server: cafe
+Content-Length: 51521
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 285 Ended $$$$$$
+
+****** Response Body For Transaction With Id 285 ******
+SpU2aS{�.���ë"=��x
+$$$$$$ Response Body For Transaction With Id 285 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 328 ******
+GET /LoadRunner_Correlation_Challenge_Mod.aspx HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://loadrunnertips.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 328 Ended $$$$$$
+
+****** Response Header For Transaction With Id 328 ******
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:22 GMT
+Content-Length: 12967
+
+
+$$$$$$ Response Header For Transaction With Id 328 Ended $$$$$$
+
+****** Response Body For Transaction With Id 328 ******
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	LoadRunner: Correlation Challenge
+</title>
+    <script type="text/javascript" src="JS/JScript_CC.js"></script>
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+        .style1
+        {
+            height: 39px;
+        }
+       
+    </style>
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+    <meta name="keywords" content="LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice" /><meta name="description" content="Welcome to the Correlation Challenge. I have condensed some of the types of correlation problems I have encountered in real web applications (ranging from relatively easy, to fairly difficult) into this exercise. You should be able to manually navigate through the Challenge with no problems, but creating a LoadRunner/VuGen script that will do the same thing will take a non-trivial amount of effort. Please treat this as a training exercise. If you can get to the end of this exercise by yourself, then you can correlate with the best of them" /></head>
+<body style=" padding:0px; margin:0px;background-color:#EFEFEF; font:Arial;">
+
+    <form method="post" action="./LoadRunner_Correlation_Challenge_Mod.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3074961D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAKdPCcy9t3wpVKAHy9yYsFnnlbekVM3R/a0oKRYPLuORAlqSlgLVPQiVf0OfQa6TNTr1tbmayZqPlqZ0Zuo3KmB" />
+</div>
+    <div style=" border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;">
+        <table  cellspacing="0" cellpadding="0"  style=" background:url('img/images.jpg'); background-repeat:repeat-x; width:100%; padding:0px">
+            <tr>
+                <td width="20%">
+           
+            <a id="HyperLink1" style="display:inline-block;border-style:None;font-family:Arial;font-weight:bold; text-decoration:none"><img src="IMG/LR.gif" alt="LR Tricks" /></a>
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <br />
+                        <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>                        
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding="0" cellspacing="0" style=" width:100%; padding-top:40px ">
+            <tr>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+                <td width="60%" 
+                    
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;" 
+                    class="style1">
+                   
+                       
+                      
+                </td>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                   </td>
+                <td valign="top" width="60%" 
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                    <div style="border-top-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #000000">
+                     </div>
+                    
+    <div style=" margin:10px; font-family:Verdana">
+    <div id="head_divStart" style="margin-left: 40px">
+         <strong>What is Correlation in Load Runner?
+        </strong><br /><br />
+        Correlation is used to obtain data which are unique for each run of the script and which are generated by web server. Correlation provides the value to avoid errors arising out of duplicate values and also optimizing the code. Automatic correlation is where we set some rules for correlation. It can be application server specific. Here values are replaced by data which are created by these rules. In manual correlation, the value we want to correlate is scanned and create correlation is used to correlate.
+        <br /><br />
+        <strong>Correlation Challenge- Modrate</strong><br />
+    
+        <br />
+        Welcome to the Correlation Challenge. I have condensed some of the types of 
+        correlation problems I have encountered in real web applications (ranging from 
+        relatively easy, to fairly difficult) into this exercise. You should be able to 
+        manually navigate through the Challenge with no problems, but creating a 
+        LoadRunner/VuGen script that will do the same thing will take a non-trivial 
+        amount of effort. Please treat this as a training exercise. If you can get to 
+        the end of this exercise by yourself, then you can correlate with the best of 
+        them.<br />
+        <br />
+        <strong>Notes</strong>:
+        <br />
+        • The Challenges must be attempted in the order given.
+        <br />
+        • You must have JavaScript enabled in your browser to proceed through this 
+        challenge manually.
+        <br />
+        • Please don’t share your solutions, ask for help, or help others. This is meant 
+        to be a challenge.
+        <br />
+        • Please email me if you find any bugs that are not obviously part of the 
+        challenge (deepak at loadrunnertips.com)
+        <br />
+        • If you email me your (zipped) solution, I will list your name/website/company 
+        here.<br />
+    
+        <br />
+        On with the challenge! Press the &quot;Start&quot; button to continue...<br />
+        <br />
+    
+        <input type="submit" name="ctl00$head$btnStart" value="Start" id="head_btnStart" />
+        <br />
+        
+</div>
+    
+    
+    
+    
+    
+   </div>
+   
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </td>
+                <td width="20%" align="center" valign="top" >
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+                <td width="60%" align="center" valign="top">
+                <br />
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                 </td>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 328 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/chrome-sync/command/?client=Google+Chrome&client_id=EqBJmtXuwdBaPOmd8C%2FKQg%3D%3D
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 328 ****** (Location Flag : tFlagInsertEnd, Location ID : 328)
+	web_url("LoadRunner_Correlation_Challenge_Mod.aspx",
+		"URL=http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://loadrunnertips.com/",
+		"Snapshot=t14.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 328 Ended $$$$$$
+
+****** Request Header For Transaction With Id 337 ******
+GET /JS/JScript_CC.js HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 337 Ended $$$$$$
+
+****** Response Header For Transaction With Id 337 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: application/javascript
+Content-Encoding: gzip
+Last-Modified: Sat, 30 Aug 2014 16:59:14 GMT
+Accept-Ranges: bytes
+ETag: "5e6ea5ba73c4cf1:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:23 GMT
+Content-Length: 1164
+
+
+$$$$$$ Response Header For Transaction With Id 337 Ended $$$$$$
+
+****** Response Body For Transaction With Id 337 ******
+\xEF\xBB\xBFvar xmlhttp; if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
+function dd(str) {
+    if (document.getElementById("head_txtMagicNo").value == "") { alert("Enter no"); return false; } else { document.getElementById("head_txtMagicNo").value = parseInt(document.getElementById("head_txtMagicNo").value) + parseInt(str) }
+} function Button2_onclick() { var d = new Date(); var n = d.getTime(); xmlhttp.onreadystatechange = function () { if (xmlhttp.readyState == 4 && xmlhttp.status == 200) { var rp = xmlhttp.responseText.split("~"); document.getElementById("head_divStep3").innerHTML = rp[0]; } }; var hd = document.getElementById("head_hd1").value; xmlhttp.open("Get", "LoadRunner_Correlation_Challenge_Exp.aspx?RQM=" + hd + "&RND=" + Math.random(), true); xmlhttp.setRequestHeader("Status", hd.substring(5, 6)); xmlhttp.send("Status=" + n + "&btnNext3=Next"); }
+
+function Button1_onclick() {
+    var e = document.getElementById("Select1")
+
+    window.location = "LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=" + e.options[e.selectedIndex].text;
+
+}
+
+$$$$$$ Response Body For Transaction With Id 337 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 344 ******
+GET /favicon.ico HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+Cookie: __gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; __gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; __eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0
+
+
+$$$$$$ Request Header For Transaction With Id 344 Ended $$$$$$
+
+****** Response Header For Transaction With Id 344 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Type: image/x-icon
+Last-Modified: Mon, 08 Sep 2014 22:29:46 GMT
+Accept-Ranges: bytes
+ETag: "4f69d164b4cbcf1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:24 GMT
+Content-Length: 1150
+
+
+$$$$$$ Response Header For Transaction With Id 344 Ended $$$$$$
+
+****** Response Body For Transaction With Id 344 ******
+\x00\x00\x01\x00\x01\x00\x10\x10\x00\x00\x01\x00 \x00h\x04\x00\x00\x16\x00\x00\x00(\x00\x00\x00\x10\x00\x00\x00 \x00\x00\x00\x01\x00 \x00\x00\x00\x00\x00\x00\x04\x00\x00\x12\x0B\x00\x00\x12\x0B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFD\xFD\xFC\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFA\xFB\xF9\xFF\xCC\xD6\xC7\xFF\xF7\xF8\xF7\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFD\xFD\xFD\xFF\xFF\xFF\xFF\xFF\xD0\xDC\xCB\xFF\x1ER\x08\xFF\xDC\xE1\xDB\xFF\xFF\xFF\xFF\xFF\xFD\xFE\xFD\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFC\xFD\xFC\xFF\xFB\xFC\xFB\xFF\xFB\xFC\xFB\xFF\xFA\xFB\xF9\xFF\xFF\xFF\xFF\xFF\xCA\xD7\xC4\xFF\x15M\x00\xFF\xAC\xBC\xA5\xFF\xFF\xFF\xFF\xFF\xFB\xFC\xFA\xFF\xFE\xFE\xFD\xFF\xFD\xFD\xFD\xFF\xFC\xFD\xFC\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFC\xFC\xFB\xFF\xFF\xFF\xFF\xFF\xB2\xC4\xAA\xFF\x08D\x00\xFFp\x8Ec\xFF\xFF\xFF\xFF\xFF\xFC\xFD\xFC\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x8E\xA9\x82\xFFr\x94c\xFFr\x95d\xFF\xA0\xB4\x97\xFF\xFF\xFF\xFF\xFF\x96\xAD\x8C\xFFEq2\xFFVzG\xFF\xE3\xE4\xE2\xFF\xEE\xF3\xEC\xFF\xE4\xEA\xE1\xFF\xD1\xD9\xCE\xFF\xBD\xCA\xB8\xFF\xFC\xFB\xFC\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xAA\xBE\xA1\xFF\x99\xB2\x8E\xFF\x88\xA4|\xFFBk2\xFF\xFB\xFA\xFC\xFFCp1\xFF\xBC\xCC\xB6\xFF\x94\xA9\x8B\xFFa\x80T\xFFKu:\xFF3d\x1D\xFF#X\x11\xFF\x10F\x02\xFF\xDD\xE0\xDA\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFFQvB\xFF\xBD\xC9\xB9\xFFNy<\xFF\xD5\xE0\xD0\xFF\xDC\xE0\xDA\xFF\x14K\x00\xFF\x87\xA1}\xFF\xFC\xFD\xFC\xFF\xBE\xCF\xB8\xFF\x9E\xB4\x95\xFF\xFD\xFC\xFD\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFC\xFD\xFC\xFF\xF8\xFA\xF7\xFF\xFF\xFF\xFF\xFF}\x97q\xFFx\x94l\xFFEr2\xFF\xDD\xE6\xD9\xFF\xFA\xF8\xFA\xFFOs?\xFF\xE5\xE9\xE3\xFF\xFF\xFF\xFF\xFF\xFE\xFE\xFE\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFC\xFD\xFC\xFF\xFF\xFF\xFF\xFF\xBC\xC9\xB6\xFF>f.\xFFIs7\xFF\xF0\xF4\xEE\xFF\xFF\xFE\xFF\xFF\xCE\xD3\xCB\xFF\xFE\xFF\xFE\xFF\xFE\xFE\xFE\xFF\xFD\xFD\xFC\xFF\xFC\xFC\xFB\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFE\xFE\xFE\xFF\xFF\xFF\xFF\xFF\xEB\xEC\xEA\xFF,\\\x18\xFF>m+\xFF\xFA\xFB\xF9\xFF\xFF\xFF\xFF\xFF\xFE\xFE\xFE\xFF\xFE\xFF\xFE\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFD\xFE\xFD\xFF\xFF\xFF\xFF\xFFV|F\xFFFt3\xFF\xFF\xFF\xFF\xFF\xFE\xFE\xFE\xFF\xFE\xFE\xFD\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFC\xFD\xFC\xFF\xFF\xFF\xFF\xFF\x8F\xA5\x86\xFFc\x88S\xFF\xFF\xFF\xFF\xFF\xFD\xFE\xFD\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xF4\xF5\xF3\xFF\xF6\xF8\xF5\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+$$$$$$ Response Body For Transaction With Id 344 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 366 ******
+POST /LoadRunner_Correlation_Challenge_Mod.aspx HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Content-Length: 261
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://loadrunnertips.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+Cookie: __gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; __gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; __eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0
+
+
+$$$$$$ Request Header For Transaction With Id 366 Ended $$$$$$
+
+****** Request Body For Transaction With Id 366 ******
+__VIEWSTATE=%2FwEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ%3D%3D&__VIEWSTATEGENERATOR=3074961D&__EVENTVALIDATION=%2FwEdAAKdPCcy9t3wpVKAHy9yYsFnnlbekVM3R%2Fa0oKRYPLuORAlqSlgLVPQiVf0OfQa6TNTr1tbmayZqPlqZ0Zuo3KmB&ctl00%24head%24btnStart=Start
+$$$$$$ Request Body For Transaction With Id 366 Ended $$$$$$
+
+****** Response Header For Transaction With Id 366 ******
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Set-Cookie: ASP.NET_SessionId=qquwxx4rrbz3cksaheb3bxjt; path=/; HttpOnly; SameSite=Lax
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:37 GMT
+Content-Length: 11118
+
+
+$$$$$$ Response Header For Transaction With Id 366 Ended $$$$$$
+
+****** Response Body For Transaction With Id 366 ******
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	LoadRunner: Correlation Challenge
+</title>
+    <script type="text/javascript" src="JS/JScript_CC.js"></script>
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+        .style1
+        {
+            height: 39px;
+        }
+       
+    </style>
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+    <meta name="keywords" content="LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice" /><meta name="description" content="Welcome to the Correlation Challenge. I have condensed some of the types of correlation problems I have encountered in real web applications (ranging from relatively easy, to fairly difficult) into this exercise. You should be able to manually navigate through the Challenge with no problems, but creating a LoadRunner/VuGen script that will do the same thing will take a non-trivial amount of effort. Please treat this as a training exercise. If you can get to the end of this exercise by yourself, then you can correlate with the best of them" /></head>
+<body style=" padding:0px; margin:0px;background-color:#EFEFEF; font:Arial;">
+
+    <form method="post" action="./LoadRunner_Correlation_Challenge_Mod.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3074961D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOdPCcy9t3wpVKAHy9yYsFnEZwAPPXs+fTr6SGYYqMh2jrXPBqUZcs4yqSWpp6/FIREY8A2eedeJopqLW8/6AQxkHtQQcVTOCv5vrqOvEiRFQ==" />
+</div>
+    <div style=" border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;">
+        <table  cellspacing="0" cellpadding="0"  style=" background:url('img/images.jpg'); background-repeat:repeat-x; width:100%; padding:0px">
+            <tr>
+                <td width="20%">
+           
+            <a id="HyperLink1" style="display:inline-block;border-style:None;font-family:Arial;font-weight:bold; text-decoration:none"><img src="IMG/LR.gif" alt="LR Tricks" /></a>
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <br />
+                        <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>                        
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding="0" cellspacing="0" style=" width:100%; padding-top:40px ">
+            <tr>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+                <td width="60%" 
+                    
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;" 
+                    class="style1">
+                   
+                       
+                      
+                </td>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                   </td>
+                <td valign="top" width="60%" 
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                    <div style="border-top-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #000000">
+                     </div>
+                    
+    <div style=" margin:10px; font-family:Verdana">
+    
+    <div id="head_divStep1" style="margin-left: 40px">
+        <strong>Step 11</strong><br />
+        <br />
+        Enter the following number in the field below and press Next:<br />
+        <br />
+        <span id="head_lblMagicno"><strong>
+
+
+
+
+7832
+</span>
+        <br />
+        <input name="ctl00$head$txtMacigNo" type="text" id="head_txtMacigNo" />
+        <input type="submit" name="ctl00$head$btnNext" value="Next" id="head_btnNext" />
+    </div>
+    
+    
+    
+    
+   </div>
+   
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </td>
+                <td width="20%" align="center" valign="top" >
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+                <td width="60%" align="center" valign="top">
+                <br />
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                 </td>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 366 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertEnd, Location ID : -1)
+	web_add_cookie("__gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; DOMAIN=loadrunnertips.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertEnd, Location ID : -1)
+	web_add_cookie("__gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; DOMAIN=loadrunnertips.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertEnd, Location ID : -1)
+	web_add_cookie("__eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0; DOMAIN=loadrunnertips.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 366 ****** (Location Flag : tFlagInsertEnd, Location ID : 366)
+	web_submit_form("LoadRunner_Correlation_Challenge_Mod.aspx_2",
+		"Snapshot=t15.inf",
+		ITEMDATA,
+		"Name=ctl00$head$btnStart", "Value=Start", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 366 Ended $$$$$$
+
+****** Request Header For Transaction With Id 378 ******
+GET /v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSGQme3hZIcPy3aBIFDVCogv0h7n1w3PVcIlE=?alt=proto HTTP/1.1
+Host: content-autofill.googleapis.com
+Connection: keep-alive
+X-Goog-Encode-Response-If-Executable: base64
+X-Goog-Api-Key: AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 378 Ended $$$$$$
+
+****** Response Header For Transaction With Id 378 ******
+HTTP/1.1 200 OK
+Cache-Control: private,max-age=604800
+Content-Type: text/plain
+X-Goog-Safety-Encoding: base64
+X-Goog-Safety-Content-Type: application/x-protobuf
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 19 Feb 2024 10:24:38 GMT
+Server: ESF
+Content-Length: 36
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 378 Ended $$$$$$
+
+****** Response Body For Transaction With Id 378 ******
+CgkKBw1QqIL9GgA=
+$$$$$$ Response Body For Transaction With Id 378 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 382 ******
+POST /LoadRunner_Correlation_Challenge_Mod.aspx HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Content-Length: 322
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://loadrunnertips.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+Cookie: __gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; __gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; __eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0; ASP.NET_SessionId=qquwxx4rrbz3cksaheb3bxjt
+
+
+$$$$$$ Request Header For Transaction With Id 382 Ended $$$$$$
+
+****** Request Body For Transaction With Id 382 ******
+__VIEWSTATE=%2FwEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ%3D%3D&__VIEWSTATEGENERATOR=3074961D&__EVENTVALIDATION=%2FwEdAAOdPCcy9t3wpVKAHy9yYsFnEZwAPPXs%2BfTr6SGYYqMh2jrXPBqUZcs4yqSWpp6%2FFIREY8A2eedeJopqLW8%2F6AQxkHtQQcVTOCv5vrqOvEiRFQ%3D%3D&ctl00%24head%24txtMacigNo=7832&ctl00%24head%24btnNext=Next
+$$$$$$ Request Body For Transaction With Id 382 Ended $$$$$$
+
+****** Response Header For Transaction With Id 382 ******
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:24:56 GMT
+Content-Length: 12549
+
+
+$$$$$$ Response Header For Transaction With Id 382 Ended $$$$$$
+
+****** Response Body For Transaction With Id 382 ******
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	LoadRunner: Correlation Challenge
+</title>
+    <script type="text/javascript" src="JS/JScript_CC.js"></script>
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+        .style1
+        {
+            height: 39px;
+        }
+       
+    </style>
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+    <meta name="keywords" content="LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice" /><meta name="description" content="Welcome to the Correlation Challenge. I have condensed some of the types of correlation problems I have encountered in real web applications (ranging from relatively easy, to fairly difficult) into this exercise. You should be able to manually navigate through the Challenge with no problems, but creating a LoadRunner/VuGen script that will do the same thing will take a non-trivial amount of effort. Please treat this as a training exercise. If you can get to the end of this exercise by yourself, then you can correlate with the best of them" /></head>
+<body style=" padding:0px; margin:0px;background-color:#EFEFEF; font:Arial;">
+
+    <form method="post" action="./LoadRunner_Correlation_Challenge_Mod.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3074961D" />
+</div>
+    <div style=" border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;">
+        <table  cellspacing="0" cellpadding="0"  style=" background:url('img/images.jpg'); background-repeat:repeat-x; width:100%; padding:0px">
+            <tr>
+                <td width="20%">
+           
+            <a id="HyperLink1" style="display:inline-block;border-style:None;font-family:Arial;font-weight:bold; text-decoration:none"><img src="IMG/LR.gif" alt="LR Tricks" /></a>
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <br />
+                        <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>                        
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding="0" cellspacing="0" style=" width:100%; padding-top:40px ">
+            <tr>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+                <td width="60%" 
+                    
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;" 
+                    class="style1">
+                   
+                       
+                      
+                </td>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                   </td>
+                <td valign="top" width="60%" 
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                    <div style="border-top-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #000000">
+                     </div>
+                    
+    <div style=" margin:10px; font-family:Verdana">
+    
+    
+    <div id="head_divStep2" style="margin-left: 40px">
+        <strong>Step 2</strong><br />
+        <br />
+        Leave the drop-down list set to its default value, and press Next.<br />
+        <br />
+        <div id="head_divDDL"><select name='Select1' id='Select1'><option value='Basketball' id='DD01' class='DD01'>Basketball</option><option value='Football' id='DD11' selected='selected'  class='DD11'>Football</option><option value='Cricket' id='DD21' class='DD21'>Cricket</option><option value='Baseball' id='DD31' class='DD31'>Baseball</option><option value='Tennis' id='DD41' class='DD41'>Tennis</option><option value='Volleyball' id='DD51' class='DD51'>Volleyball</option><option value='Boxing' id='DD61' class='DD61'>Boxing</option><option value='Ice Hockey' id='DD71' class='DD71'>Ice Hockey</option><option value='Golf' id='DD81' class='DD81'>Golf</option><option value='Badminton' id='DD91' class='DD91'>Badminton</option><option value='Rugby Union' id='DD101' class='DD101'>Rugby Union</option><option value='Triathlon' id='DD111' class='DD111'>Triathlon</option><option value='Table Tennis' id='DD121' class='DD121'>Table Tennis</option><option value='Lacrosse' id='DD131' class='DD131'>Lacrosse</option><option value='Gymnastics' id='DD141' class='DD141'>Gymnastics</option><option value='Softball' id='DD151' class='DD151'>Softball</option><option value='Team Handball' id='DD161' class='DD161'>Team Handball</option><option value='Australian Rules Football' id='DD171' class='DD171'>Australian Rules Football</option><option value='Archery' id='DD181' class='DD181'>Archery</option><option value='Wrestling' id='DD191' class='DD191'>Wrestling</option><option value='Rugby League' id='DD201' class='DD201'>Rugby League</option><option value='Netball' id='DD211' class='DD211'>Netball</option><option value='Field Hockey' id='DD221' class='DD221'>Field Hockey</option><option value='Skiing' id='DD231' class='DD231'>Skiing</option></select></div>
+        <input id="Button1" type="button" value="Next" 
+            onclick="return Button1_onclick()"/><br />
+    </div>
+    
+    
+    
+   </div>
+   
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </td>
+                <td width="20%" align="center" valign="top" >
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+                <td width="60%" align="center" valign="top">
+                <br />
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                 </td>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 382 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 382 ****** (Location Flag : tFlagInsertEnd, Location ID : 382)
+	web_submit_form("LoadRunner_Correlation_Challenge_Mod.aspx_3",
+		"Snapshot=t16.inf",
+		ITEMDATA,
+		"Name=ctl00$head$txtMacigNo", "Value=7832", ENDITEM,
+		"Name=ctl00$head$btnNext", "Value=Next", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 382 Ended $$$$$$
+
+****** Request Header For Transaction With Id 395 ******
+POST /service/update2/json?cup2key=13:akhX7Zfa9mY1wHF3DtpPedsdM-RP8qlJhfe8gmY7_s8&cup2hreq=68df5f41f37e0c481062aafc482dc95a504e6fd3df77ae2e303a8babdbbcdd9f HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 8563
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,kiabhabjdbkjdpjbpigfodbdjmbglcoo,niikhdgajlphfehepabhhblakbdgeefj,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,jamhcnnkihinmdlkakkaopbjbbcngflc,ojhpjlocmbogdgmfpkhlaaeamibhnphh,jflhchccmppkfebkiaminageehmchikm,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-121.0.6167.185
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 395 Ended $$$$$$
+
+****** Request Body For Transaction With Id 395 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3,puff","app":[{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"GGLS","cohort":"1::","enabled":true,"installdate":5887,"lang":"en-GB","packages":{"package":[{"fp":"1.30f5f886b824ca1efde5174370fc03cab3c02e9c309bc381857430f5843a510b"}]},"ping":{"ping_freshness":"{873d7a4c-32b0-40ff-8cca-81daeb492854}","rd":6258},"updatecheck":{},"version":"1.3.36.311"},{"appid":"neifaoindggfcjicffkgpmnlppeffabd","brand":"GGLS","cohort":"1:1299:","cohortname":"Auto","enabled":true,"installdate":5887,"lang":"en-GB","packages":{"package":[{"fp":"1.c900ba9a2d8318263fd43782ee6fd5fb50bad78bf0eb2c972b5922c458af45ed"}]},"ping":{"ping_freshness":"{03c0d039-82f9-433e-bd51-79315111bf0d}","rd":6258},"updatecheck":{},"version":"1.0.2738.0"},{"appid":"oimompecagnajdejgnnjijobebaeigek","brand":"GGLS","cohort":"1:1zdx:","cohortname":"Chrome 106+","enabled":true,"installdate":5887,"lang":"en-GB","ping":{"ping_freshness":"{c8daa3b8-78dc-4a1f-ae4a-0774a7006a59}","rd":6258},"update
+$$$$$$ Request Body For Transaction With Id 395 Ended $$$$$$
+
+****** Response Header For Transaction With Id 395 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-Im4hdiPSO-BRuEyTBk5d4Q' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 19 Feb 2024 10:25:06 GMT
+X-Cup-Server-Proof: 304402205a29540de13c00c9e5c1a9f0d3c511bf96022d9e085d96e63d7ec9802d74d7b9022070469d50341d3ac13bd967b942c814a8a7437ef30c9ae63f0fd196e867a0dd95:68df5f41f37e0c481062aafc482dc95a504e6fd3df77ae2e303a8babdbbcdd9f
+ETag: W/"304402205a29540de13c00c9e5c1a9f0d3c511bf96022d9e085d96e63d7ec9802d74d7b9022070469d50341d3ac13bd967b942c814a8a7437ef30c9ae63f0fd196e867a0dd95:68df5f41f37e0c481062aafc482dc95a504e6fd3df77ae2e303a8babdbbcdd9f"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 6258
+X-Daystart: 8706
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 395 Ended $$$$$$
+
+****** Response Body For Transaction With Id 395 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":8706,"elapsed_days":6258},"app":[{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1zdx:","status":"ok","cohortname":"Chrome 106+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:","status":"ok","cohortname":"Stable","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f/20ol:20or@0.5","status":"ok","cohortname":"Rollout","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"kiabhabjdbkjdpjbpigfodbdjmbglcoo","cohort":"1:v3l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"niikhdgajlphfehepabhhblakbdgeefj","cohort":"1:1uh3:","status":"ok","cohortname":"Auto Main Cohort.","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:2879:","status":"ok","cohortname":"Auto androidlowmem","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:23ml@0.1","status":"ok","cohortname":"M108 and Above","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"All users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"jflhchccmppkfebkiaminageehmchikm","cohort":"1:26yf:","status":"ok","cohortname":"Stable","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 395 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 395 ****** (Location Flag : tFlagInsertEnd, Location ID : 395)
+	web_custom_request("json",
+		"URL=https://update.googleapis.com/service/update2/json?cup2key=13:akhX7Zfa9mY1wHF3DtpPedsdM-RP8qlJhfe8gmY7_s8&cup2hreq=68df5f41f37e0c481062aafc482dc95a504e6fd3df77ae2e303a8babdbbcdd9f",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t17.inf",
+		"Mode=HTML",
+		"EncType=application/json",
+		"Body={\"request\":{\"@os\":\"win\",\"@updater\":\"chrome\",\"acceptformat\":\"crx3,puff\",\"app\":[{\"appid\":\"ihnlcenocehgdaegdmhbidjhnhdchfmm\",\"brand\":\"GGLS\",\"cohort\":\"1::\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.30f5f886b824ca1efde5174370fc03cab3c02e9c309bc381857430f5843a510b\"}]},\"ping\":{\"ping_freshness\":\"{873d7a4c-32b0-40ff-8cca-81daeb492854}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"1.3.36.311\"},{\"appid\":\"neifaoindggfcjicffkgpmnlppeffabd\",\"brand\":\"GGLS\",\"cohort\":\"1:1299:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.c900ba9a2d8318263fd43782ee6fd5fb50bad78bf0eb2c972b5922c458af45ed\"}]},\"ping\":{\"ping_freshness\":\"{03c0d039-82f9-433e-bd51-79315111bf0d}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"1.0.2738.0\"},{\"appid\":\"oimompecagnajdejgnnjijobebaeigek\",\"brand\":\"GGLS\",\"cohort\":\"1:1zdx:\",\"cohortname\":\"Chrome 106+\",\"enabl"
+		"ed\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"ping\":{\"ping_freshness\":\"{c8daa3b8-78dc-4a1f-ae4a-0774a7006a59}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"4.10.2710.0\"},{\"appid\":\"gcmjkmgdlgnkkcocmoeiminaijmmjnii\",\"brand\":\"GGLS\",\"cohort\":\"1:bm1:\",\"cohortname\":\"Stable\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.cd1978742a4afdbaaa15bf712d5c90bef4144caa99024df98f6a9ad58043ae85\"}]},\"ping\":{\"ping_freshness\":\"{b4955034-d680-4073-b41f-935dd26a4c18}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"9.49.1\"},{\"accept_locale\":\"ENGB500000\",\"appid\":\"obedbbhbpmojnkanicioggnmelmoomoc\",\"brand\":\"GGLS\",\"cohort\":\"1:s6f/20ol:20or@0.5\",\"cohortname\":\"Rollout\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.8069f8805123f74944304604381770bb694317c9e1044e096f540222dc56c0f6\"}]},\"ping\":{\"ping_freshness\":\"{06b3be21-983c-4ce0-89dc-c49d2f6488d7}\",\"rd\":6258},\"updatecheck\":{"
+		"},\"version\":\"20230923.567854667.14\"},{\"appid\":\"lmelglejhemejginpboagddgdfbepgmp\",\"brand\":\"GGLS\",\"cohort\":\"1:lwl:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.04dfbee1ec2fd167512805dedf3fa2a823dc28fe9fa2c97a74e664b38486110f\"}]},\"ping\":{\"ping_freshness\":\"{1d856f4a-7e39-4a6d-8e3d-b6a95a995bac}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"434\"},{\"appid\":\"kiabhabjdbkjdpjbpigfodbdjmbglcoo\",\"brand\":\"GGLS\",\"cohort\":\"1:v3l:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":6134,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.4a6508925b2ffec931c1e3931ddeb15ca41d820a8264cd5a962b526e9932bcdf\"}]},\"ping\":{\"ping_freshness\":\"{0fd5a55e-50fb-4cd8-a1a0-cc9d34a762e5}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2024.1.2.1\"},{\"appid\":\"niikhdgajlphfehepabhhblakbdgeefj\",\"brand\":\"GGLS\",\"cohort\":\"1:1uh3:\",\"cohortname\":\"Auto Main Cohort.\",\"enabled\":true,\"installdate\":6134,"
+		"\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.338cbd67983bc23dfdcae48f34706ac81e378161918137c5242db2175f52d94e\"}]},\"ping\":{\"ping_freshness\":\"{dd5b4ad9-cd27-47b2-854e-0c8f5e878b3d}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2024.2.14.0\"},{\"appid\":\"giekcmmlnklenlaomppkphknjmnnpneh\",\"brand\":\"GGLS\",\"cohort\":\"1:j5l:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace\"}]},\"ping\":{\"ping_freshness\":\"{7f33a22b-5b14-462c-9493-d0ae830c2043}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"7\"},{\"appid\":\"khaoiebndkojlmppeemjhbpbandiljpe\",\"brand\":\"GGLS\",\"cohort\":\"1:cux:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.f4f1eb04881095d1cc8f2e1799a8144c10476dc1088a03ecdb4418644040a554\"}]},\"ping\":{\"ping_freshness\":\"{f612060c-139d-4c61-9067-2a7e9a630871}\",\"rd\":6"
+		"258},\"updatecheck\":{},\"version\":\"63\"},{\"appid\":\"hfnkpimlhhgieaddgfemjhofmfblmnib\",\"brand\":\"GGLS\",\"cohort\":\"1:2879:\",\"cohortname\":\"Auto androidlowmem\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.cb0c781d5870726b7b1c46b031524bd2f772e8cac9614a0dfad7c5b799be575d\"}]},\"ping\":{\"ping_freshness\":\"{c57caf41-32c9-4432-b234-88d70f6d1aac}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"8556\"},{\"appid\":\"llkgjffcdpffmhiakmfcdcblohccpfmo\",\"brand\":\"GGLS\",\"cohort\":\"1::\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.3a118962ef814c91f6476bb9f0de58afa63103af6ac1b8729be9b39a86789e96\"}]},\"ping\":{\"ping_freshness\":\"{ad3c58a1-153c-430a-8b54-76a48a464afb}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"1.0.0.15\"},{\"appid\":\"laoigpblnllgcgjnjnllmfolckpjlhki\",\"brand\":\"GGLS\",\"cohort\":\"1:10zr:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"pin"
+		"g\":{\"ping_freshness\":\"{fbeafaa3-da0c-4ec0-bb39-bca50657a59c}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"1.0.7.1652906823\"},{\"appid\":\"ehgidpndbllacpjalkiimkbadgjfnnmc\",\"brand\":\"GGLS\",\"cohort\":\"1:ofl:\",\"cohortname\":\"stable64\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc\"}]},\"ping\":{\"ping_freshness\":\"{29427a8c-e587-444b-9156-82eb1d78586c}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2018.8.8.0\"},{\"appid\":\"efniojlnjndmcbiieegkicadnoecjjef\",\"brand\":\"GGLS\",\"cohort\":\"1:18ql:\",\"cohortname\":\"Auto Stage3\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.4ccf4cac4c37dd966d3bee0b3a4137894eecde1b22a9d4e7ef07d5081b5cf67a\"}]},\"ping\":{\"ping_freshness\":\"{9a0f33b7-ddef-4e8b-b31b-e1080eae28b3}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"867\"},{\"appid\":\"jflookgnkcckhobaglndicnbbgbonegd\",\"brand\":\"GG"
+		"LS\",\"cohort\":\"1:s7x:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.af8fa6822a4a3a4aeaf78dd2b562b3b76ed3ef0b362f8ebc822df79717c996df\"}]},\"ping\":{\"ping_freshness\":\"{1e377d8f-986f-49d9-9ec3-79fd478588ca}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"3019\"},{\"appid\":\"ggkkehgbnfjpeggfpleeakpidbkibbmn\",\"brand\":\"GGLS\",\"cohort\":\"1:ut9/1a0f:23ml@0.1\",\"cohortname\":\"M108 and Above\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.c45cd56a0a8da0883c8f9757b31891d6c628f38cb80724015ffdf33b419a73f3\"}]},\"ping\":{\"ping_freshness\":\"{bfd556bc-7c30-437d-99ea-5d4da366843e}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2023.11.27.1202\"},{\"appid\":\"jamhcnnkihinmdlkakkaopbjbbcngflc\",\"brand\":\"GGLS\",\"cohort\":\"1:wvr:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.c52c62a7c50daf7d3f73ec16977cd4b"
+		"0ea401710807d5dbe3850941dd1b73a70\"}]},\"ping\":{\"ping_freshness\":\"{6b7109ba-fb98-438b-a29f-db2c2aa611ed}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"120.0.6050.0\"},{\"appid\":\"ojhpjlocmbogdgmfpkhlaaeamibhnphh\",\"brand\":\"GGLS\",\"cohort\":\"1:w0x:\",\"cohortname\":\"All users\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff\"}]},\"ping\":{\"ping_freshness\":\"{3978e79e-59f6-4053-ae9c-06d55b47581c}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"3\"},{\"appid\":\"jflhchccmppkfebkiaminageehmchikm\",\"brand\":\"GGLS\",\"cohort\":\"1:26yf:\",\"cohortname\":\"Stable\",\"enabled\":true,\"installdate\":6148,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.cb80f7697a4bf93f5ba730126c381fe89e37b6a264215bcbe4e12628b8940e98\"}]},\"ping\":{\"ping_freshness\":\"{5186027c-c73d-4e0d-81a7-e473d0117872}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2024.2.17.1\"},{\"appid\":\"eeigpngbgcogna"
+		"deebkilcpcaedhellh\",\"brand\":\"GGLS\",\"cohort\":\"1:w59:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05\"}]},\"ping\":{\"ping_freshness\":\"{9cac7287-b7d4-4df3-a16b-bcaba7670f33}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2020.11.2.164946\"},{\"appid\":\"gonpemdgkjcecdgbnaabipppbmgfggbe\",\"brand\":\"GGLS\",\"cohort\":\"1:z1x:\",\"cohortname\":\"Auto\",\"enabled\":true,\"installdate\":5887,\"lang\":\"en-GB\",\"packages\":{\"package\":[{\"fp\":\"1.7e7996864a74a4b8db2b59c559f924f321668848edbcb85386212a4901ef0e6e\"}]},\"ping\":{\"ping_freshness\":\"{63ed0f13-7809-41eb-8423-d97fd3742451}\",\"rd\":6258},\"updatecheck\":{},\"version\":\"2024.2.14.0\"}],\"arch\":\"x64\",\"dedup\":\"cr\",\"domainjoined\":false,\"hw\":{\"avx\":true,\"physmemory\":12,\"sse\":true,\"sse2\":true,\"sse3\":true,\"sse41\":true,\"sse42\":true,\"ssse3\":true},\"ismachine\":true,\"nacl_arch\":\"x"
+		"86-64\",\"os\":{\"arch\":\"x86_64\",\"platform\":\"Windows\",\"version\":\"10.0.19045.3324\"},\"prodversion\":\"121.0.6167.185\",\"protocol\":\"3.1\",\"requestid\":\"{7782f37e-be06-43bb-b427-e98716c15a6a}\",\"sessionid\":\"{766abde2-7c2f-45ca-bcb2-85ba435e7569}\",\"updater\":{\"autoupdatecheckenabled\":true,\"ismachine\":true,\"laststarted\":0,\"name\":\"ChromiumUpdater\",\"updatepolicy\":-1,\"version\":\"123.0.6288.0\"},\"updaterversion\":\"121.0.6167.185\"}}",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 395 Ended $$$$$$
+
+****** Request Header For Transaction With Id 399 ******
+GET /LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+Cookie: __gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; __gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; __eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0; ASP.NET_SessionId=qquwxx4rrbz3cksaheb3bxjt
+
+
+$$$$$$ Request Header For Transaction With Id 399 Ended $$$$$$
+
+****** Response Header For Transaction With Id 399 ******
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:25:07 GMT
+Content-Length: 24122
+
+
+$$$$$$ Response Header For Transaction With Id 399 Ended $$$$$$
+
+****** Response Body For Transaction With Id 399 ******
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	LoadRunner: Correlation Challenge
+</title>
+    <script type="text/javascript" src="JS/JScript_CC.js"></script>
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+        .style1
+        {
+            height: 39px;
+        }
+       
+    </style>
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+    <meta name="keywords" content="LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice" /><meta name="description" content="Welcome to the Correlation Challenge. I have condensed some of the types of correlation problems I have encountered in real web applications (ranging from relatively easy, to fairly difficult) into this exercise. You should be able to manually navigate through the Challenge with no problems, but creating a LoadRunner/VuGen script that will do the same thing will take a non-trivial amount of effort. Please treat this as a training exercise. If you can get to the end of this exercise by yourself, then you can correlate with the best of them" /></head>
+<body style=" padding:0px; margin:0px;background-color:#EFEFEF; font:Arial;">
+
+    <form method="post" action="./LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&amp;game=Football" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTg3MDg5NjY4ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WFAUPY3RsMDAkaGVhZCRjaGsxBQ9jdGwwMCRoZWFkJGNoazIFD2N0bDAwJGhlYWQkY2hrMwUPY3RsMDAkaGVhZCRjaGs0BQ9jdGwwMCRoZWFkJGNoazUFD2N0bDAwJGhlYWQkY2hrNgUPY3RsMDAkaGVhZCRjaGs3BQ9jdGwwMCRoZWFkJGNoazgFD2N0bDAwJGhlYWQkY2hrOQUQY3RsMDAkaGVhZCRjaGsxMAUQY3RsMDAkaGVhZCRjaGsxMQUQY3RsMDAkaGVhZCRjaGsxMgUQY3RsMDAkaGVhZCRjaGsxMwUQY3RsMDAkaGVhZCRjaGsxNAUQY3RsMDAkaGVhZCRjaGsxNQUQY3RsMDAkaGVhZCRjaGsxNgUQY3RsMDAkaGVhZCRjaGsxNwUQY3RsMDAkaGVhZCRjaGsxOAUQY3RsMDAkaGVhZCRjaGsxOQUQY3RsMDAkaGVhZCRjaGsyMGqXlyHw3od8ns/doV7jTOBVMKvPxwN1j1KsshtV11Mb" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3074961D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABbkfGNv0lbea+Z4JeynJg3Yqasbxwl7lgdZZfZ2n+oFBQVQb/BqIrnuBsiTd5SBX0XDYFHBMur5v1vZ4LUwZUXEv1bMxkD35JfEKTUHLZw4URiuU4nLTwtj/r43949QF/fcXs3H4McaH100kUT9gcPbmpgAqjKGNuaeCinRuZ1fUy+AnrQ09DAotZNMecAuJqp7WQG8SNPlN0mV+BwfjWNo1u1qRUoE0ucmhZnEUyRDxJcIA7A2BTvsdZNVrY2UTuZixHoyjomtObKrCt06E5/UAoxFdFd6aX6eQs9i0oSTXDkt+Do6wOIA4KwaXE0pUgA2isLFBHeYufrtFtgXd6f0DGIM5YFnsJoM+HWSXfRSONHx4ZdtIVVepNuIcMSoJKpEnOUHlLp+oSuQ44YhcKDN8B20tHcNPS9okHrSEPNbXouIr9iCQfCWk3E3COVI0FitjCG6HyklgWzfDmV0vuRMUSjdSxCzQ852y1d51LPaJxPca2Q7qj/IAoj901bSYPY=" />
+</div>
+    <div style=" border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;">
+        <table  cellspacing="0" cellpadding="0"  style=" background:url('img/images.jpg'); background-repeat:repeat-x; width:100%; padding:0px">
+            <tr>
+                <td width="20%">
+           
+            <a id="HyperLink1" style="display:inline-block;border-style:None;font-family:Arial;font-weight:bold; text-decoration:none"><img src="IMG/LR.gif" alt="LR Tricks" /></a>
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <br />
+                        <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>                        
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding="0" cellspacing="0" style=" width:100%; padding-top:40px ">
+            <tr>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+                <td width="60%" 
+                    
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;" 
+                    class="style1">
+                   
+                       
+                      
+                </td>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                   </td>
+                <td valign="top" width="60%" 
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                    <div style="border-top-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #000000">
+                     </div>
+                    
+    <div style=" margin:10px; font-family:Verdana">
+    
+    
+    
+    <div id="head_divStep3" style="margin-left: 40px">
+        
+        <strong>Step 3</strong><br />
+        <br />
+        Select All the Airline whoes Flight Status is On Time and Click Next:<br />
+        <br />
+        <table cellpadding="0" cellspacing="0" >
+            <tr>
+                <td align="center" 
+                    style="border: 1px solid #000000; background-color: #66CCFF; font-weight: bold;">
+                    Airline</td>
+                <td align="center" 
+                    style="border: 1px solid #000000; background-color: #66CCFF; font-weight: bold;">
+                    Destination</td>
+                <td align="center" 
+                    style="border: 1px solid #000000; background-color: #66CCFF; font-weight: bold;">
+                    Flight Status</td>
+                <td align="center" 
+                    style="border: 1px solid #000000; background-color: #66CCFF; font-weight: bold;">
+                    Select</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Emirates</td>
+                <td style="border: 1px solid #000000">
+&nbsp;Singapore</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus1">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk1" type="checkbox" name="ctl00$head$chk1" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Cathay Pacific</td>
+                <td style="border: 1px solid #000000">
+                    Paris - France</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus2">On Time</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk2" type="checkbox" name="ctl00$head$chk2" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Emirates</td>
+                <td style="border: 1px solid #000000">
+                    Oslo - Norway</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus3">On Time</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk3" type="checkbox" name="ctl00$head$chk3" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Singapore Airlines</td>
+                <td style="border: 1px solid #000000">
+                    Melbourne - Australia</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus4">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk4" type="checkbox" name="ctl00$head$chk4" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Cathay Pacific</td>
+                <td style="border: 1px solid #000000">
+                    Zurich - Switzerland</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus5">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk5" type="checkbox" name="ctl00$head$chk5" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    British Airways</td>
+                <td style="border: 1px solid #000000">
+                    Sydney - Australia</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus6">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk6" type="checkbox" name="ctl00$head$chk6" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Singapore Airlines</td>
+                <td style="border: 1px solid #000000">
+                    Caracas - Venezuela</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus7">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk7" type="checkbox" name="ctl00$head$chk7" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Cathay Pacific</td>
+                <td style="border: 1px solid #000000">
+                    Geneva - Switzerland</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus8">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk8" type="checkbox" name="ctl00$head$chk8" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Singapore Airlines</td>
+                <td style="border: 1px solid #000000">
+                    Tokyo - Japan</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus9">On Time</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk9" type="checkbox" name="ctl00$head$chk9" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Asiana Airlines</td>
+                <td style="border: 1px solid #000000">
+                    Copenhagen - Denmark</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus10">On Time</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk10" type="checkbox" name="ctl00$head$chk10" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Qatar Airways</td>
+                <td style="border: 1px solid #000000">
+                    Mumbai - India</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus11">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk11" type="checkbox" name="ctl00$head$chk11" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Emirates</td>
+                <td style="border: 1px solid #000000">
+                    Karachi - Pakistan</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus12">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk12" type="checkbox" name="ctl00$head$chk12" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Qatar Airways</td>
+                <td style="border: 1px solid #000000">
+                    New Delhi - India</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus13">On Time</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk13" type="checkbox" name="ctl00$head$chk13" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Cathay Pacific</td>
+                <td style="border: 1px solid #000000">
+                    Kathmandu - &nbsp;&nbsp;Nepal</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus14">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk14" type="checkbox" name="ctl00$head$chk14" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Qantas</td>
+                <td style="border: 1px solid #000000">
+                    Damascus - Syria</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus15">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk15" type="checkbox" name="ctl00$head$chk15" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Thai Airways</td>
+                <td style="border: 1px solid #000000">
+                    Algiers - Algeria</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus16">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk16" type="checkbox" name="ctl00$head$chk16" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Qantas</td>
+                <td style="border: 1px solid #000000">
+                    Bucharest - Romania</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus17">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk17" type="checkbox" name="ctl00$head$chk17" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Cathay Pacific</td>
+                <td style="border: 1px solid #000000">
+                    Panama City - Panama</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus18">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk18" type="checkbox" name="ctl00$head$chk18" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Asiana Airlines</td>
+                <td style="border: 1px solid #000000">
+                    Jeddah - Saudi Arabia</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus19">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk19" type="checkbox" name="ctl00$head$chk19" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000000">
+                    Emirates</td>
+                <td style="border: 1px solid #000000">
+                    Riyadh - Saudi Arabia</td>
+                <td align="center" style="border: 1px solid #000000">
+                    <span id="head_lblstatus20">Delay</span>
+                </td>
+                <td align="center" style="border: 1px solid #000000">
+                    <input id="head_chk20" type="checkbox" name="ctl00$head$chk20" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" name="ctl00$head$btnNext3" value="Next" id="head_btnNext3" />
+    </div>
+    
+    
+   </div>
+   
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </td>
+                <td width="20%" align="center" valign="top" >
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+                <td width="60%" align="center" valign="top">
+                <br />
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                 </td>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 399 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/service/update2/json?cup2key=13:akhX7Zfa9mY1wHF3DtpPedsdM-RP8qlJhfe8gmY7_s8&cup2hreq=68df5f41f37e0c481062aafc482dc95a504e6fd3df77ae2e303a8babdbbcdd9f
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 399 ****** (Location Flag : tFlagInsertEnd, Location ID : 399)
+	web_url("LoadRunner_Correlation_Challenge_Mod.aspx_4",
+		"URL=http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx",
+		"Snapshot=t18.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 399 Ended $$$$$$
+
+****** Request Header For Transaction With Id 410 ******
+POST /LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football HTTP/1.1
+Host: loadrunnertips.com
+Connection: keep-alive
+Content-Length: 1339
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://loadrunnertips.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://loadrunnertips.com/LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9
+Cookie: __gads=ID=6d7306dd6a4db672:T=1708338264:RT=1708338264:S=ALNI_MZJmjPzzmqemS9Eg_laxt-XYdsw-A; __gpi=UID=00000d0a42f6f35f:T=1708338264:RT=1708338264:S=ALNI_MYawxBWa6YGTB-mKg50relUiG9NxA; __eoi=ID=f3826c3973266885:T=1708338264:RT=1708338264:S=AA-AfjaXLwTy9tiwKHBcWVrYvki0; ASP.NET_SessionId=qquwxx4rrbz3cksaheb3bxjt
+
+
+$$$$$$ Request Header For Transaction With Id 410 Ended $$$$$$
+
+****** Request Body For Transaction With Id 410 ******
+__VIEWSTATE=%2FwEPDwUJOTg3MDg5NjY4ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WFAUPY3RsMDAkaGVhZCRjaGsxBQ9jdGwwMCRoZWFkJGNoazIFD2N0bDAwJGhlYWQkY2hrMwUPY3RsMDAkaGVhZCRjaGs0BQ9jdGwwMCRoZWFkJGNoazUFD2N0bDAwJGhlYWQkY2hrNgUPY3RsMDAkaGVhZCRjaGs3BQ9jdGwwMCRoZWFkJGNoazgFD2N0bDAwJGhlYWQkY2hrOQUQY3RsMDAkaGVhZCRjaGsxMAUQY3RsMDAkaGVhZCRjaGsxMQUQY3RsMDAkaGVhZCRjaGsxMgUQY3RsMDAkaGVhZCRjaGsxMwUQY3RsMDAkaGVhZCRjaGsxNAUQY3RsMDAkaGVhZCRjaGsxNQUQY3RsMDAkaGVhZCRjaGsxNgUQY3RsMDAkaGVhZCRjaGsxNwUQY3RsMDAkaGVhZCRjaGsxOAUQY3RsMDAkaGVhZCRjaGsxOQUQY3RsMDAkaGVhZCRjaGsyMGqXlyHw3od8ns%2FdoV7jTOBVMKvPxwN1j1KsshtV11Mb&__VIEWSTATEGENERATOR=3074961D&__EVENTVALIDATION=%2FwEdABbkfGNv0lbea%2BZ4JeynJg3Yqasbxwl7lgdZZfZ2n%2BoFBQVQb%2FBqIrnuBsiTd5SBX0XDYFHBMur5v1vZ4LUwZUXEv1bMxkD35JfEKTUHLZw4URiuU4nLTwtj%2Fr43949QF%2FfcXs3H4McaH100kUT9gcPbmpgAqjKGNuaeCinRuZ1fUy%2BAnrQ09DAotZNMecAuJqp7WQG8SNPlN0mV%2BBwfjWNo1u1qRUoE0ucmhZnEUyRDxJcIA7A2BTvsdZNVrY2UTuZixHoyjomtObKrCt06E5%2FUAoxFdFd6aX6eQs9i0oSTXDkt%2BDo6wOIA4KwaXE0pUgA2isLFBHeYufrtFtgXd6f0DGIM5YFnsJo
+$$$$$$ Request Body For Transaction With Id 410 Ended $$$$$$
+
+****** Response Header For Transaction With Id 410 ******
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 19 Feb 2024 10:25:42 GMT
+Content-Length: 10670
+
+
+$$$$$$ Response Header For Transaction With Id 410 Ended $$$$$$
+
+****** Response Body For Transaction With Id 410 ******
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	LoadRunner: Correlation Challenge
+</title>
+    <script type="text/javascript" src="JS/JScript_CC.js"></script>
+    <link href="JS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+        .style1
+        {
+            height: 39px;
+        }
+       
+    </style>
+   <script>
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-54539864-2', 'auto');
+       ga('send', 'pageview');
+
+</script>
+    <meta name="keywords" content="LoadRunner Correlation practice, LR Correlation practice, LoadRunner Correlation Challenge, LR Correlation Challenge, Loadrunner, LR, Correlation, VeGen, LR scripting, LoadRunner Scripting Correlation practice, LR Scripting Correlation practice" /><meta name="description" content="Welcome to the Correlation Challenge. I have condensed some of the types of correlation problems I have encountered in real web applications (ranging from relatively easy, to fairly difficult) into this exercise. You should be able to manually navigate through the Challenge with no problems, but creating a LoadRunner/VuGen script that will do the same thing will take a non-trivial amount of effort. Please treat this as a training exercise. If you can get to the end of this exercise by yourself, then you can correlate with the best of them" /></head>
+<body style=" padding:0px; margin:0px;background-color:#EFEFEF; font:Arial;">
+
+    <form method="post" action="./LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&amp;game=Football" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTg3MDg5NjY4ZGRZYyiQR31NIRoqCeI3HwDc24DGdd83OnvgUVN4lMbpJQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3074961D" />
+</div>
+    <div style=" border-width: 1px; border-color: #000000; position:fixed; width:100%; background-color: #0066CC; padding-top:0px; border-bottom-style: solid;">
+        <table  cellspacing="0" cellpadding="0"  style=" background:url('img/images.jpg'); background-repeat:repeat-x; width:100%; padding:0px">
+            <tr>
+                <td width="20%">
+           
+            <a id="HyperLink1" style="display:inline-block;border-style:None;font-family:Arial;font-weight:bold; text-decoration:none"><img src="IMG/LR.gif" alt="LR Tricks" /></a>
+           </td>
+                <td width="60%" valign="top" align="left">
+                    <br />
+                        <ul id="trans-nav" >
+                        <li><a href="Index.htm">Home</a></li>
+                         <li><a href="">Training</a>
+                                 <ul>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Load Runner</a></li>
+                                <li><a href="VuGen/Load_Runner_VuGen_Home.htm">VuGen</a></li>
+                                <li><a href="Controller/Controller.htm">Controller</a></li>
+                                <li><a href="AN/Load_Runner_Analysis.htm">Analysis</a></li>
+                                <li><a href="PT/Performance_Testing.htm">Performance Testing</a></li>
+                                <li><a href="PT/Performance_Tuning.htm">Performance Tuning</a></li>
+                                <li><a href="LR_Error/Load_Runner_Errors.htm">Load Runner Errors</a></li>
+                                <li><a href="Load_Runner/Load_Runner_Home.htm">Interview Question</a></li>
+                                </ul>
+                          </li>
+                        <li><a href="Tool/Tool.htm">Tools    </a>
+                              <ul>
+                                <li><a href="LoadRunner_transaction_naming_tool.aspx">Transaction Naming</a></li>
+                                <li><a href="LoadRunner_Correlation_Finder.aspx">Correlation Finder</a></li>
+                                <li><a href="ENDE.aspx">URLEncode/URLDecode</a></li>
+                                <li><a href="Tool/Free_Website_Automation_from_Excel.htm">Web Automation by Excel</a></li>
+                                <li><a href="Tool/Free_Load_Testing_From_Excel.htm">Load Test by Excel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Correlation Challenge</a>
+                            <ul>
+                                <li><a href="#">Challenge for Beginners</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Mod.aspx">Challenge for Modrate</a></li>
+                                <li><a href="LoadRunner_Correlation_Challenge_Exp.aspx">Challenge for Expert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About.aspx">About</a></li>
+                    </ul>                        
+                    </td>
+                <td align="left" width="20%">
+   
+            &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding="0" cellspacing="0" style=" width:100%; padding-top:40px ">
+            <tr>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+                <td width="60%" 
+                    
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; padding: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;" 
+                    class="style1">
+                   
+                       
+                      
+                </td>
+                <td width="20%" style="padding: 10px" class="style1">
+                    </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                   </td>
+                <td valign="top" width="60%" 
+                    style="border-width: 1px; border-color: #000000; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                    <div style="border-top-style: solid; border-bottom-style: solid; border-width: 1px; border-color: #000000">
+                     </div>
+                    
+    <div style=" margin:10px; font-family:Verdana">
+    
+    
+    
+    
+    <div id="head_divStep4" style="margin-left: 40px">
+        <strong>Step 4
+        </strong>
+        <br />
+       Correlation Challenge Completed (manually). Try now it in Vegen.</div>
+    
+   </div>
+   
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- H_Page -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-2242131967064788"
+                             data-ad-slot="2118144356"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </td>
+                <td width="20%" align="center" valign="top" >
+                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- RL -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:160px;height:600px"
+                         data-ad-client="ca-pub-2242131967064788"
+                         data-ad-slot="8164677950"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+                <td width="60%" align="center" valign="top">
+                <br />
+                   
+                    <br />
+                    <div id="divTags" align="center" style="background-color: #000000; color:Gray; padding:10px">
+                    
+                     <strong>FIND MORE ON LOAD RUNNER TIPS</strong><br /> |
+                     <a href="Load_Runner/Load_Runner_Home.htm" class="tadA">About Load Runner</a> |
+                     <a href="VuGen/Load_Runner_VuGen_Home.htm" class="tadA">Creating scripts in Load Runner</a> |
+                     <a href="Controller/Controller.htm" class="tadA">Load Runner scenario</a> |
+                     <a href="AN/Load_Runner_Analysis.htm" class="tadA">LR Analysis</a> |
+                     <a href="PT/Performance_Tuning.htm" class="tadA">Performance Tuning </a> |
+                     <a href="PT/Performance_Testing.htm" class="tadA">Performance Testing</a> |
+                     <a href="LR_Error/Load_Runner_Errors.htm" class="tadA">LR Errors</a> |
+                     <a href="Interview_Question/Interview_question_home.htm" class="tadA">Interview Question</a> |
+                     <a href="Tool/Tool.htm" class="tadA">Load Runner Tool</a> |
+                     <a href="LoadRunner_Correlation_Challenge_Mod.aspx" class="tadA">Correlation Practice</a> |
+                     <a href="SiteMap.aspx" class="tadA">Site Map</a> |
+                    
+                 </div>
+                 </td>
+                <td width="20%" align="center" valign="top">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 410 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football
+Form: name= action=./LoadRunner_Correlation_Challenge_Mod.aspx?dd=1&game=Football
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 410 ****** (Location Flag : tFlagInsertEnd, Location ID : 410)
+	web_submit_form("LoadRunner_Correlation_Challenge_Mod.aspx_5",
+		"Snapshot=t19.inf",
+		ITEMDATA,
+		"Name=ctl00$head$chk1", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk2", "Value=on", ENDITEM,
+		"Name=ctl00$head$chk3", "Value=on", ENDITEM,
+		"Name=ctl00$head$chk4", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk5", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk6", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk7", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk8", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk9", "Value=on", ENDITEM,
+		"Name=ctl00$head$chk10", "Value=on", ENDITEM,
+		"Name=ctl00$head$chk11", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk12", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk13", "Value=on", ENDITEM,
+		"Name=ctl00$head$chk14", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk15", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk16", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk17", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk18", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk19", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$chk20", "Value=<OFF>", ENDITEM,
+		"Name=ctl00$head$btnNext3", "Value=Next", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 410 Ended $$$$$$
+
